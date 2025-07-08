@@ -3,7 +3,10 @@
   
   # Jupiter Software
 
-  > **Engineered for Success**
+> **Engineered for Success**
+
+  <!-- Cute rocket animation for startup energy -->
+  <img src="assets/rocket-launch.svg" alt="Rocket Launch" width="150" height="150">
 
 </div>
 
@@ -61,6 +64,11 @@ Looking to launch your startup idea? Check out [**Jupiter Startups**](https://ju
 - **Startup-Focused** - We understand the unique challenges of growing businesses
 - **Full-Stack Capability** - End-to-end technical solutions
 - **Proven Track Record** - Successfully launched and scaled numerous applications
+
+<div align="center">
+  <!-- Success celebration animation -->
+  <img src="assets/celebration.svg" alt="Success Celebration" width="150" height="150">
+</div>
 
 ## 🛠️ Technologies We Work With
 
