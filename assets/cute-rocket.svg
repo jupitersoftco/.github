@@ -1,1 +1,80 @@
- 
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="rocket-title">
+  <title id="rocket-title">Animated illustration of a cute rocket launching into space</title>
+  <defs>
+    <linearGradient id="rocket-body-gradient-2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8e81f4" />
+      <stop offset="100%" stop-color="#5a9fdc" />
+    </linearGradient>
+    <linearGradient id="rocket-flame-gradient-2" x1="50%" y1="0%" x2="50%" y2="100%">
+      <stop offset="0%" stop-color="#f9d788" />
+      <stop offset="100%" stop-color="#f0a8c0" />
+    </linearGradient>
+    <style>
+      .cr-bg { fill: #f9fafa; }
+      .cr-rocket-body { fill: url(#rocket-body-gradient-2); }
+      .cr-rocket-fin { fill: #7c71d6; }
+      .cr-rocket-window { fill: #e0e0e0; opacity: 0.9; }
+      .cr-rocket-window-glare { fill: #ffffff; opacity: 0.6; }
+      .cr-flame { fill: url(#rocket-flame-gradient-2); animation: cr-flicker 0.2s infinite; }
+      .cr-smoke { fill: #e0e0e0; animation: cr-smoke-rise 2s ease-out infinite; }
+      .cr-star { fill: #3c4a5d; animation: cr-twinkle 3s infinite; }
+      .cr-rocket-group { animation: cr-liftoff 5s ease-in-out infinite; }
+      .cr-text { font-family: 'Segoe UI', Arial, sans-serif; font-weight: 600; fill: #3c4a5d; }
+
+      @keyframes cr-liftoff {
+        0% { transform: translateY(0); }
+        50%, 100% { transform: translateY(-30px); }
+      }
+      @keyframes cr-flicker {
+        0%, 100% { transform: scaleY(1); opacity: 1; }
+        50% { transform: scaleY(1.2) translateY(5px); opacity: 0.8; }
+      }
+      @keyframes cr-smoke-rise {
+        0% { transform: translateY(0) scale(1); opacity: 0.8; }
+        100% { transform: translateY(-40px) scale(1.5); opacity: 0; }
+      }
+      @keyframes cr-twinkle {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0.3; }
+      }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="cr-bg" width="400" height="300" />
+  
+  <!-- Stars -->
+  <circle class="cr-star" cx="50" cy="50" r="3" style="animation-delay: -1s;" />
+  <circle class="cr-star" cx="350" cy="80" r="2" style="animation-delay: -2s;" />
+  <circle class="cr-star" cx="150" cy="120" r="2" />
+  <circle class="cr-star" cx="280" cy="40" r="3" style="animation-delay: -0.5s;" />
+
+  <!-- Rocket Group: contains rocket, flame, and smoke for unified animation -->
+  <g class="cr-rocket-group">
+    <!-- Smoke Clouds -->
+    <circle class="cr-smoke" cx="170" cy="250" r="20" />
+    <circle class="cr-smoke" cx="230" cy="250" r="25" style="animation-delay: -0.5s;" />
+    <circle class="cr-smoke" cx="200" cy="260" r="22" style="animation-delay: -1s;" />
+    
+    <!-- Rocket -->
+    <g transform="translate(200, 200) scale(1.5)">
+      <!-- Flame -->
+      <path class="cr-flame" d="M -15 10 C -25 30, 25 30, 15 10 Z" />
+      
+      <!-- Body -->
+      <path class="cr-rocket-body" d="M 0 -40 C 20 -40, 20 -20, 20 0 L -20 0 C -20 -20, -20 -40, 0 -40 Z" />
+      
+      <!-- Fins -->
+      <path class="cr-rocket-fin" d="M -20 0 L -20 -10 L -30 5 Z" />
+      <path class="cr-rocket-fin" d="M 20 0 L 20 -10 L 30 5 Z" />
+
+      <!-- Window -->
+      <circle class="cr-rocket-window" cx="0" cy="-15" r="10" />
+      <circle class="cr-rocket-window-glare" cx="3" cy="-18" r="4" />
+    </g>
+  </g>
+
+  <!-- Text -->
+  <text class="cr-text" x="200" y="50" font-size="20" text-anchor="middle">Launching New Ideas</text>
+</svg> 

@@ -1,0 +1,23 @@
+{
+  "name": "jupitersoftco.github",
+  "version": "1.0.0",
+  "description": "## ⚠️ IMPORTANT: Profile Changes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jupitersoftco/.github.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jupitersoftco/.github/issues"
+  },
+  "homepage": "https://github.com/jupitersoftco/.github#readme",
+  "devDependencies": {
+    "svgo": "^4.0.0"
+  }
+}

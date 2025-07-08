@@ -1,267 +1,100 @@
+<!-- Header with Logo and Brand Statement -->
 <div align="center">
+  <img src="../assets/images/jupiter-software-logo.png" alt="Jupiter Software Logo" width="100%" style="max-width: 500px; height: auto; margin-bottom: 1rem;" />
+  <h1 style="font-size: 2.5rem; margin: 0.5rem 0;">Jupiter Software</h1>
+  <p style="font-size: 1.2rem; margin: 0.5rem 0;"><b>Engineered for Success</b></p>
+  <p style="font-size: 1rem; color: #586069;">Where Innovation Meets Excellence ✨</p>
   
-  <!-- Jupiter Software Logo - Full Width -->
-  <img src="../assets/images/jupiter-software-logo.png" width="100%" style="max-width: 600px; height: auto;" alt="Jupiter Software" />
-  
-  <h1>Jupiter Software</h1>
-  
-  <p><b>Engineered for Success</b></p>
-  
-  <p>
-    <em>Where Innovation Meets Excellence</em> ✨<br>
-    <strong>Building the future, one commit at a time</strong> 🚀
-  </p>
-  
-  <br>
-  
-  <!-- Cute coding animation -->
-  <img src="../assets/cute-coding.svg" alt="Happy Coding" width="200" height="150">
-  
-  <br>
-  
-  <p align="center">
-    <a href="https://jupitersoft.net"><img src="https://img.shields.io/badge/Website-jupitersoft.net-1a365d?style=for-the-badge&labelColor=2d3748" alt="Website"></a>
+  <div style="margin-top: 1rem;">
+    <a href="https://jupitersoft.net"><img src="https://img.shields.io/badge/Website-jupitersoft.net-5a9fdc?style=for-the-badge&logo=icloud&logoColor=white" alt="Website"></a>
     &nbsp;
-    <a href="mailto:hello@jupitersoft.net"><img src="https://img.shields.io/badge/Email-hello@jupitersoft.net-1a365d?style=for-the-badge&labelColor=2d3748" alt="Contact"></a>
-  </p>
-  
+    <a href="mailto:hello@jupitersoft.net"><img src="https://img.shields.io/badge/Email-hello@jupitersoft.net-5a9fdc?style=for-the-badge&logo=microsoft-outlook&logoColor=white" alt="Contact"></a>
+  </div>
 </div>
-
-<br>
 
 ---
 
-<br>
-
-<div align="center">
-  
-  <h2>🚀 Ready to Launch Something Amazing?</h2>
-  
-  <img src="../assets/cute-rocket.svg" alt="Ready to Launch" width="150" height="200">
-  
-  <p><em>We're your technical co-founders for the digital age!</em></p>
-  
-</div>
-
-<br>
+<!-- Animated Visuals Section -->
+<table width="100%" border="0" cellpadding="20" cellspacing="0">
+  <tr valign="top">
+    <td width="50%" align="center">
+      <img src="../assets/cute-coding.svg" alt="Animated illustration of a character coding at a desk" width="100%" style="max-width: 400px; height: auto;" />
+    </td>
+    <td width="50%" align="center">
+      <img src="../assets/cute-rocket.svg" alt="Animated illustration of a cute rocket launching into space" width="100%" style="max-width: 400px; height: auto;" />
+    </td>
+  </tr>
+</table>
 
 ---
 
-<br>
-
-<div align="center">
-  
-  <h2>💻 Technology Stack</h2>
-  
-  <p><em>🔥 Our technical arsenal</em></p>
-  
-  <br>
-  
-  <!-- Frontend Technologies -->
-  <details open>
-    <summary><h3>🎨 Frontend</h3></summary>
-    <br>
-    <div>
-      <img src="https://skillicons.dev/icons?i=react" width="48" height="48" alt="React" />
-      &nbsp;&nbsp;
-      <img src="https://skillicons.dev/icons?i=typescript" width="48" height="48" alt="TypeScript" />
-      &nbsp;&nbsp;
-      <img src="https://skillicons.dev/icons?i=nextjs" width="48" height="48" alt="Next.js" />
-      &nbsp;&nbsp;
-      <img src="https://skillicons.dev/icons?i=tailwind" width="48" height="48" alt="Tailwind" />
-      &nbsp;&nbsp;
-      <img src="https://skillicons.dev/icons?i=vue" width="48" height="48" alt="Vue" />
-      &nbsp;&nbsp;
-      <img src="../assets/storybook-icon.svg" width="48" height="48" alt="Storybook" />
-    </div>
-    <p>
-      React • TypeScript • Next.js • Tailwind CSS • Vue.js • Storybook
-    </p>
-  </details>
-  
-  <br>
-  
-  <!-- Backend Technologies -->
-  <details open>
-    <summary><h3>⚙️ Backend</h3></summary>
-    <br>
-    <div>
-      <img src="https://skillicons.dev/icons?i=nodejs" width="48" height="48" alt="Node.js" />
-      &nbsp;&nbsp;
-      <img src="https://skillicons.dev/icons?i=python" width="48" height="48" alt="Python" />
-      &nbsp;&nbsp;
-      <img src="https://skillicons.dev/icons?i=express" width="48" height="48" alt="Express" />
-      &nbsp;&nbsp;
-      <img src="https://skillicons.dev/icons?i=rust" width="48" height="48" alt="Rust" />
-      &nbsp;&nbsp;
-      <img src="https://skillicons.dev/icons?i=graphql" width="48" height="48" alt="GraphQL" />
-      &nbsp;&nbsp;
-      <img src="https://skillicons.dev/icons?i=redis" width="48" height="48" alt="Redis" />
-    </div>
-    <p>
-      Node.js • Python • Express.js • Rust • GraphQL • Redis
-    </p>
-  </details>
-  
-  <br>
-  
-  <!-- Database & Infrastructure -->
-  <details open>
-    <summary><h3>🗄️ Database & Infrastructure</h3></summary>
-    <br>
-    <div>
-      <img src="https://skillicons.dev/icons?i=postgresql" width="48" height="48" alt="PostgreSQL" />
-      &nbsp;&nbsp;
-      <img src="https://skillicons.dev/icons?i=firebase" width="48" height="48" alt="Firestore" />
-      &nbsp;&nbsp;
-      <img src="https://skillicons.dev/icons?i=aws" width="48" height="48" alt="AWS" />
-      &nbsp;&nbsp;
-      <img src="https://skillicons.dev/icons?i=docker" width="48" height="48" alt="Docker" />
-      &nbsp;&nbsp;
-      <img src="https://skillicons.dev/icons?i=kubernetes" width="48" height="48" alt="Kubernetes" />
-      &nbsp;&nbsp;
-      <img src="https://skillicons.dev/icons?i=gcp" width="48" height="48" alt="BigQuery" />
-    </div>
-    <p>
-      PostgreSQL • Firestore • AWS • Docker • Kubernetes • BigQuery
-    </p>
-  </details>
-  
-</div>
-
-<br>
+<!-- Core Sections: What We Do & Tech Stack -->
+<table width="100%" border="0" cellpadding="20" cellspacing="0">
+  <tr valign="top">
+    <!-- What We Do -->
+    <td width="50%">
+      <div align="center">
+        <h2 style="font-size: 1.5rem;">🎯 What We Do</h2>
+        <p><em>From idea to impact, we build solutions that scale.</em></p>
+        <table border="0" cellpadding="10" cellspacing="0">
+          <tr><td align="center"><h3>🏗️ Full-Stack Development</h3><p>Building robust web applications with cutting-edge technologies.</p></td></tr>
+          <tr><td align="center"><h3>☁️ Cloud & DevOps</h3><p>Designing cloud-native architectures for maximum scalability.</p></td></tr>
+          <tr><td align="center"><h3>🤖 AI Integration</h3><p>Leveraging AI to create intelligent, adaptive solutions.</p></td></tr>
+        </table>
+      </div>
+    </td>
+    <!-- Tech Stack -->
+    <td width="50%">
+      <div align="center">
+        <h2 style="font-size: 1.5rem;">💻 Our Technology</h2>
+        <p><em>The tools we use to build the future.</em></p>
+        <details open>
+          <summary><strong>🎨 Frontend</strong></summary>
+          <p align="center">
+            <img src="https://skillicons.dev/icons?i=react,ts,nextjs,tailwind,vue,storybook" alt="Frontend Tech" />
+          </p>
+        </details>
+        <details open>
+          <summary><strong>⚙️ Backend</strong></summary>
+          <p align="center">
+            <img src="https://skillicons.dev/icons?i=nodejs,python,express,rust,graphql,redis" alt="Backend Tech" />
+          </p>
+        </details>
+        <details open>
+          <summary><strong>🗄️ Infra & Database</strong></summary>
+          <p align="center">
+            <img src="https://skillicons.dev/icons?i=aws,docker,kubernetes,gcp,postgres,firebase" alt="Infrastructure and Database Tech" />
+          </p>
+        </details>
+      </div>
+    </td>
+  </tr>
+</table>
 
 ---
 
-<br>
-
+<!-- Impact and Contact Section -->
 <div align="center">
-  
-  <h2>🎯 What We Do</h2>
-  
-  <p><em>⚡ From idea to impact</em></p>
-  
-  <br>
-  
-  <table>
+  <h2 style="font-size: 1.5rem;">🏆 Our Impact & Work</h2>
+  <table border="0" cellpadding="10" cellspacing="0">
     <tr>
-      <td width="50%" align="center">
-        <h3>🏗️ Full-Stack Development</h3>
-        <p>Building scalable web applications with<br>cutting-edge technologies and best practices</p>
-      </td>
-      <td width="50%" align="center">
-        <h3>☁️ Cloud Solutions</h3>
-        <p>Designing and implementing cloud-native<br>architectures for maximum scalability</p>
-      </td>
-    </tr>
-    <tr>
-      <td width="50%" align="center">
-        <h3>🤖 AI Integration</h3>
-        <p>Leveraging artificial intelligence to create<br>intelligent, adaptive solutions</p>
-      </td>
-      <td width="50%" align="center">
-        <h3>🛡️ Security First</h3>
-        <p>Implementing robust security measures<br>to protect your digital assets</p>
-      </td>
+      <td align="center"><h3>50+</h3><p>Projects Delivered</p></td>
+      <td align="center"><h3>100K+</h3><p>Lines of Code</p></td>
+      <td align="center"><h3>99%</h3><p>Client Satisfaction</p></td>
     </tr>
   </table>
-  
-</div>
-
-<br>
-
----
-
-<br>
-
-<div align="center">
-  
-  <h2>🌟 Our Work</h2>
-  
-  <p><em>Check out our repositories and contributions across the organization</em></p>
-  
   <br>
-  
-  <a href="https://github.com/orgs/jupitersoftco/repositories">
-    <img src="https://img.shields.io/badge/View_All_Repositories-1a365d?style=for-the-badge&labelColor=2d3748" alt="View Repositories">
-  </a>
-  
+  <a href="https://github.com/orgs/jupitersoftco/repositories"><img src="https://img.shields.io/badge/View_All_Repositories-5a9fdc?style=for-the-badge" alt="View Repositories"></a>
 </div>
 
 <br>
 
 ---
 
-<br>
-
 <div align="center">
-  
-  <h2>🏆 Our Impact</h2>
-  
-  <br>
-  
-  <table>
-    <tr>
-      <td align="center" width="33%">
-        <h3>50+</h3>
-        <p>Projects Delivered</p>
-      </td>
-      <td align="center" width="33%">
-        <h3>100K+</h3>
-        <p>Lines of Code</p>
-      </td>
-      <td align="center" width="33%">
-        <h3>99%</h3>
-        <p>Client Satisfaction</p>
-      </td>
-    </tr>
-  </table>
-  
-</div>
-
-<br>
-
----
-
-<br>
-
-<div align="center">
-  
   <h2>🤝 Let's Build Something Amazing Together</h2>
-  
-  <p><em>🚀 Ready to transform your ideas into reality?</em></p>
-  
+  <p>Ready to transform your ideas into reality? We're here to help.</p>
+  <p><b>Email:</b> hello@jupitersoft.net &nbsp;|&nbsp; <b>Website:</b> <a href="https://jupitersoft.net">jupitersoft.net</a></p>
   <br>
-  
-  <h3>Get in Touch</h3>
-  
-  <p>
-    <b>Email:</b> hello@jupitersoft.net<br>
-    <b>Phone:</b> +1 (818) 900-8628<br>
-    <b>Website:</b> <a href="https://jupitersoft.net">jupitersoft.net</a>
-  </p>
-  
-  <br>
-  
-  <!-- Add the complex orbital animation at the bottom for those who want to see it -->
-  <details>
-    <summary><em>🌌 Explore our Jupiter system</em></summary>
-    <br>
-    <img src="../assets/rocket-launch.svg" alt="Jupiter Software - Reaching for the stars" width="300" height="300">
-    <p><em>Our complex orbital animation - inspired by our name!</em></p>
-  </details>
-  
-  <br>
-  
-  <hr>
-  
-  <br>
-  
-  <p><strong>🌌 Jupiter Software - Where Innovation Meets Excellence</strong></p>
-  <p><em>Empowering businesses through exceptional technology solutions</em></p>
-  
-  <br>
-  
   <sub>© 2024 Jupiter Software LLC. All rights reserved.</sub>
-  
 </div>
