@@ -1,0 +1,10 @@
+Never use `git push --force`. This command can overwrite remote history and cause irreversible data loss. It is a dangerous and destructive action that should be avoided in all but the most extreme circumstances, and only with explicit confirmation from the user.
+
+If a situation arises where the remote history must be changed, prefer using `git push --force-with-lease`. This is a safer alternative that will fail if another contributor has pushed new commits to the remote branch, preventing accidental data loss. However, even this should only be used after careful consideration and with user approval.
+
+Always prefer to create new commits to revert or fix issues rather than rewriting history.
+description:
+globs:
+alwaysApply: false
+
+---
