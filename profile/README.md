@@ -106,38 +106,106 @@
 <h3 align="center">🏛️ Backend & Infrastructure</h3>
 </div>
 
-<p align="center">
-<a href="https://nodejs.org/"><img src="../assets/icons-branded/nodejs.svg" alt="Node.js" height="60" hspace="10"/></a>
-<a href="https://www.python.org/"><img src="../assets/icons-branded/python.svg" alt="Python" height="60" hspace="10"/></a>
-<a href="https://www.rust-lang.org/"><img src="../assets/icons-branded/rust.svg" alt="Rust" height="60" hspace="10"/></a>
-<a href="https://expressjs.com/"><img src="../assets/icons-branded/express.svg" alt="Express" height="60" hspace="10"/></a>
-</p>
-<p align="center">
-<a href="https://graphql.org/"><img src="../assets/icons-branded/graphql.svg" alt="GraphQL" height="60" hspace="10"/></a>
-<a href="https://www.postgresql.org/"><img src="../assets/icons-branded/postgresql.svg" alt="PostgreSQL" height="60" hspace="10"/></a>
-</p>
+<div align="center">
+<table>
+<tr>
+<td align="center" width="140">
+<a href="https://nodejs.org/"><img src="../assets/icons-branded/nodejs.svg" alt="Node.js" height="60"/></a>
+<br><small>Node.js</small>
+</td>
+<td align="center" width="140">
+<a href="https://www.python.org/"><img src="../assets/icons-branded/python.svg" alt="Python" height="60"/></a>
+<br><small>Python</small>
+</td>
+<td align="center" width="140">
+<a href="https://www.rust-lang.org/"><img src="../assets/icons-branded/rust.svg" alt="Rust" height="60"/></a>
+<br><small>Rust</small>
+</td>
+<td align="center" width="140">
+<a href="https://expressjs.com/"><img src="../assets/icons-branded/express.svg" alt="Express" height="60"/></a>
+<br><small>Express</small>
+</td>
+</tr>
+<tr>
+<td align="center" width="140">
+<a href="https://graphql.org/"><img src="../assets/icons-branded/graphql.svg" alt="GraphQL" height="60"/></a>
+<br><small>GraphQL</small>
+</td>
+<td align="center" width="140">
+<a href="https://www.postgresql.org/"><img src="../assets/icons-branded/postgresql.svg" alt="PostgreSQL" height="60"/></a>
+<br><small>PostgreSQL</small>
+</td>
+<td align="center" width="140">
+<!-- Empty cell for alignment -->
+</td>
+<td align="center" width="140">
+<!-- Empty cell for alignment -->
+</td>
+</tr>
+</table>
+</div>
 
 <div id="cloud-devops">
 <h3 align="center">☁️ Cloud & DevOps</h3>
 </div>
 
-<p align="center">
-<a href="https://aws.amazon.com"><img src="../assets/icons-branded/aws.svg" alt="AWS" height="60" hspace="10"/></a>
-<a href="https://aws.amazon.com/lambda/"><img src="../assets/icons-branded/aws-lambda.svg" alt="AWS Lambda" height="60" hspace="10"/></a>
-<a href="https://cloud.google.com"><img src="../assets/icons-branded/gcp.svg" alt="Google Cloud" height="60" hspace="10"/></a>
-<a href="https://cloud.google.com/functions"><img src="../assets/icons-branded/gcp-functions.svg" alt="GCP Functions" height="60" hspace="10"/></a>
-</p>
-<p align="center">
-<a href="https://cloud.google.com/bigquery"><img src="../assets/icons-branded/gcp-bigquery.svg" alt="BigQuery" height="60" hspace="10"/></a>
-<a href="https://firebase.google.com/"><img src="../assets/icons-branded/firebase.svg" alt="Firebase" height="60" hspace="10"/></a>
-<a href="https://vercel.com/"><img src="../assets/icons-branded/vercel.svg" alt="Vercel" height="60" hspace="10"/></a>
-<a href="https://www.netlify.com/"><img src="../assets/icons-branded/netlify.svg" alt="Netlify" height="60" hspace="10"/></a>
-</p>
-<p align="center">
-<a href="https://www.docker.com/"><img src="../assets/icons-branded/docker.svg" alt="Docker" height="60" hspace="10"/></a>
-<a href="https://kubernetes.io/"><img src="../assets/icons-branded/kubernetes.svg" alt="Kubernetes" height="60" hspace="10"/></a>
-<a href="https://github.com/features/actions"><img src="../assets/icons-branded/github-actions.svg" alt="GitHub Actions" height="60" hspace="10"/></a>
-</p>
+<div align="center">
+<table>
+<tr>
+<td align="center" width="140">
+<a href="https://aws.amazon.com"><img src="../assets/icons-branded/aws.svg" alt="AWS" height="60"/></a>
+<br><small>AWS</small>
+</td>
+<td align="center" width="140">
+<a href="https://aws.amazon.com/lambda/"><img src="../assets/icons-branded/aws-lambda.svg" alt="AWS Lambda" height="60"/></a>
+<br><small>AWS Lambda</small>
+</td>
+<td align="center" width="140">
+<a href="https://cloud.google.com"><img src="../assets/icons-branded/gcp.svg" alt="Google Cloud" height="60"/></a>
+<br><small>Google Cloud</small>
+</td>
+<td align="center" width="140">
+<a href="https://cloud.google.com/functions"><img src="../assets/icons-branded/gcp-functions.svg" alt="GCP Functions" height="60"/></a>
+<br><small>GCP Functions</small>
+</td>
+</tr>
+<tr>
+<td align="center" width="140">
+<a href="https://cloud.google.com/bigquery"><img src="../assets/icons-branded/gcp-bigquery.svg" alt="BigQuery" height="60"/></a>
+<br><small>BigQuery</small>
+</td>
+<td align="center" width="140">
+<a href="https://firebase.google.com/"><img src="../assets/icons-branded/firebase.svg" alt="Firebase" height="60"/></a>
+<br><small>Firebase</small>
+</td>
+<td align="center" width="140">
+<a href="https://vercel.com/"><img src="../assets/icons-branded/vercel.svg" alt="Vercel" height="60"/></a>
+<br><small>Vercel</small>
+</td>
+<td align="center" width="140">
+<a href="https://www.netlify.com/"><img src="../assets/icons-branded/netlify.svg" alt="Netlify" height="60"/></a>
+<br><small>Netlify</small>
+</td>
+</tr>
+<tr>
+<td align="center" width="140">
+<a href="https://www.docker.com/"><img src="../assets/icons-branded/docker.svg" alt="Docker" height="60"/></a>
+<br><small>Docker</small>
+</td>
+<td align="center" width="140">
+<a href="https://kubernetes.io/"><img src="../assets/icons-branded/kubernetes.svg" alt="Kubernetes" height="60"/></a>
+<br><small>Kubernetes</small>
+</td>
+<td align="center" width="140">
+<a href="https://github.com/features/actions"><img src="../assets/icons-branded/github-actions.svg" alt="GitHub Actions" height="60"/></a>
+<br><small>GitHub Actions</small>
+</td>
+<td align="center" width="140">
+<!-- Empty cell for alignment -->
+</td>
+</tr>
+</table>
+</div>
 
 <br/>
 
