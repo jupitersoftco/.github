@@ -1,58 +1,65 @@
 <!-- Header with Logo and Brand Statement -->
 <div align="center">
-  <img src="../assets/jupiter-logo.jpg" alt="Jupiter Software Banner" width="100%" style="max-width: 1280px; height: auto; margin-bottom: 1rem;" />
-  <h1 style="font-size: 2.5rem; margin: 0.5rem 0;">Jupiter Software</h1>
-  <p style="font-size: 1.2rem; margin: 0.5rem 0;"><b>Engineered for Success</b></p>
-  <p style="font-size: 1rem; color: #586069;">Where Innovation Meets Excellence ✨</p>
+  <img src="../assets/jupiter-logo.jpg" alt="Jupiter Software Banner" width="100%">
+  <h1>Jupiter Software</h1>
+  <p><strong>Engineered for Success</strong></p>
+  <p><em>Where Innovation Meets Excellence ✨</em></p>
   
-  <div style="margin-top: 1rem;">
+  <p>
     <a href="https://jupitersoft.net" target="_blank"><img src="https://img.shields.io/badge/Website-jupitersoft.net-8e81f4?style=for-the-badge&logo=icloud&logoColor=white" alt="Website"></a>
-    &nbsp;
     <a href="mailto:hello@jupitersoft.net"><img src="https://img.shields.io/badge/Email-hello@jupitersoft.net-8e81f4?style=for-the-badge&logo=microsoft-outlook&logoColor=white" alt="Contact"></a>
-  </div>
+  </p>
 </div>
+
+---
 
 <!-- Jupiter Startups Section -->
-<div align="center" style="padding: 2rem 1rem;">
+<div align="center">
   <a href="https://jupitersoft.net/startups" target="_blank">
-    <img src="../assets/images/startup-cartoon.jpg" alt="Jupiter Startups Program" width="100%" style="max-width: 800px; height: auto; border-radius: 10px;" />
+    <img src="../assets/images/startup-cartoon.jpg" alt="Jupiter Startups Program" width="100%">
   </a>
-  <h2 id="jupiter-startups" style="font-size: 2rem; margin: 1rem 0;">Jupiter Startups</h2>
-  <p style="font-size: 1.1rem; color: #586069; max-width: 600px; margin: 0 auto;">We're passionate about helping new ideas grow. We partner with early-stage startups as technical co-founders to build amazing products.</p>
-  <br>
-  <a href="https://jupitersoft.net/startups" target="_blank"><img src="https://img.shields.io/badge/Learn_About_Our_Startup_Program-f0a8c0?style=for-the-badge&logo=rocket&logoColor=white" alt="Learn About Our Startup Program"></a>
+  <h2 id="jupiter-startups">Jupiter Startups</h2>
+  <p><em>We're passionate about helping new ideas grow. We partner with early-stage startups as technical co-founders to build amazing products.</em></p>
+  <p>
+    <a href="https://jupitersoft.net/startups" target="_blank"><img src="https://img.shields.io/badge/Learn_About_Our_Startup_Program-f0a8c0?style=for-the-badge&logo=rocket&logoColor=white" alt="Learn About Our Startup Program"></a>
+  </p>
 </div>
+
+---
 
 <!-- What We Do -->
-<div align="center" style="padding: 2rem 1rem;">
-  <h2 id="what-we-do" style="font-size: 1.8rem;">🎯 What We Do</h2>
-  <p style="font-size: 1.1rem; color: #586069;"><em>From idea to impact, we build solutions that scale.</em></p>
-  
-  <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 2rem; max-width: 900px; margin: 2rem auto;">
-    <div style="flex: 1; min-width: 250px; text-align: center; padding: 1.5rem; background: linear-gradient(135deg, rgba(142, 129, 244, 0.1), rgba(240, 168, 192, 0.1)); border-radius: 15px; backdrop-filter: blur(10px);">
-      <h3 style="font-size: 1.3rem; margin-bottom: 1rem;">🏗️ Full-Stack Development</h3>
-      <p style="color: #586069; line-height: 1.6;">Building robust web applications with cutting-edge technologies.</p>
-    </div>
-    <div style="flex: 1; min-width: 250px; text-align: center; padding: 1.5rem; background: linear-gradient(135deg, rgba(240, 168, 192, 0.1), rgba(142, 129, 244, 0.1)); border-radius: 15px; backdrop-filter: blur(10px);">
-      <h3 style="font-size: 1.3rem; margin-bottom: 1rem;">☁️ Cloud & DevOps</h3>
-      <p style="color: #586069; line-height: 1.6;">Designing cloud-native architectures for maximum scalability.</p>
-    </div>
-    <div style="flex: 1; min-width: 250px; text-align: center; padding: 1.5rem; background: linear-gradient(135deg, rgba(142, 129, 244, 0.1), rgba(240, 168, 192, 0.1)); border-radius: 15px; backdrop-filter: blur(10px);">
-      <h3 style="font-size: 1.3rem; margin-bottom: 1rem;">🤖 AI Integration</h3>
-      <p style="color: #586069; line-height: 1.6;">Leveraging AI to create intelligent, adaptive solutions.</p>
-    </div>
-  </div>
+<div align="center">
+  <h2 id="what-we-do">🎯 What We Do</h2>
+  <p><em>From idea to impact, we build solutions that scale.</em></p>
 </div>
 
+<table>
+<tr>
+<td align="center" width="33%">
+<h3>🏗️ Full-Stack Development</h3>
+<p>Building robust web applications with cutting-edge technologies.</p>
+</td>
+<td align="center" width="33%">
+<h3>☁️ Cloud & DevOps</h3>
+<p>Designing cloud-native architectures for maximum scalability.</p>
+</td>
+<td align="center" width="33%">
+<h3>🤖 AI Integration</h3>
+<p>Leveraging AI to create intelligent, adaptive solutions.</p>
+</td>
+</tr>
+</table>
+
+---
+
 <!-- Our Technology -->
-<div align="center" style="padding: 2rem 1rem;">
-  <h2 id="our-technology" style="font-size: 1.8rem;">💻 Our Technology</h2>
-  <p style="font-size: 1.1rem; color: #586069;"><em>The tools we use to build the future. Click an icon to learn more!</em></p>
-  
-  <div style="max-width: 800px; margin: 2rem auto;">
+<div align="center">
+  <h2 id="our-technology">💻 Our Technology</h2>
+  <p><em>The tools we use to build the future. Click an icon to learn more!</em></p>
+</div>
 
 <div id="frontend">
-<h2>🎨 Frontend</h2>
+<h3 align="center">🎨 Frontend</h3>
 </div>
 
 <p align="center">
@@ -68,7 +75,7 @@
 </p>
 
 <div id="backend-infrastructure">
-<h2>🏛️ Backend & Infrastructure</h2>
+<h3 align="center">🏛️ Backend & Infrastructure</h3>
 </div>
 
 <p align="center">
@@ -83,7 +90,7 @@
 </p>
 
 <div id="cloud-devops">
-<h2>☁️ Cloud & DevOps</h2>
+<h3 align="center">☁️ Cloud & DevOps</h3>
 </div>
 
 <p align="center">
@@ -104,39 +111,44 @@
 <a href="https://github.com/features/actions"><img src="../assets/icons-branded/github-actions.svg" alt="GitHub Actions" height="60" hspace="10"/></a>
 </p>
 
-  </div>
-</div>
+---
 
 <!-- Impact and Contact Section -->
-<div align="center" style="padding: 2rem 1rem;">
-  <h2 id="our-impact" style="font-size: 1.8rem;">🏆 Our Impact & Work</h2>
-  
-  <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 2rem; max-width: 700px; margin: 2rem auto;">
-    <div style="text-align: center; padding: 1.5rem; background: linear-gradient(135deg, rgba(142, 129, 244, 0.15), rgba(74, 222, 128, 0.15)); border-radius: 20px; backdrop-filter: blur(10px); min-width: 180px;">
-      <h3 style="font-size: 2.5rem; margin: 0; color: #8e81f4;">50+</h3>
-      <p style="margin: 0.5rem 0 0 0; color: #586069; font-weight: 500;">Projects Delivered</p>
-    </div>
-    <div style="text-align: center; padding: 1.5rem; background: linear-gradient(135deg, rgba(240, 168, 192, 0.15), rgba(142, 129, 244, 0.15)); border-radius: 20px; backdrop-filter: blur(10px); min-width: 180px;">
-      <h3 style="font-size: 2.5rem; margin: 0; color: #f0a8c0;">100K+</h3>
-      <p style="margin: 0.5rem 0 0 0; color: #586069; font-weight: 500;">Lines of Code</p>
-    </div>
-    <div style="text-align: center; padding: 1.5rem; background: linear-gradient(135deg, rgba(74, 222, 128, 0.15), rgba(240, 168, 192, 0.15)); border-radius: 20px; backdrop-filter: blur(10px); min-width: 180px;">
-      <h3 style="font-size: 2.5rem; margin: 0; color: #4ade80;">99%</h3>
-      <p style="margin: 0.5rem 0 0 0; color: #586069; font-weight: 500;">Client Satisfaction</p>
-    </div>
-  </div>
-  
-  <div style="margin-top: 2rem;">
-    <a href="https://github.com/orgs/jupitersoftco/repositories" target="_blank"><img src="https://img.shields.io/badge/View_All_Repositories-8e81f4?style=for-the-badge" alt="View Repositories"></a>
-  </div>
+<div align="center">
+  <h2 id="our-impact">🏆 Our Impact & Work</h2>
 </div>
 
-<br>
+<table>
+<tr>
+<td align="center" width="33%">
+<h3>50+</h3>
+<p><strong>Projects Delivered</strong></p>
+</td>
+<td align="center" width="33%">
+<h3>100K+</h3>
+<p><strong>Lines of Code</strong></p>
+</td>
+<td align="center" width="33%">
+<h3>99%</h3>
+<p><strong>Client Satisfaction</strong></p>
+</td>
+</tr>
+</table>
 
-<div align="center" style="padding: 2rem 1rem;">
+<div align="center">
+  <p>
+    <a href="https://github.com/orgs/jupitersoftco/repositories" target="_blank"><img src="https://img.shields.io/badge/View_All_Repositories-8e81f4?style=for-the-badge" alt="View Repositories"></a>
+  </p>
+</div>
+
+---
+
+<div align="center">
   <h2 id="contact">🤝 Let's Build Something Amazing Together</h2>
-  <p>Ready to transform your ideas into reality? We're here to help.</p>
-  <p><b>Email:</b> <a href="mailto:hello@jupitersoft.net">hello@jupitersoft.net</a> &nbsp;|&nbsp; <b>Website:</b> <a href="https://jupitersoft.net" target="_blank">jupitersoft.net</a></p>
-  <br>
-  <sub>© 2024 Jupiter Software LLC. All rights reserved.</sub>
+  <p><strong>Ready to transform your ideas into reality? We're here to help.</strong></p>
+  <p>
+    <strong>Email:</strong> <a href="mailto:hello@jupitersoft.net">hello@jupitersoft.net</a><br>
+    <strong>Website:</strong> <a href="https://jupitersoft.net" target="_blank">jupitersoft.net</a>
+  </p>
+  <p><sub>© 2024 Jupiter Software LLC. All rights reserved.</sub></p>
 </div>
