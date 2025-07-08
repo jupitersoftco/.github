@@ -49,33 +49,33 @@
   <div style="max-width: 800px; margin: 1rem auto;">
     <h3 style="text-align: center; font-size: 1.2rem;">🎨 Frontend</h3>
     <p align="center">
-      <a href="https://react.dev" target="_blank"><img src="https://skillicons.dev/icons?i=react" alt="React" /></a>
-      <a href="https://www.typescriptlang.org/" target="_blank"><img src="https://skillicons.dev/icons?i=ts" alt="TypeScript" /></a>
-      <a href="https://nextjs.org/" target="_blank"><img src="https://skillicons.dev/icons?i=nextjs" alt="Next.js" /></a>
-      <a href="https://vuejs.org/" target="_blank"><img src="https://skillicons.dev/icons?i=vue" alt="Vue.js" /></a>
-      <a href="https://tailwindcss.com/" target="_blank"><img src="https://skillicons.dev/icons?i=tailwind" alt="Tailwind CSS" /></a>
-      <a href="https://www.figma.com" target="_blank"><img src="https://skillicons.dev/icons?i=figma" alt="Figma" /></a>
-      <a href="https://storybook.js.org/" target="_blank"><img src="https://skillicons.dev/icons?i=storybook" alt="Storybook" /></a>
+      <a href="https://react.dev" target="_blank"><img src="../assets/icons/react.svg" alt="React" /></a>
+      <a href="https://www.typescriptlang.org/" target="_blank"><img src="../assets/icons/typescript.svg" alt="TypeScript" /></a>
+      <a href="https://nextjs.org/" target="_blank"><img src="../assets/icons/nextjs.svg" alt="Next.js" /></a>
+      <a href="https://vuejs.org/" target="_blank"><img src="../assets/icons/vue.svg" alt="Vue.js" /></a>
+      <a href="https://tailwindcss.com/" target="_blank"><img src="../assets/icons/tailwind.svg" alt="Tailwind CSS" /></a>
+      <a href="https://www.figma.com" target="_blank"><img src="../assets/icons/figma.svg" alt="Figma" /></a>
+      <a href="https://storybook.js.org/" target="_blank"><img src="../assets/icons/storybook.svg" alt="Storybook" /></a>
     </p>
     <h3 style="text-align: center; font-size: 1.2rem;">⚙️ Backend</h3>
     <p align="center">
-      <a href="https://nodejs.org/" target="_blank"><img src="https://skillicons.dev/icons?i=nodejs" alt="Node.js" /></a>
-      <a href="https://www.python.org/" target="_blank"><img src="https://skillicons.dev/icons?i=python" alt="Python" /></a>
-      <a href="https://expressjs.com/" target="_blank"><img src="https://skillicons.dev/icons?i=express" alt="Express" /></a>
-      <a href="https://www.rust-lang.org/" target="_blank"><img src="https://skillicons.dev/icons?i=rust" alt="Rust" /></a>
-      <a href="https://graphql.org/" target="_blank"><img src="https://skillicons.dev/icons?i=graphql" alt="GraphQL" /></a>
-      <a href="https://aws.amazon.com/lambda/" target="_blank"><img src="https://skillicons.dev/icons?i=aws" alt="AWS Lambda" /></a>
-      <a href="https://cloud.google.com/functions" target="_blank"><img src="https://skillicons.dev/icons?i=gcp" alt="Google Cloud Functions" /></a>
+      <a href="https://nodejs.org/" target="_blank"><img src="../assets/icons/nodejs.svg" alt="Node.js" /></a>
+      <a href="https://www.python.org/" target="_blank"><img src="../assets/icons/python.svg" alt="Python" /></a>
+      <a href="https://expressjs.com/" target="_blank"><img src="../assets/icons/express.svg" alt="Express" /></a>
+      <a href="https://www.rust-lang.org/" target="_blank"><img src="../assets/icons/rust.svg" alt="Rust" /></a>
+      <a href="https://graphql.org/" target="_blank"><img src="../assets/icons/graphql.svg" alt="GraphQL" /></a>
+      <a href="https://aws.amazon.com/lambda/" target="_blank"><img src="../assets/icons/aws_lambda.svg" alt="AWS Lambda" /></a>
+      <a href="https://cloud.google.com/functions" target="_blank"><img src="../assets/icons/gcp_functions.svg" alt="Google Cloud Functions" /></a>
     </p>
     <h3 style="text-align: center; font-size: 1.2rem;">🗄️ Infra & Database</h3>
     <p align="center">
-      <a href="https://aws.amazon.com/" target="_blank"><img src="https://skillicons.dev/icons?i=aws" alt="Amazon Web Services" /></a>
-      <a href="https://www.docker.com/" target="_blank"><img src="https://skillicons.dev/icons?i=docker" alt="Docker" /></a>
-      <a href="https://kubernetes.io/" target="_blank"><img src="https://skillicons.dev/icons?i=kubernetes" alt="Kubernetes" /></a>
-      <a href="https://cloud.google.com/" target="_blank"><img src="https://skillicons.dev/icons?i=gcp" alt="Google Cloud Platform" /></a>
-      <a href="https://www.postgresql.org/" target="_blank"><img src="https://skillicons.dev/icons?i=postgres" alt="PostgreSQL" /></a>
-      <a href="https://firebase.google.com/" target="_blank"><img src="https://skillicons.dev/icons?i=firebase" alt="Firebase" /></a>
-      <a href="https://cloud.google.com/bigquery" target="_blank"><img src="https://skillicons.dev/icons?i=gcp" alt="Google BigQuery" /></a>
+      <a href="https://aws.amazon.com/" target="_blank"><img src="../assets/icons/aws.svg" alt="Amazon Web Services" /></a>
+      <a href="https://www.docker.com/" target="_blank"><img src="../assets/icons/docker.svg" alt="Docker" /></a>
+      <a href="https://kubernetes.io/" target="_blank"><img src="../assets/icons/kubernetes.svg" alt="Kubernetes" /></a>
+      <a href="https://cloud.google.com/" target="_blank"><img src="../assets/icons/gcp.svg" alt="Google Cloud Platform" /></a>
+      <a href="https://www.postgresql.org/" target="_blank"><img src="../assets/icons/postgres.svg" alt="PostgreSQL" /></a>
+      <a href="https://firebase.google.com/" target="_blank"><img src="../assets/icons/firebase.svg" alt="Firebase" /></a>
+      <a href="https://cloud.google.com/bigquery" target="_blank"><img src="../assets/icons/gcp_bigquery.svg" alt="Google BigQuery" /></a>
     </p>
   </div>
 </div>
