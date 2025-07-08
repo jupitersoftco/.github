@@ -29,11 +29,11 @@
   <!-- AWS Text -->
   <text x="128" y="110" font-family="Arial, sans-serif" font-size="36" font-weight="bold" fill="#FF9900" text-anchor="middle">AWS</text>
   
-  <!-- AWS iconic orange smile -->
-  <path d="M80 150 Q128 170 176 150" stroke="#FF9900" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <!-- AWS iconic orange smile - bigger and more prominent -->
+  <path d="M70 150 Q128 180 186 150" stroke="#FF9900" stroke-width="12" fill="none" stroke-linecap="round"/>
   
-  <!-- Arrow on smile -->
-  <path d="M170 148 L176 150 L170 152" stroke="#FF9900" stroke-width="6" fill="none" stroke-linecap="round"/>
+  <!-- Arrow on smile - bigger -->
+  <path d="M178 146 L186 150 L178 154" stroke="#FF9900" stroke-width="8" fill="none" stroke-linecap="round"/>
   
   <!-- Extremely subtle glow effect (5% drift) -->
   <circle cx="128" cy="128" r="120" fill="none" stroke="#FF9900" stroke-width="0.5" opacity="0.05" />

@@ -24,17 +24,17 @@
     <circle cx="50" cy="180" r="1" fill="white" opacity="0.5"/>
     <circle cx="200" cy="50" r="1" fill="white" opacity="0.5"/>
     <g style="filter: drop-shadow(0 0 8px rgba(255, 255, 255, 0.3));">
-        <g transform="translate(128, 128) scale(0.9) translate(-128, -128)">
-  <!-- Simple, recognizable AWS Lambda -->
+        <g transform="translate(128, 128) scale(0.7) translate(-128, -128)">
+  <!-- Simple, recognizable AWS Lambda - smaller size -->
   <!-- Lambda symbol (λ) -->
-  <path d="M90 180 L90 160 L110 80 L130 80 L150 160 L170 160 L145 80 L125 80 L98 180 Z" fill="#FF9900"/>
+  <path d="M100 180 L100 160 L115 90 L130 90 L145 160 L160 160 L140 90 L125 90 L108 180 Z" fill="#FF9900"/>
   
   <!-- Lambda base -->
-  <path d="M80 180 L80 170 L90 170 L90 180 Z" fill="#FF9900"/>
-  <path d="M166 180 L166 170 L176 170 L176 180 Z" fill="#FF9900"/>
-  
+  <path d="M95 180 L95 170 L100 170 L100 180 Z" fill="#FF9900"/>
+  <path d="M160 180 L160 170 L165 170 L165 180 Z" fill="#FF9900"/>
+
   <!-- AWS text -->
-  <text x="128" y="200" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#FF9900" text-anchor="middle">AWS</text>
+  <text x="128" y="200" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#FF9900" text-anchor="middle">AWS</text>
   
   <!-- Extremely subtle glow effect (5% drift) -->
   <circle cx="128" cy="128" r="120" fill="none" stroke="#FF9900" stroke-width="0.5" opacity="0.05" />
