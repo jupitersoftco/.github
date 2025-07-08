@@ -49,78 +49,54 @@
   <h2 style="font-size: 1.8rem;">💻 Our Technology</h2>
   <p style="font-size: 1.1rem; color: #586069;"><em>The tools we use to build the future. Click an icon to learn more!</em></p>
   
-  <div style="max-width: 1000px; margin: 2rem auto;">
+  <div style="max-width: 800px; margin: 2rem auto;">
 
-<table border="0" cellpadding="0" cellspacing="0" width="100%" style="margin: 2rem 0;">
-  <tr>
-    <td style="padding: 1.5rem; background: linear-gradient(135deg, rgba(142, 129, 244, 0.08), rgba(142, 129, 244, 0.02)); border-radius: 12px; margin: 0 1rem 2rem 0; vertical-align: top;">
-      <h3 style="color: #8e81f4; margin: 0 0 1rem 0; font-size: 1.3rem; border-bottom: none;">🎨 Frontend</h3>
-      <table border="0" cellpadding="4" cellspacing="0" width="100%">
-        <tr>
-          <td align="center" width="33%"><a href="https://react.dev" target="_blank"><img src="../assets/icons-branded/react.svg" alt="React" height="45" /></a></td>
-          <td align="center" width="33%"><a href="https://nextjs.org/" target="_blank"><img src="../assets/icons-branded/nextjs.svg" alt="Next.js" height="45" /></a></td>
-          <td align="center" width="33%"><a href="https://vuejs.org/" target="_blank"><img src="../assets/icons-branded/vue.svg" alt="Vue.js" height="45" /></a></td>
-        </tr>
-        <tr>
-          <td align="center" width="33%"><a href="https://www.typescriptlang.org/" target="_blank"><img src="../assets/icons-branded/typescript.svg" alt="TypeScript" height="45" /></a></td>
-          <td align="center" width="33%"><a href="https://tailwindcss.com/" target="_blank"><img src="../assets/icons-branded/tailwindcss.svg" alt="Tailwind CSS" height="45" /></a></td>
-          <td align="center" width="33%"><a href="https://www.figma.com" target="_blank"><img src="../assets/icons-branded/figma.svg" alt="Figma" height="45" /></a></td>
-        </tr>
-        <tr>
-          <td align="center" colspan="3" style="padding-top: 8px;"><a href="https://storybook.js.org/" target="_blank"><img src="../assets/icons-branded/storybook.svg" alt="Storybook" height="45" /></a></td>
-        </tr>
-      </table>
-    </td>
-  </tr>
-</table>
+## 🎨 Frontend
 
-<table border="0" cellpadding="0" cellspacing="0" width="100%" style="margin: 2rem 0;">
-  <tr>
-    <td style="padding: 1.5rem; background: linear-gradient(135deg, rgba(240, 168, 192, 0.08), rgba(240, 168, 192, 0.02)); border-radius: 12px; margin: 0 1rem 2rem 0; vertical-align: top;">
-      <h3 style="color: #f0a8c0; margin: 0 0 1rem 0; font-size: 1.3rem; border-bottom: none;">🏛️ Backend & Infrastructure</h3>
-      <table border="0" cellpadding="4" cellspacing="0" width="100%">
-        <tr>
-          <td align="center" width="33%"><a href="https://nodejs.org/" target="_blank"><img src="../assets/icons-branded/nodejs.svg" alt="Node.js" height="45" /></a></td>
-          <td align="center" width="33%"><a href="https://www.python.org/" target="_blank"><img src="../assets/icons-branded/python.svg" alt="Python" height="45" /></a></td>
-          <td align="center" width="33%"><a href="https://www.rust-lang.org/" target="_blank"><img src="../assets/icons-branded/rust.svg" alt="Rust" height="45" /></a></td>
-        </tr>
-        <tr>
-          <td align="center" width="33%"><a href="https://expressjs.com/" target="_blank"><img src="../assets/icons-branded/express.svg" alt="Express" height="45" /></a></td>
-          <td align="center" width="33%"><a href="https://graphql.org/" target="_blank"><img src="../assets/icons-branded/graphql.svg" alt="GraphQL" height="45" /></a></td>
-          <td align="center" width="33%"><a href="https://www.postgresql.org/" target="_blank"><img src="../assets/icons-branded/postgresql.svg" alt="PostgreSQL" height="45" /></a></td>
-        </tr>
-      </table>
-    </td>
-  </tr>
-</table>
+<p align="center">
+<a href="https://react.dev"><img src="../assets/icons-branded/react.svg" alt="React" height="60" hspace="10"/></a>
+<a href="https://nextjs.org/"><img src="../assets/icons-branded/nextjs.svg" alt="Next.js" height="60" hspace="10"/></a>
+<a href="https://vuejs.org/"><img src="../assets/icons-branded/vue.svg" alt="Vue.js" height="60" hspace="10"/></a>
+<a href="https://www.typescriptlang.org/"><img src="../assets/icons-branded/typescript.svg" alt="TypeScript" height="60" hspace="10"/></a>
+</p>
+<p align="center">
+<a href="https://tailwindcss.com/"><img src="../assets/icons-branded/tailwindcss.svg" alt="Tailwind CSS" height="60" hspace="10"/></a>
+<a href="https://www.figma.com"><img src="../assets/icons-branded/figma.svg" alt="Figma" height="60" hspace="10"/></a>
+<a href="https://storybook.js.org/"><img src="../assets/icons-branded/storybook.svg" alt="Storybook" height="60" hspace="10"/></a>
+</p>
 
-<table border="0" cellpadding="0" cellspacing="0" width="100%" style="margin: 2rem 0;">
-  <tr>
-    <td style="padding: 1.5rem; background: linear-gradient(135deg, rgba(74, 222, 128, 0.08), rgba(74, 222, 128, 0.02)); border-radius: 12px; margin: 0 1rem 2rem 0; vertical-align: top;">
-      <h3 style="color: #4ade80; margin: 0 0 1rem 0; font-size: 1.3rem; border-bottom: none;">☁️ Cloud & DevOps</h3>
-      <table border="0" cellpadding="4" cellspacing="0" width="100%">
-        <tr>
-          <td align="center" width="25%"><a href="https://aws.amazon.com" target="_blank"><img src="../assets/icons-branded/aws.svg" alt="Amazon Web Services" height="45" /></a></td>
-          <td align="center" width="25%"><a href="https://aws.amazon.com/lambda/" target="_blank"><img src="../assets/icons-branded/aws-lambda.svg" alt="AWS Lambda" height="45" /></a></td>
-          <td align="center" width="25%"><a href="https://cloud.google.com" target="_blank"><img src="../assets/icons-branded/gcp.svg" alt="Google Cloud Platform" height="45" /></a></td>
-          <td align="center" width="25%"><a href="https://cloud.google.com/functions" target="_blank"><img src="../assets/icons-branded/gcp-functions.svg" alt="Google Cloud Functions" height="45" /></a></td>
-        </tr>
-        <tr>
-          <td align="center" width="25%"><a href="https://cloud.google.com/bigquery" target="_blank"><img src="../assets/icons-branded/gcp-bigquery.svg" alt="Google BigQuery" height="45" /></a></td>
-          <td align="center" width="25%"><a href="https://firebase.google.com/" target="_blank"><img src="../assets/icons-branded/firebase.svg" alt="Firebase" height="45" /></a></td>
-          <td align="center" width="25%"><a href="https://vercel.com/" target="_blank"><img src="../assets/icons-branded/vercel.svg" alt="Vercel" height="45" /></a></td>
-          <td align="center" width="25%"><a href="https://www.netlify.com/" target="_blank"><img src="../assets/icons-branded/netlify.svg" alt="Netlify" height="45" /></a></td>
-        </tr>
-        <tr>
-          <td align="center" width="25%"><a href="https://www.docker.com/" target="_blank"><img src="../assets/icons-branded/docker.svg" alt="Docker" height="45" /></a></td>
-          <td align="center" width="25%"><a href="https://kubernetes.io/" target="_blank"><img src="../assets/icons-branded/kubernetes.svg" alt="Kubernetes" height="45" /></a></td>
-          <td align="center" width="25%"><a href="https://github.com/features/actions" target="_blank"><img src="../assets/icons-branded/github-actions.svg" alt="GitHub Actions" height="45" /></a></td>
-          <td align="center" width="25%"></td>
-        </tr>
-      </table>
-    </td>
-  </tr>
-</table>
+## 🏛️ Backend & Infrastructure
+
+<p align="center">
+<a href="https://nodejs.org/"><img src="../assets/icons-branded/nodejs.svg" alt="Node.js" height="60" hspace="10"/></a>
+<a href="https://www.python.org/"><img src="../assets/icons-branded/python.svg" alt="Python" height="60" hspace="10"/></a>
+<a href="https://www.rust-lang.org/"><img src="../assets/icons-branded/rust.svg" alt="Rust" height="60" hspace="10"/></a>
+<a href="https://expressjs.com/"><img src="../assets/icons-branded/express.svg" alt="Express" height="60" hspace="10"/></a>
+</p>
+<p align="center">
+<a href="https://graphql.org/"><img src="../assets/icons-branded/graphql.svg" alt="GraphQL" height="60" hspace="10"/></a>
+<a href="https://www.postgresql.org/"><img src="../assets/icons-branded/postgresql.svg" alt="PostgreSQL" height="60" hspace="10"/></a>
+</p>
+
+## ☁️ Cloud & DevOps
+
+<p align="center">
+<a href="https://aws.amazon.com"><img src="../assets/icons-branded/aws.svg" alt="AWS" height="60" hspace="10"/></a>
+<a href="https://aws.amazon.com/lambda/"><img src="../assets/icons-branded/aws-lambda.svg" alt="AWS Lambda" height="60" hspace="10"/></a>
+<a href="https://cloud.google.com"><img src="../assets/icons-branded/gcp.svg" alt="Google Cloud" height="60" hspace="10"/></a>
+<a href="https://cloud.google.com/functions"><img src="../assets/icons-branded/gcp-functions.svg" alt="GCP Functions" height="60" hspace="10"/></a>
+</p>
+<p align="center">
+<a href="https://cloud.google.com/bigquery"><img src="../assets/icons-branded/gcp-bigquery.svg" alt="BigQuery" height="60" hspace="10"/></a>
+<a href="https://firebase.google.com/"><img src="../assets/icons-branded/firebase.svg" alt="Firebase" height="60" hspace="10"/></a>
+<a href="https://vercel.com/"><img src="../assets/icons-branded/vercel.svg" alt="Vercel" height="60" hspace="10"/></a>
+<a href="https://www.netlify.com/"><img src="../assets/icons-branded/netlify.svg" alt="Netlify" height="60" hspace="10"/></a>
+</p>
+<p align="center">
+<a href="https://www.docker.com/"><img src="../assets/icons-branded/docker.svg" alt="Docker" height="60" hspace="10"/></a>
+<a href="https://kubernetes.io/"><img src="../assets/icons-branded/kubernetes.svg" alt="Kubernetes" height="60" hspace="10"/></a>
+<a href="https://github.com/features/actions"><img src="../assets/icons-branded/github-actions.svg" alt="GitHub Actions" height="60" hspace="10"/></a>
+</p>
 
   </div>
 </div>
