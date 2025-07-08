@@ -59,13 +59,13 @@
         <td><a href="https://storybook.js.org/" target="_blank" rel="noopener noreferrer"><img src="../assets/icons-branded/storybook.svg" alt="Storybook" height="40" /></a></td>
       </tr>
       <tr align="center" style="font-size: 0.8rem; color: #586069;">
-        <td>UI Library</td>
-        <td>React Framework</td>
-        <td>JS Framework</td>
-        <td>Typed JavaScript</td>
-        <td>CSS Framework</td>
-        <td>UI Design</td>
-        <td>UI Components</td>
+        <td>React</td>
+        <td>Next.js</td>
+        <td>Vue.js</td>
+        <td>TypeScript</td>
+        <td>Tailwind CSS</td>
+        <td>Figma</td>
+        <td>Storybook</td>
       </tr>
     </table>
     <h3 style="text-align: center; font-size: 1.2rem;">🏛️ Infrastructure</h3>
@@ -80,13 +80,13 @@
         <td><a href="https://kubernetes.io/" target="_blank"><img src="../assets/icons-branded/kubernetes.svg" alt="Kubernetes" height="40" /></a></td>
       </tr>
       <tr align="center" style="font-size: 0.8rem; color: #586069;">
-        <td>JS Runtime</td>
-        <td>Programming Language</td>
-        <td>Programming Language</td>
-        <td>Web Framework</td>
-        <td>API Query Language</td>
-        <td>Containerization</td>
-        <td>Orchestration</td>
+        <td>Node.js</td>
+        <td>Python</td>
+        <td>Rust</td>
+        <td>Express</td>
+        <td>GraphQL</td>
+        <td>Docker</td>
+        <td>Kubernetes</td>
       </tr>
       <tr align="center">
         <td><a href="https://aws.amazon.com" target="_blank"><img src="../assets/icons-branded/aws.svg" alt="Amazon Web Services" height="40" /></a></td>
@@ -98,13 +98,13 @@
         <td><a href="https://cloud.google.com/bigquery" target="_blank"><img src="../assets/icons-branded/gcp-bigquery.svg" alt="Google BigQuery" height="40" /></a></td>
       </tr>
       <tr align="center" style="font-size: 0.8rem; color: #586069;">
-        <td>Cloud Provider</td>
-        <td>Serverless</td>
-        <td>Cloud Provider</td>
-        <td>Serverless</td>
-        <td>SQL Database</td>
-        <td>Backend-as-a-Service</td>
-        <td>Data Warehouse</td>
+        <td>AWS</td>
+        <td>AWS Lambda</td>
+        <td>GCP</td>
+        <td>GCP Functions</td>
+        <td>PostgreSQL</td>
+        <td>Firebase</td>
+        <td>Google BigQuery</td>
       </tr>
     </table>
   </div>
