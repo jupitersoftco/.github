@@ -1,0 +1,30 @@
+<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+  
+  <defs>
+    <radialGradient id="bg-gradient" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%" style="stop-color:#4a5568;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2d3748;stop-opacity:1" />
+    </radialGradient>
+    <filter id="drop-shadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="1" dy="1" stdDeviation="1.5" flood-color="#000000" flood-opacity="0.6"/>
+    </filter>
+     <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <circle cx="32" cy="32" r="30" fill="url(#bg-gradient)" />
+  <g opacity="0.7">
+    <circle cx="10" cy="20" r="1.5" fill="white" opacity="0.8"/><circle cx="55" cy="40" r="1" fill="white" opacity="0.6"/><circle cx="20" cy="50" r="0.8" fill="white" opacity="0.5"/><circle cx="45" cy="15" r="1.2" fill="white" opacity="0.7"/><circle cx="30" cy="10" r="0.5" fill="white" opacity="0.4"/><circle cx="5" cy="45" r="0.7" fill="white" opacity="0.5"/><circle cx="58" cy="12" r="0.6" fill="white" opacity="0.9"/>
+  </g>
+  <circle cx="32" cy="32" r="29" fill="none" stroke="#8e81f4" stroke-width="1.5" filter="url(#glow)" />
+
+  <g filter="url(#drop-shadow)">
+    <g transform="translate(16, 16) scale(0.125)">
+      <path fill="#38B2AC" d="M128 32C128 32 108.76 41.51 98.05 52.22C87.34 62.93 78.49 82.23 78.49 82.23C78.49 82.23 97.72 72.72 108.43 62.01C119.14 51.3 128 32 128 32zM177.51 82.23C177.51 82.23 158.28 72.72 147.57 62.01C136.86 51.3 128 32 128 32C128 32 147.24 41.51 157.95 52.22C168.66 62.93 177.51 82.23 177.51 82.23zM128 176C128 176 108.76 166.49 98.05 155.78C87.34 145.07 78.49 125.77 78.49 125.77C78.49 125.77 97.72 135.28 108.43 145.99C119.14 156.7 128 176 128 176zM177.51 125.77C177.51 125.77 158.28 135.28 147.57 145.99C136.86 156.7 128 176 128 176C128 176 147.24 166.49 157.95 155.78C168.66 145.07 177.51 125.77 177.51 125.77z"/>
+    </g>
+  </g>
+</svg>
