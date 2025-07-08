@@ -118,6 +118,7 @@
   <h2 id="our-impact">🏆 Our Impact & Work</h2>
 </div>
 
+<div align="center">
 <table>
 <tr>
 <td align="center" width="33%">
@@ -134,6 +135,7 @@
 </td>
 </tr>
 </table>
+</div>
 
 <div align="center">
   <p>
