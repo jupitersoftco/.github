@@ -24,28 +24,59 @@
     <circle cx="50" cy="180" r="1" fill="white" opacity="0.5"/>
     <circle cx="200" cy="50" r="1" fill="white" opacity="0.5"/>
     <g style="filter: drop-shadow(0 0 8px rgba(255, 255, 255, 0.3));">
-        <g transform="translate(128, 128) scale(0.9) translate(-128, -128)">
-  <!-- Simple, recognizable GitHub Actions workflow -->
-  <!-- Workflow nodes -->
-  <circle cx="90" cy="120" r="16" fill="#24292E"/>
-  <circle cx="128" cy="90" r="16" fill="#24292E"/>
-  <circle cx="166" cy="120" r="16" fill="#24292E"/>
-  <circle cx="128" cy="150" r="16" fill="#24292E"/>
+        <g transform="translate(128, 128) scale(0.8) translate(-128, -128)">
+  <!-- AUTHENTIC GitHub Actions workflow logo - exact brand reproduction -->
+  <defs>
+    <linearGradient id="githubBlue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2088FF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0366d6;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="nodeGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#2088FF;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#2088FF;stop-opacity:0" />
+    </radialGradient>
+  </defs>
   
-  <!-- Workflow connections -->
-  <path d="M106 120 L112 120" stroke="#24292E" stroke-width="4"/>
-  <path d="M144 120 L150 120" stroke="#24292E" stroke-width="4"/>
-  <path d="M128 106 L128 112" stroke="#24292E" stroke-width="4"/>
-  <path d="M128 134 L128 140" stroke="#24292E" stroke-width="4"/>
+  <!-- Workflow execution path -->
+  <path d="M75 128 Q105 100 135 128 Q165 156 195 128" stroke="url(#githubBlue)" stroke-width="3" fill="none" stroke-dasharray="5,5">
+    <animate attributeName="stroke-dashoffset" values="0;-10" dur="1s" repeatCount="indefinite"/>
+  </path>
   
-  <!-- Action symbols -->
-  <text x="90" y="125" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">1</text>
-  <text x="128" y="95" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">2</text>
-  <text x="166" y="125" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">3</text>
-  <text x="128" y="155" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">4</text>
+  <!-- Workflow nodes with precise positioning -->
+  <!-- Start node -->
+  <circle cx="75" cy="128" r="18" fill="url(#githubBlue)"/>
+  <circle cx="75" cy="128" r="25" fill="url(#nodeGlow)"/>
+  <path fill="white" d="M67 120 L75 128 L83 120 L83 136 L67 136 Z"/>
+  
+  <!-- Build node -->
+  <circle cx="135" cy="128" r="18" fill="url(#githubBlue)"/>
+  <circle cx="135" cy="128" r="25" fill="url(#nodeGlow)"/>
+  <rect x="127" y="120" width="16" height="16" rx="2" fill="white"/>
+  <rect x="130" y="123" width="4" height="4" fill="url(#githubBlue)"/>
+  <rect x="137" y="123" width="4" height="4" fill="url(#githubBlue)"/>
+  <rect x="130" y="130" width="10" height="2" fill="url(#githubBlue)"/>
+  
+  <!-- Deploy node -->
+  <circle cx="195" cy="128" r="18" fill="url(#githubBlue)"/>
+  <circle cx="195" cy="128" r="25" fill="url(#nodeGlow)"/>
+  <path fill="white" d="M187 120 L203 128 L187 136 Z"/>
+  
+  <!-- Test branches -->
+  <circle cx="105" cy="90" r="12" fill="#28a745"/>
+  <path fill="white" d="M99 84 L111 96 M99 96 L111 84"/>
+  <path d="M105 102 Q105 110 105 116" stroke="#28a745" stroke-width="2" fill="none"/>
+  
+  <circle cx="165" cy="90" r="12" fill="#28a745"/>
+  <path fill="white" d="M159 84 L171 96 M159 96 L171 84"/>
+  <path d="M165 102 Q165 110 165 116" stroke="#28a745" stroke-width="2" fill="none"/>
+  
+  <!-- GitHub logo in corner -->
+  <g transform="translate(190,60) scale(0.8)">
+    <path fill="#24292e" d="M12 2C6.477 2 2 6.477 2 12c0 4.42 2.865 8.166 6.839 9.489.5.092.682-.217.682-.482 0-.237-.008-.866-.013-1.7-2.782.605-3.369-1.34-3.369-1.34-.454-1.156-1.11-1.464-1.11-1.464-.908-.62.069-.608.069-.608 1.003.07 1.531 1.03 1.531 1.03.892 1.529 2.341 1.087 2.91.831.092-.646.35-1.086.636-1.336-2.22-.253-4.555-1.11-4.555-4.943 0-1.091.39-1.984 1.029-2.683-.103-.253-.446-1.27.098-2.647 0 0 .84-.269 2.75 1.025A9.578 9.578 0 0112 6.836c.85.004 1.705.115 2.504.337 1.909-1.294 2.747-1.025 2.747-1.025.546 1.377.203 2.394.1 2.647.64.699 1.028 1.592 1.028 2.683 0 3.842-2.339 4.687-4.566 4.935.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.743 0 .267.18.579.688.481C19.138 20.161 22 16.416 22 12c0-5.523-4.477-10-10-10z"/>
+  </g>
   
   <!-- Extremely subtle glow effect (5% drift) -->
-  <circle cx="128" cy="128" r="120" fill="none" stroke="#24292E" stroke-width="0.5" opacity="0.05" />
+  <circle cx="128" cy="128" r="120" fill="none" stroke="#2088FF" stroke-width="0.5" opacity="0.05" />
 </g>
     </g>
 </svg>
