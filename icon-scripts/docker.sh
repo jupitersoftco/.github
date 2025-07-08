@@ -1,39 +1,46 @@
 #!/bin/bash
 
-# Docker icon generation script
-# This script generates the Docker branded icon with authentic whale and containers logo
-
-DOCKER_SVG='<g transform="translate(128, 128) scale(0.75) translate(-32, -32)">
-    <!-- Docker containers (stacked boxes) -->
-    <g fill="#2396ED">
-      <rect x="24" y="30" width="5" height="4" rx="0.5"/>
-      <rect x="30" y="30" width="5" height="4" rx="0.5"/>
-      <rect x="36" y="30" width="5" height="4" rx="0.5"/>
-      <rect x="42" y="30" width="5" height="4" rx="0.5"/>
-      <rect x="48" y="30" width="5" height="4" rx="0.5"/>
-      
-      <rect x="24" y="25" width="5" height="4" rx="0.5"/>
-      <rect x="30" y="25" width="5" height="4" rx="0.5"/>
-      <rect x="36" y="25" width="5" height="4" rx="0.5"/>
-      
-      <rect x="30" y="20" width="5" height="4" rx="0.5"/>
-    </g>
+# Docker icon preserving authentic whale logo design with minimal 5% psychedelic drift
+docker_svg='<g transform="translate(128, 128) scale(0.9) translate(-128, -128)">
+  <!-- Authentic Docker whale logo -->
+  <!-- Docker containers (stacked boxes) -->
+  <g fill="#2496ED">
+    <rect x="80" y="100" width="12" height="10" rx="1"/>
+    <rect x="94" y="100" width="12" height="10" rx="1"/>
+    <rect x="108" y="100" width="12" height="10" rx="1"/>
+    <rect x="122" y="100" width="12" height="10" rx="1"/>
+    <rect x="136" y="100" width="12" height="10" rx="1"/>
+    <rect x="150" y="100" width="12" height="10" rx="1"/>
     
-    <!-- Docker whale -->
-    <g fill="#2396ED">
-      <!-- Whale body -->
-      <path d="M8 35c0-2 2-4 4-4h44c8 0 8 6 0 6c-2 0-4 1-4 3s2 3 4 3c8 0 8 6 0 6H12c-2 0-4-2-4-4v-10z"/>
-      
-      <!-- Whale tail -->
-      <path d="M4 33c0-1 0-2 2-2s2 1 2 2v6c0 1 0 2-2 2s-2-1-2-2v-6z"/>
-      
-      <!-- Whale spout -->
-      <path d="M14 28c0-1 1-2 2-2s2 1 2 2v3c0 1-1 2-2 2s-2-1-2-2v-3z"/>
-      <path d="M20 26c0-1 1-2 2-2s2 1 2 2v3c0 1-1 2-2 2s-2-1-2-2v-3z"/>
-      
-      <!-- Whale eye -->
-      <circle cx="50" cy="37" r="1" fill="white"/>
-    </g>
+    <rect x="80" y="88" width="12" height="10" rx="1"/>
+    <rect x="94" y="88" width="12" height="10" rx="1"/>
+    <rect x="108" y="88" width="12" height="10" rx="1"/>
+    <rect x="122" y="88" width="12" height="10" rx="1"/>
+    
+    <rect x="108" y="76" width="12" height="10" rx="1"/>
+    <rect x="122" y="76" width="12" height="10" rx="1"/>
+    
+    <rect x="122" y="64" width="12" height="10" rx="1"/>
+  </g>
+  
+  <!-- Docker whale body -->
+  <g fill="#2496ED">
+    <!-- Main whale body -->
+    <path d="M60 112c0-4 4-8 8-8h96c16 0 16 12 0 12c-4 0-8 2-8 6s4 6 8 6c16 0 16 12 0 12H68c-4 0-8-4-8-8v-20z"/>
+    
+    <!-- Whale tail -->
+    <path d="M40 108c0-2 0-4 4-4s4 2 4 4v16c0 2 0 4-4 4s-4-2-4-4v-16z"/>
+    
+    <!-- Whale spout -->
+    <path d="M76 96c0-2 2-4 4-4s4 2 4 4v8c0 2-2 4-4 4s-4-2-4-4v-8z"/>
+    <path d="M88 92c0-2 2-4 4-4s4 2 4 4v8c0 2-2 4-4 4s-4-2-4-4v-8z"/>
+    
+    <!-- Whale eye -->
+    <circle cx="150" cy="118" r="3" fill="white"/>
+  </g>
+  
+  <!-- Extremely subtle glow effect (5% drift) -->
+  <circle cx="128" cy="128" r="120" fill="none" stroke="#2496ED" stroke-width="0.5" opacity="0.05" />
 </g>'
 
-generate_icon "docker" "$DOCKER_SVG" 
+generate_icon "docker" "$docker_svg" 

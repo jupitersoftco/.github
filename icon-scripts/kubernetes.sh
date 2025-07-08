@@ -1,60 +1,61 @@
 #!/bin/bash
 
-# Kubernetes icon generation script  
-# This script generates the Kubernetes branded icon with authentic helm/ship wheel logo
-
-KUBERNETES_SVG='<g transform="translate(128, 128) scale(0.6) translate(-32, -32)">
-    <!-- Kubernetes Helm Wheel -->
-    <g fill="#326CE5">
-        <!-- Central hub -->
-        <circle cx="32" cy="32" r="4" fill="#326CE5"/>
-        
-        <!-- Main spokes (6 spokes total) -->
-        <!-- Top spoke -->
-        <path d="M32 8 L29 18 L35 18 Z" fill="#326CE5"/>
-        <rect x="30" y="18" width="4" height="10" fill="#326CE5"/>
-        
-        <!-- Top-right spoke -->
-        <g transform="rotate(60 32 32)">
-            <path d="M32 8 L29 18 L35 18 Z" fill="#326CE5"/>
-            <rect x="30" y="18" width="4" height="10" fill="#326CE5"/>
-        </g>
-        
-        <!-- Bottom-right spoke -->
-        <g transform="rotate(120 32 32)">
-            <path d="M32 8 L29 18 L35 18 Z" fill="#326CE5"/>
-            <rect x="30" y="18" width="4" height="10" fill="#326CE5"/>
-        </g>
-        
-        <!-- Bottom spoke -->
-        <g transform="rotate(180 32 32)">
-            <path d="M32 8 L29 18 L35 18 Z" fill="#326CE5"/>
-            <rect x="30" y="18" width="4" height="10" fill="#326CE5"/>
-        </g>
-        
-        <!-- Bottom-left spoke -->
-        <g transform="rotate(240 32 32)">
-            <path d="M32 8 L29 18 L35 18 Z" fill="#326CE5"/>
-            <rect x="30" y="18" width="4" height="10" fill="#326CE5"/>
-        </g>
-        
-        <!-- Top-left spoke -->
-        <g transform="rotate(300 32 32)">
-            <path d="M32 8 L29 18 L35 18 Z" fill="#326CE5"/>
-            <rect x="30" y="18" width="4" height="10" fill="#326CE5"/>
-        </g>
-        
-        <!-- Outer ring -->
-        <circle cx="32" cy="32" r="26" fill="none" stroke="#326CE5" stroke-width="2"/>
-        
-        <!-- Small circle decorations at spoke ends -->
-        <circle cx="32" cy="6" r="2" fill="#326CE5"/>
-        <circle cx="54.5" cy="19" r="2" fill="#326CE5"/>
-        <circle cx="54.5" cy="45" r="2" fill="#326CE5"/>
-        <circle cx="32" cy="58" r="2" fill="#326CE5"/>
-        <circle cx="9.5" cy="45" r="2" fill="#326CE5"/>
-        <circle cx="9.5" cy="19" r="2" fill="#326CE5"/>
+# Kubernetes icon preserving authentic helm/wheel logo design with minimal 5% psychedelic drift
+kubernetes_svg='<g transform="translate(128, 128) scale(0.9) translate(-128, -128)">
+  <!-- Authentic Kubernetes helm wheel -->
+  <g fill="#326CE5">
+    <!-- Central hub -->
+    <circle cx="128" cy="128" r="12" fill="#326CE5"/>
+    
+    <!-- Main spokes (6 spokes total) -->
+    <!-- Top spoke -->
+    <path d="M128 60 L120 90 L136 90 Z" fill="#326CE5"/>
+    <rect x="124" y="90" width="8" height="26" fill="#326CE5"/>
+    
+    <!-- Top-right spoke -->
+    <g transform="rotate(60 128 128)">
+      <path d="M128 60 L120 90 L136 90 Z" fill="#326CE5"/>
+      <rect x="124" y="90" width="8" height="26" fill="#326CE5"/>
     </g>
+    
+    <!-- Bottom-right spoke -->
+    <g transform="rotate(120 128 128)">
+      <path d="M128 60 L120 90 L136 90 Z" fill="#326CE5"/>
+      <rect x="124" y="90" width="8" height="26" fill="#326CE5"/>
+    </g>
+    
+    <!-- Bottom spoke -->
+    <g transform="rotate(180 128 128)">
+      <path d="M128 60 L120 90 L136 90 Z" fill="#326CE5"/>
+      <rect x="124" y="90" width="8" height="26" fill="#326CE5"/>
+    </g>
+    
+    <!-- Bottom-left spoke -->
+    <g transform="rotate(240 128 128)">
+      <path d="M128 60 L120 90 L136 90 Z" fill="#326CE5"/>
+      <rect x="124" y="90" width="8" height="26" fill="#326CE5"/>
+    </g>
+    
+    <!-- Top-left spoke -->
+    <g transform="rotate(300 128 128)">
+      <path d="M128 60 L120 90 L136 90 Z" fill="#326CE5"/>
+      <rect x="124" y="90" width="8" height="26" fill="#326CE5"/>
+    </g>
+    
+    <!-- Outer ring -->
+    <circle cx="128" cy="128" r="54" fill="none" stroke="#326CE5" stroke-width="4"/>
+    
+    <!-- Spoke end circles -->
+    <circle cx="128" cy="70" r="4" fill="#326CE5"/>
+    <circle cx="178" cy="98" r="4" fill="#326CE5"/>
+    <circle cx="178" cy="158" r="4" fill="#326CE5"/>
+    <circle cx="128" cy="186" r="4" fill="#326CE5"/>
+    <circle cx="78" cy="158" r="4" fill="#326CE5"/>
+    <circle cx="78" cy="98" r="4" fill="#326CE5"/>
+  </g>
+  
+  <!-- Extremely subtle glow effect (5% drift) -->
+  <circle cx="128" cy="128" r="120" fill="none" stroke="#326CE5" stroke-width="0.5" opacity="0.05" />
 </g>'
 
-generate_icon "kubernetes" "$KUBERNETES_SVG" 
+generate_icon "kubernetes" "$kubernetes_svg" 

@@ -24,30 +24,33 @@
     <circle cx="50" cy="180" r="1" fill="white" opacity="0.5"/>
     <circle cx="200" cy="50" r="1" fill="white" opacity="0.5"/>
     <g style="filter: drop-shadow(0 0 8px rgba(255, 255, 255, 0.3));">
-        <g transform="translate(128, 128) scale(0.8) translate(-24, -24)">
-    <!-- GitHub Actions Workflow Logo -->
-    <g>
-        <!-- Workflow nodes -->
-        <circle cx="12" cy="24" r="4" fill="#2088FF"/>
-        <circle cx="24" cy="12" r="4" fill="#2088FF"/>
-        <circle cx="36" cy="24" r="4" fill="#2088FF"/>
-        <circle cx="24" cy="36" r="4" fill="#2088FF"/>
-        
-        <!-- Workflow connections -->
-        <line x1="16" y1="24" x2="20" y2="24" stroke="#2088FF" stroke-width="2"/>
-        <line x1="28" y1="24" x2="32" y2="24" stroke="#2088FF" stroke-width="2"/>
-        <line x1="24" y1="16" x2="24" y2="20" stroke="#2088FF" stroke-width="2"/>
-        <line x1="24" y1="28" x2="24" y2="32" stroke="#2088FF" stroke-width="2"/>
-        
-        <!-- Action symbols inside nodes -->
-        <text x="12" y="28" font-family="monospace" font-size="6" fill="white" text-anchor="middle">1</text>
-        <text x="24" y="16" font-family="monospace" font-size="6" fill="white" text-anchor="middle">2</text>
-        <text x="36" y="28" font-family="monospace" font-size="6" fill="white" text-anchor="middle">3</text>
-        <text x="24" y="40" font-family="monospace" font-size="6" fill="white" text-anchor="middle">✓</text>
-        
-        <!-- GitHub accent -->
-        <circle cx="40" cy="8" r="2" fill="#6E7681"/>
-    </g>
+        <g transform="translate(128, 128) scale(0.9) translate(-128, -128)">
+  <!-- Authentic GitHub Actions workflow logo -->
+  <g>
+    <!-- Workflow nodes -->
+    <circle cx="88" cy="128" r="12" fill="#2088FF"/>
+    <circle cx="128" cy="88" r="12" fill="#2088FF"/>
+    <circle cx="168" cy="128" r="12" fill="#2088FF"/>
+    <circle cx="128" cy="168" r="12" fill="#2088FF"/>
+    
+    <!-- Workflow connections -->
+    <line x1="100" y1="128" x2="116" y2="128" stroke="#2088FF" stroke-width="4"/>
+    <line x1="140" y1="128" x2="156" y2="128" stroke="#2088FF" stroke-width="4"/>
+    <line x1="128" y1="100" x2="128" y2="116" stroke="#2088FF" stroke-width="4"/>
+    <line x1="128" y1="140" x2="128" y2="156" stroke="#2088FF" stroke-width="4"/>
+    
+    <!-- Action symbols inside nodes -->
+    <text x="88" y="134" font-family="monospace" font-size="12" fill="white" text-anchor="middle">1</text>
+    <text x="128" y="94" font-family="monospace" font-size="12" fill="white" text-anchor="middle">2</text>
+    <text x="168" y="134" font-family="monospace" font-size="12" fill="white" text-anchor="middle">3</text>
+    <text x="128" y="174" font-family="monospace" font-size="12" fill="white" text-anchor="middle">✓</text>
+    
+    <!-- GitHub accent -->
+    <circle cx="180" cy="76" r="6" fill="#6E7681"/>
+  </g>
+  
+  <!-- Extremely subtle glow effect (5% drift) -->
+  <circle cx="128" cy="128" r="120" fill="none" stroke="#2088FF" stroke-width="0.5" opacity="0.05" />
 </g>
     </g>
 </svg>

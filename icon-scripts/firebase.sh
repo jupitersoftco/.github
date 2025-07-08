@@ -1,24 +1,25 @@
 #!/bin/bash
 
-# Firebase icon generation script
-# This script generates the Firebase branded icon with authentic flame logo
-
-FIREBASE_SVG='<g transform="translate(128, 128) scale(0.8) translate(-16, -16)">
-    <!-- Firebase Flame Icon -->
-    <!-- Main flame body -->
-    <path d="M16 4.5L13.5 11L8 16.5L16 30L24 16.5L20.5 11L16 4.5Z" fill="#FFCA28"/>
-    
-    <!-- Orange flame section -->
-    <path d="M16 4.5L13.5 11L8 16.5L16 30L20 22L16 4.5Z" fill="#FFA000"/>
-    
-    <!-- Red flame section -->
-    <path d="M16 4.5L13.5 11L8 16.5L16 30L14 24L16 4.5Z" fill="#F57C00"/>
-    
-    <!-- Bottom flame -->
-    <path d="M8 16.5L16 30L24 16.5L20 20L16 24L12 20L8 16.5Z" fill="#FF8F00"/>
-    
-    <!-- Highlight on flame -->
-    <path d="M16 4.5L18 8L20.5 11L16 16L16 4.5Z" fill="#FFF9C4" opacity="0.4"/>
+# Firebase icon preserving authentic flame logo design with minimal 5% psychedelic drift
+firebase_svg='<g transform="translate(128, 128) scale(0.9) translate(-128, -128)">
+  <!-- Authentic Firebase flame logo -->
+  <!-- Main flame body -->
+  <path d="M128 60L115 90L96 130L128 200L160 130L145 90L128 60Z" fill="#FFCA28"/>
+  
+  <!-- Orange flame section -->
+  <path d="M128 60L115 90L96 130L128 200L140 150L128 60Z" fill="#FFA000"/>
+  
+  <!-- Red flame section -->
+  <path d="M128 60L115 90L96 130L128 200L120 170L128 60Z" fill="#F57C00"/>
+  
+  <!-- Bottom flame -->
+  <path d="M96 130L128 200L160 130L140 150L128 170L116 150L96 130Z" fill="#FF8F00"/>
+  
+  <!-- Top flame highlight -->
+  <path d="M128 60L135 80L145 90L128 110L128 60Z" fill="#FFF9C4" opacity="0.4"/>
+  
+  <!-- Extremely subtle glow effect (5% drift) -->
+  <circle cx="128" cy="128" r="120" fill="none" stroke="#FFCA28" stroke-width="0.5" opacity="0.05" />
 </g>'
 
-generate_icon "firebase" "$FIREBASE_SVG" 
+generate_icon "firebase" "$firebase_svg" 
