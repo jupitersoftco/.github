@@ -12,8 +12,6 @@
   </div>
 </div>
 
----
-
 <!-- Jupiter Startups Section -->
 <div align="center" style="padding: 2rem 1rem;">
   <a href="https://jupitersoft.net/startups" target="_blank">
@@ -24,8 +22,6 @@
   <br>
   <a href="https://jupitersoft.net/startups" target="_blank"><img src="https://img.shields.io/badge/Learn_About_Our_Startup_Program-f0a8c0?style=for-the-badge&logo=rocket&logoColor=white" alt="Learn About Our Startup Program"></a>
 </div>
-
----
 
 <!-- What We Do -->
 <div align="center" style="padding: 2rem 1rem;">
@@ -39,8 +35,6 @@
     </tr>
   </table>
 </div>
-
----
 
 <!-- Our Technology -->
 <div align="center" style="padding: 2rem 1rem;">
@@ -131,8 +125,6 @@
   </div>
 </div>
 
----
-
 <!-- Impact and Contact Section -->
 <div align="center" style="padding: 2rem 1rem;">
   <h2 style="font-size: 1.8rem;">🏆 Our Impact & Work</h2>
@@ -148,8 +140,6 @@
 </div>
 
 <br>
-
----
 
 <div align="center" style="padding: 2rem 1rem;">
   <h2>🤝 Let's Build Something Amazing Together</h2>
