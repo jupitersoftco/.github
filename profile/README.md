@@ -64,7 +64,7 @@
       <a href="https://expressjs.com/" target="_blank"><img src="https://skillicons.dev/icons?i=express" alt="Express" /></a>
       <a href="https://www.rust-lang.org/" target="_blank"><img src="https://skillicons.dev/icons?i=rust" alt="Rust" /></a>
       <a href="https://graphql.org/" target="_blank"><img src="https://skillicons.dev/icons?i=graphql" alt="GraphQL" /></a>
-      <a href="https://aws.amazon.com/lambda/" target="_blank"><img src="https://skillicons.dev/icons?i=lambda" alt="AWS Lambda" /></a>
+      <a href="https://aws.amazon.com/lambda/" target="_blank"><img src="https://skillicons.dev/icons?i=aws" alt="AWS Lambda" /></a>
       <a href="https://cloud.google.com/functions" target="_blank"><img src="https://skillicons.dev/icons?i=gcp" alt="Google Cloud Functions" /></a>
     </p>
     <h3 style="text-align: center; font-size: 1.2rem;">🗄️ Infra & Database</h3>
