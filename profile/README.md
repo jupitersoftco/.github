@@ -17,7 +17,7 @@
   <a href="https://jupitersoft.net/startups" target="_blank">
     <img src="../assets/images/startup-cartoon.jpg" alt="Jupiter Startups Program" width="100%" style="max-width: 800px; height: auto; border-radius: 10px;" />
   </a>
-  <h2 style="font-size: 2rem; margin: 1rem 0;">Jupiter Startups</h2>
+  <h2 id="jupiter-startups" style="font-size: 2rem; margin: 1rem 0;">Jupiter Startups</h2>
   <p style="font-size: 1.1rem; color: #586069; max-width: 600px; margin: 0 auto;">We're passionate about helping new ideas grow. We partner with early-stage startups as technical co-founders to build amazing products.</p>
   <br>
   <a href="https://jupitersoft.net/startups" target="_blank"><img src="https://img.shields.io/badge/Learn_About_Our_Startup_Program-f0a8c0?style=for-the-badge&logo=rocket&logoColor=white" alt="Learn About Our Startup Program"></a>
@@ -25,7 +25,7 @@
 
 <!-- What We Do -->
 <div align="center" style="padding: 2rem 1rem;">
-  <h2 style="font-size: 1.8rem;">🎯 What We Do</h2>
+  <h2 id="what-we-do" style="font-size: 1.8rem;">🎯 What We Do</h2>
   <p style="font-size: 1.1rem; color: #586069;"><em>From idea to impact, we build solutions that scale.</em></p>
   
   <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 2rem; max-width: 900px; margin: 2rem auto;">
@@ -46,12 +46,12 @@
 
 <!-- Our Technology -->
 <div align="center" style="padding: 2rem 1rem;">
-  <h2 style="font-size: 1.8rem;">💻 Our Technology</h2>
+  <h2 id="our-technology" style="font-size: 1.8rem;">💻 Our Technology</h2>
   <p style="font-size: 1.1rem; color: #586069;"><em>The tools we use to build the future. Click an icon to learn more!</em></p>
   
   <div style="max-width: 800px; margin: 2rem auto;">
 
-## 🎨 Frontend
+## 🎨 Frontend {#frontend}
 
 <p align="center">
 <a href="https://react.dev"><img src="../assets/icons-branded/react.svg" alt="React" height="60" hspace="10"/></a>
@@ -65,7 +65,7 @@
 <a href="https://storybook.js.org/"><img src="../assets/icons-branded/storybook.svg" alt="Storybook" height="60" hspace="10"/></a>
 </p>
 
-## 🏛️ Backend & Infrastructure
+## 🏛️ Backend & Infrastructure {#backend-infrastructure}
 
 <p align="center">
 <a href="https://nodejs.org/"><img src="../assets/icons-branded/nodejs.svg" alt="Node.js" height="60" hspace="10"/></a>
@@ -78,7 +78,7 @@
 <a href="https://www.postgresql.org/"><img src="../assets/icons-branded/postgresql.svg" alt="PostgreSQL" height="60" hspace="10"/></a>
 </p>
 
-## ☁️ Cloud & DevOps
+## ☁️ Cloud & DevOps {#cloud-devops}
 
 <p align="center">
 <a href="https://aws.amazon.com"><img src="../assets/icons-branded/aws.svg" alt="AWS" height="60" hspace="10"/></a>
@@ -103,7 +103,7 @@
 
 <!-- Impact and Contact Section -->
 <div align="center" style="padding: 2rem 1rem;">
-  <h2 style="font-size: 1.8rem;">🏆 Our Impact & Work</h2>
+  <h2 id="our-impact" style="font-size: 1.8rem;">🏆 Our Impact & Work</h2>
   
   <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 2rem; max-width: 700px; margin: 2rem auto;">
     <div style="text-align: center; padding: 1.5rem; background: linear-gradient(135deg, rgba(142, 129, 244, 0.15), rgba(74, 222, 128, 0.15)); border-radius: 20px; backdrop-filter: blur(10px); min-width: 180px;">
@@ -128,7 +128,7 @@
 <br>
 
 <div align="center" style="padding: 2rem 1rem;">
-  <h2>🤝 Let's Build Something Amazing Together</h2>
+  <h2 id="contact">🤝 Let's Build Something Amazing Together</h2>
   <p>Ready to transform your ideas into reality? We're here to help.</p>
   <p><b>Email:</b> <a href="mailto:hello@jupitersoft.net">hello@jupitersoft.net</a> &nbsp;|&nbsp; <b>Website:</b> <a href="https://jupitersoft.net" target="_blank">jupitersoft.net</a></p>
   <br>
