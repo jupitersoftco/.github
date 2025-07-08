@@ -1,7 +1,7 @@
 #!/bin/bash
+# Rust icon generation script
 
-# Rust icon preserving authentic logo design with minimal 5% psychedelic drift
-rust_svg='<g transform="translate(128, 128) scale(0.9) translate(-128, -128)">
+RUST_SVG='<g transform="translate(128, 128) scale(0.6) translate(-128, -128)">
   <!-- Authentic Rust logo -->
   <rect width="256" height="256" fill="#E43717" rx="60"/>
   
@@ -12,4 +12,4 @@ rust_svg='<g transform="translate(128, 128) scale(0.9) translate(-128, -128)">
   <circle cx="128" cy="128" r="120" fill="none" stroke="#E43717" stroke-width="0.5" opacity="0.05" />
 </g>'
 
-generate_icon "rust" "$rust_svg" 
+generate_icon "rust" "$RUST_SVG" 
