@@ -277,8 +277,8 @@ generate_icon "technology" "$technology_svg"
 
 #### Special Cases
 
-- **TypeScript**: Uses 0.7 scale (reduced from 0.9) to prevent explosion outside space circle
-- **Storybook**: Uses 1.2 scale (reduced from 1.8) to prevent explosion outside space circle
+- **TypeScript**: Uses 0.5 scale (reduced from 0.9) to prevent explosion outside space circle
+- **Storybook**: Uses 0.8 scale (reduced from 1.8) to prevent explosion outside space circle
 - **Vue.js**: Uses 0.75 scale (reduced from 0.9) for proper centering within space circle
 - **Figma**: Uses 0.75 scale (reduced from 0.9) for proper centering within space circle
 - **Complex Logos**: May require custom scaling adjustments
@@ -495,10 +495,13 @@ The system currently supports the following technologies:
 ### Frontend Technologies
 
 - React
+- Angular
 - TypeScript
 - Next.js
 - Vue.js
 - Tailwind CSS
+- Bootstrap
+- jQuery
 - Figma
 - Storybook
 
@@ -506,6 +509,7 @@ The system currently supports the following technologies:
 
 - Node.js
 - Python
+- Django
 - Express
 - Rust
 - GraphQL
@@ -527,6 +531,12 @@ The system currently supports the following technologies:
 - ESLint
 - Prettier
 
+### Styling
+
+- Sass
+- Tailwind CSS
+- Bootstrap
+
 ### Cloud & Infrastructure
 
 - AWS
@@ -541,6 +551,8 @@ The system currently supports the following technologies:
 ### Databases
 
 - PostgreSQL
+- MySQL
+- MongoDB
 - Firebase
 
 ## Adding New Icons
@@ -646,5 +658,28 @@ The generation process produces:
 - Consistent 256x256 pixel canvas size
 - Optimized for web display and GitHub README usage
 - Scalable vector graphics suitable for any display resolution
+- **32 branded technology icons** covering the most popular development tools
 
 All generated icons maintain the Jupiter Software brand identity while clearly representing each technology in our stack.
+
+## Recently Added Icons
+
+**New Technologies Added:**
+
+- **Angular**: Red shield logo with proper space circle containment
+- **Django**: Dark green Python web framework logo
+- **MongoDB**: Green leaf database logo
+- **Bootstrap**: Purple CSS framework logo
+- **Sass**: Pink CSS preprocessor logo
+- **jQuery**: Blue JavaScript library logo
+- **MySQL**: Orange/blue database logo
+- **Tailwind**: Gradient wave logo (original design)
+
+**Scaling Fixes Applied:**
+
+- **TypeScript**: Reduced to 0.5 scale for proper space containment
+- **Storybook**: Reduced to 0.8 scale for proper space containment
+- **Vue.js**: Reduced to 0.75 scale for better centering
+- **Figma**: Reduced to 0.75 scale for better centering
+
+All icons now display the space theme properly with visible stars around the edges, maintaining the Jupiter Software brand identity while preserving authentic technology recognition.

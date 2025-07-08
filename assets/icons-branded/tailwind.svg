@@ -1,12 +1,42 @@
-<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
-  <circle cx="32" cy="32" r="30" fill="#2d3748" />
-  <circle cx="32" cy="32" r="29" fill="none" stroke="#8e81f4" stroke-width="2" />
-  <circle cx="15" cy="15" r="1.5" fill="white" opacity="0.7"/>
-  <circle cx="50" cy="45" r="1" fill="white" opacity="0.5"/>
-  <circle cx="48" cy="18" r="1.2" fill="white" opacity="0.6"/>
-  <g transform="translate(8, 8) scale(0.18)">
-    <rect width="256" height="256" fill="#242938" rx="60"/>
-    <path fill="url(#paint0_linear_2_119)" fill-rule="evenodd" d="M83 110C88.9991 86.0009 104.001 74 128 74C164 74 168.5 101 186.5 105.5C198.501 108.501 209 104.001 218 92C212.001 115.999 196.999 128 173 128C137 128 132.5 101 114.5 96.5C102.499 93.4991 92 97.9991 83 110ZM38 164C43.9991 140.001 59.0009 128 83 128C119 128 123.5 155 141.5 159.5C153.501 162.501 164 158.001 173 146C167.001 169.999 151.999 182 128 182C92 182 87.5 155 69.5 150.5C57.4991 147.499 47 151.999 38 164Z" clip-rule="evenodd"/>
-    <defs><linearGradient id="paint0_linear_2_119" x1="86.5" x2="163.5" y1="74" y2="185.5" gradientUnits="userSpaceOnUse"><stop stop-color="#32B1C1"/><stop offset="1" stop-color="#14C6B7"/></linearGradient></defs>
-  </g>
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <radialGradient id="grad1" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+            <stop offset="0%" style="stop-color:#1e293b;stop-opacity:1" />
+            <stop offset="100%" style="stop-color:#0f172a;stop-opacity:1" />
+        </radialGradient>
+        <filter id="glow">
+            <feGaussianBlur stdDeviation="3.5" result="coloredBlur"/>
+            <feMerge>
+                <feMergeNode in="coloredBlur"/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+    </defs>
+    <circle cx="128" cy="128" r="120" fill="url(#grad1)" filter="url(#glow)"/>
+    <circle cx="128" cy="128" r="118" fill="transparent" stroke="#334155" stroke-width="2"/>
+    <!-- Stars -->
+    <circle cx="60" cy="70" r="3" fill="white" opacity="0.8"/>
+    <circle cx="190" cy="200" r="3" fill="white" opacity="0.8"/>
+    <circle cx="100" cy="210" r="2" fill="white" opacity="0.7"/>
+    <circle cx="210" cy="90" r="2" fill="white" opacity="0.7"/>
+    <circle cx="80" cy="150" r="1.5" fill="white" opacity="0.6"/>
+    <circle cx="170" cy="120" r="1.5" fill="white" opacity="0.6"/>
+    <circle cx="50" cy="180" r="1" fill="white" opacity="0.5"/>
+    <circle cx="200" cy="50" r="1" fill="white" opacity="0.5"/>
+    <g style="filter: drop-shadow(0 0 8px rgba(255, 255, 255, 0.3));">
+        <g transform="translate(128, 128) scale(0.8) translate(-128, -128)">
+  <!-- Authentic Tailwind CSS logo with gradient waves -->
+  <path fill="url(#paint0_linear_tailwind)" fill-rule="evenodd" d="M83 110C88.9991 86.0009 104.001 74 128 74C164 74 168.5 101 186.5 105.5C198.501 108.501 209 104.001 218 92C212.001 115.999 196.999 128 173 128C137 128 132.5 101 114.5 96.5C102.499 93.4991 92 97.9991 83 110ZM38 164C43.9991 140.001 59.0009 128 83 128C119 128 123.5 155 141.5 159.5C153.501 162.501 164 158.001 173 146C167.001 169.999 151.999 182 128 182C92 182 87.5 155 69.5 150.5C57.4991 147.499 47 151.999 38 164Z" clip-rule="evenodd"/>
+  
+  <defs>
+    <linearGradient id="paint0_linear_tailwind" x1="86.5" x2="163.5" y1="74" y2="185.5" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#32B1C1"/>
+      <stop offset="1" stop-color="#14C6B7"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Extremely subtle glow effect (5% drift) -->
+  <circle cx="128" cy="128" r="120" fill="none" stroke="#32B1C1" stroke-width="0.5" opacity="0.05" />
+</g>
+    </g>
 </svg>
