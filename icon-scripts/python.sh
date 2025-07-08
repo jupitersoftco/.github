@@ -1,11 +1,29 @@
 #!/bin/bash
 
-# Python icon generation script
-# This script generates the Python branded icon
+# Python icon preserving authentic logo design with minimal 5% psychedelic drift
+python_svg='<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <defs>
+    <linearGradient id="paint0_linear_python" x1="47.22" x2="146.333" y1="46.896" y2="145.02" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#387EB8"/>
+      <stop offset="1" stop-color="#366994"/>
+    </linearGradient>
+    <linearGradient id="paint1_linear_python" x1="108.056" x2="214.492" y1="109.905" y2="210.522" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFE052"/>
+      <stop offset="1" stop-color="#FFC331"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Authentic Python logo with interlocking snake heads -->
+  <g transform="translate(128, 128) scale(0.9) translate(-128, -128)">
+    <!-- Blue snake head (top) -->
+    <path fill="url(#paint0_linear_python)" d="M127.279 29C76.5066 29 79.6772 51.018 79.6772 51.018L79.7338 73.8284H128.185V80.6772H60.4893C60.4893 80.6772 28 76.9926 28 128.222C28 179.452 56.3573 177.636 56.3573 177.636H73.2812V153.863C73.2812 153.863 72.369 125.506 101.186 125.506H149.24C149.24 125.506 176.239 125.942 176.239 99.4123V55.5461C176.239 55.5461 180.338 29 127.279 29ZM100.563 44.339C105.384 44.339 109.28 48.2351 109.28 53.0556C109.28 57.8761 105.384 61.7723 100.563 61.7723C95.7426 61.7723 91.8465 57.8761 91.8465 53.0556C91.8465 48.2351 95.7426 44.339 100.563 44.339Z"/>
+    
+    <!-- Yellow snake head (bottom) -->
+    <path fill="url(#paint1_linear_python)" d="M128.721 227.958C179.493 227.958 176.323 205.941 176.323 205.941L176.266 183.13H127.815V176.281H195.511C195.511 176.281 228 179.966 228 128.736C228 77.5062 199.643 79.323 199.643 79.323H182.719V103.096C182.719 103.096 183.631 131.453 154.814 131.453H106.76C106.76 131.453 79.7607 131.016 79.7607 157.546V201.412C79.7607 201.412 75.6615 227.958 128.721 227.958ZM155.437 212.619C150.616 212.619 146.72 208.723 146.72 203.903C146.72 199.082 150.616 195.186 155.437 195.186C160.257 195.186 164.154 199.082 164.154 203.903C164.154 208.723 160.257 212.619 155.437 212.619Z"/>
+  </g>
+  
+  <!-- Extremely subtle glow effect (5% drift) -->
+  <circle cx="128" cy="128" r="120" fill="none" stroke="#4a9eff" stroke-width="0.5" opacity="0.05" />
+</svg>'
 
-# 9. Python (viewBox: 128x128) -> scale 1.25
-PYTHON_SVG='<g transform="translate(128, 128) scale(1.25) translate(-64, -64)">
-  <path d="M63.3 128H29.1C13.1 128 0 114.9 0 98.9v-26c0-11.4 6.7-21.7 16.9-26.2V31.1C16.9 13.9 30 0 47.1 0h16.2c11.4 0 21.7 6.7 26.2 16.9h16.2c17.1 0 30.2 13.1 30.2 29.1v34.2c0 16-13.1 29.1-29.1 29.1H98.9c0 11.4-6.7 21.7-16.9 26.2A28.7 28.7 0 0 1 63.3 128z" fill="#3776ab"/><path d="M64.7 0h34.2c16 0 29.1 13.1 29.1 29.1v34.2c0 11.4-6.7 21.7-16.9 26.2V73.3c0-17.1-13.9-30.2-31.1-30.2H63.8c-11.4 0-21.7-6.7-26.2-16.9A28.7 28.7 0 0 1 64.7 0z" fill="#ffc43d"/><path fill="#fff" d="M49 20.3a6.5 6.5 0 1 0 0 13.1 6.5 6.5 0 0 0 0-13.1zm30 74.3a6.5 6.5 0 1 0 0 13.1 6.5 6.5 0 0 0 0-13.1z"/>
-</g>'
-
-generate_icon "python" "$PYTHON_SVG" 
+generate_icon "python" "$python_svg" 

@@ -1,11 +1,46 @@
 #!/bin/bash
 
-# Tailwind CSS icon generation script
-# This script generates the Tailwind CSS branded icon
+# Tailwind CSS icon generation script - Brand-authentic with subtle Jupiter Labs touches
+# This script generates a Tailwind CSS icon that stays true to the original design
 
-# 5. Tailwind CSS (viewBox: 128x128) -> scale 1.25
-TAILWINDCSS_SVG='<g transform="translate(128, 128) scale(1.25) translate(-64, -64)">
-  <path fill="#38bdf8" d="M64 0C28.7 0 0 28.7 0 64s28.7 64 64 64 64-28.7 64-64S99.3 0 64 0zm36.9 90.8c-5.3 5.3-12.2 8.5-19.7 8.5-7.4 0-14.4-3.1-19.7-8.5-5.3-5.3-8.5-12.2-8.5-19.7s3.1-14.4 8.5-19.7c5.3-5.3 12.2-8.5 19.7-8.5s14.4 3.1 19.7 8.5c5.3 5.3 8.5 12.2 8.5 19.7s-3.2 14.4-8.5 19.7zm-53-39.4c-5.3 5.3-12.2 8.5-19.7 8.5s-14.4-3.1-19.7-8.5c-5.3-5.3-8.5-12.2-8.5-19.7s3.1-14.4 8.5-19.7c5.3-5.3 12.2-8.5 19.7-8.5s14.4 3.1 19.7 8.5c5.3 5.3 8.5 12.2 8.5 19.7s-3.2 14.4-8.5 19.7z"/>
+# Tailwind CSS icon based on the original design with subtle variations
+TAILWINDCSS_SVG='<g transform="translate(128, 128) scale(0.8) translate(-128, -128)">
+  <!-- Background with subtle gradient -->
+  <rect width="256" height="256" rx="60" fill="url(#tailwindBg)"/>
+  
+  <defs>
+    <linearGradient id="tailwindBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0F172A;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1E293B;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Tailwind CSS logo with authentic styling -->
+  <g filter="url(#tailwindGlow)">
+    <path d="M128 64c-32 0-48 16-48 48 8-16 24-20 40-16 8.8 2.2 15.1 8.6 22.1 15.6C153.3 122.8 166.7 128 192 128c32 0 48-16 48-48-8 16-24 20-40 16-8.8-2.2-15.1-8.6-22.1-15.6C166.7 69.2 153.3 64 128 64zM80 128c-32 0-48 16-48 48 8-16 24-20 40-16 8.8 2.2 15.1 8.6 22.1 15.6C105.3 186.8 118.7 192 144 192c32 0 48-16 48-48-8 16-24 20-40 16-8.8-2.2-15.1-8.6-22.1-15.6C118.7 133.2 105.3 128 80 128z" fill="#38BDF8">
+      <animate attributeName="fill" values="#38BDF8;#0EA5E9;#38BDF8" dur="6s" repeatCount="indefinite"/>
+    </path>
+  </g>
+  
+  <!-- Subtle wind lines -->
+  <g opacity="0.2">
+    <line x1="40" y1="80" x2="80" y2="80" stroke="#38BDF8" stroke-width="1">
+      <animate attributeName="opacity" values="0.2;0.5;0.2" dur="4s" repeatCount="indefinite"/>
+    </line>
+    <line x1="176" y1="144" x2="216" y2="144" stroke="#38BDF8" stroke-width="1">
+      <animate attributeName="opacity" values="0.2;0.5;0.2" dur="4s" begin="1s" repeatCount="indefinite"/>
+    </line>
+  </g>
+  
+  <defs>
+    <filter id="tailwindGlow">
+      <feGaussianBlur stdDeviation="1.5" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
 </g>'
 
 generate_icon "tailwindcss" "$TAILWINDCSS_SVG" 
