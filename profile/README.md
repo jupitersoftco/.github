@@ -46,7 +46,7 @@
       &nbsp;&nbsp;
       <img src="https://skillicons.dev/icons?i=vue" width="48" height="48" alt="Vue" />
       &nbsp;&nbsp;
-      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/storybook/storybook-original.svg" width="48" height="48" alt="Storybook" />
+      <img src="../assets/storybook-icon.svg" width="48" height="48" alt="Storybook" />
     </div>
     <p>
       React • TypeScript • Next.js • Tailwind CSS • Vue.js • Storybook
