@@ -58,52 +58,32 @@ export -f generate_icon
 export SVG_TEMPLATE
 export OUTPUT_DIR
 
-# Execute all icon generation scripts in alphabetical order
+# Execute all icon generation scripts dynamically
 echo "🚀 Generating branded icons..."
 
-# Define the order of icon generation
-ICON_ORDER=(
-    "react"
-    "typescript"
-    "nextjs"
-    "vue"
-    "tailwindcss"
-    "figma"
-    "storybook"
-    "nodejs"
-    "python"
-    "express"
-    "rust"
-    "graphql"
-    "vercel"
-    "netlify"
-    "github-actions"
-    "jest"
-    "cypress"
-    "playwright"
-    "eslint"
-    "prettier"
-    "supabase"
-    "aws-lambda"
-    "gcp-functions"
-    "aws"
-    "docker"
-    "kubernetes"
-    "gcp"
-    "postgresql"
-    "firebase"
-    "gcp-bigquery"
-)
+# Check if icon-scripts directory exists
+if [ ! -d "icon-scripts" ]; then
+    echo "❌ Error: icon-scripts directory not found"
+    exit 1
+fi
 
-# Execute each icon script in the defined order
-for icon in "${ICON_ORDER[@]}"; do
-    script_path="icon-scripts/${icon}.sh"
-    if [ -f "$script_path" ]; then
-        echo "  ✨ Generating ${icon} icon..."
+# Find all .sh files in icon-scripts directory and execute them in sorted order
+script_count=0
+for script_path in $(find icon-scripts -name "*.sh" -type f | sort); do
+    if [ -f "$script_path" ] && [ -x "$script_path" ]; then
+        # Extract the icon name from the filename (remove path and .sh extension)
+        icon_name=$(basename "$script_path" .sh)
+        echo "  ✨ Generating ${icon_name} icon..."
         source "$script_path"
+        ((script_count++))
     else
-        echo "  ❌ Warning: Script not found for ${icon}"
+        echo "  ⚠️  Warning: Script ${script_path} is not executable or not found"
     fi
 done
 
-echo "✅ All branded icons generated successfully in assets/icons-branded/" 
+if [ $script_count -eq 0 ]; then
+    echo "❌ No executable scripts found in icon-scripts directory"
+    exit 1
+fi
+
+echo "✅ All branded icons generated successfully in assets/icons-branded/ (${script_count} icons processed)" 
