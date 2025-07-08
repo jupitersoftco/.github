@@ -1,0 +1,42 @@
+# Icon Branding Workflow Policy
+
+## Rule: Always Use Scripts for Icon Branding Updates
+
+When updating or creating branded technology icons, **ALWAYS** follow this workflow:
+
+### ✅ REQUIRED Process:
+
+1. **Update the script** in `icon-scripts/[technology].sh`
+2. **Run the script** to regenerate the SVG file
+3. **Never directly edit** files in `assets/icons-branded/`
+
+### ❌ FORBIDDEN Actions:
+
+- **Do NOT** directly modify any `.svg` files in `assets/icons-branded/`
+- **Do NOT** manually edit the branded icon files
+- **Do NOT** bypass the script-based workflow
+
+### 🔄 Workflow Steps:
+
+1. Locate the appropriate script in `icon-scripts/`
+2. Modify the script to update the icon generation logic
+3. Execute the script to regenerate the branded icon
+4. Verify the output in `assets/icons-branded/`
+
+### 📝 Rationale:
+
+- **Consistency**: Scripts ensure all icons follow the same branding guidelines
+- **Maintainability**: Changes are tracked through script modifications
+- **Reproducibility**: Icons can be regenerated reliably
+- **Version Control**: Script changes provide clear audit trail
+
+### 🚨 Exception Policy:
+
+**NO EXCEPTIONS** - This rule must be followed for all icon branding updates.
+
+If a script doesn't exist for a technology, create the script first, then use it to generate the icon.
+description:
+globs:
+alwaysApply: false
+
+---
