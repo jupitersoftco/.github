@@ -3,7 +3,7 @@
   
   # Jupiter Software
 
-  > **Engineered for Success**
+> **Engineered for Success**
 
 </div>
 
@@ -65,14 +65,26 @@ Looking to launch your startup idea? Check out [**Jupiter Startups**](https://ju
 ## 🛠️ Technologies We Work With
 
 <div align="center">
-  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React">
-  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript">
-  <img src="https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL">
-  <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white" alt="AWS">
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker">
-  <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" alt="Kubernetes">
+  <img src="https://img.shields.io/badge/React-1a365d?style=flat-square&logo=react&logoColor=61dafb&labelColor=2d3748" alt="React">
+  <img src="https://img.shields.io/badge/Node.js-1a365d?style=flat-square&logo=node.js&logoColor=68d391&labelColor=2d3748" alt="Node.js">
+  <img src="https://img.shields.io/badge/TypeScript-1a365d?style=flat-square&logo=typescript&logoColor=4299e1&labelColor=2d3748" alt="TypeScript">
+  <img src="https://img.shields.io/badge/Python-1a365d?style=flat-square&logo=python&logoColor=fbb6ce&labelColor=2d3748" alt="Python">
+  <img src="https://img.shields.io/badge/Vue.js-1a365d?style=flat-square&logo=vue.js&logoColor=68d391&labelColor=2d3748" alt="Vue.js">
+  <img src="https://img.shields.io/badge/Next.js-1a365d?style=flat-square&logo=next.js&logoColor=ffffff&labelColor=2d3748" alt="Next.js">
+</div>
+
+<div align="center">
+  <img src="https://img.shields.io/badge/PostgreSQL-2d3748?style=flat-square&logo=postgresql&logoColor=4299e1&labelColor=1a365d" alt="PostgreSQL">
+  <img src="https://img.shields.io/badge/MongoDB-2d3748?style=flat-square&logo=mongodb&logoColor=68d391&labelColor=1a365d" alt="MongoDB">
+  <img src="https://img.shields.io/badge/Redis-2d3748?style=flat-square&logo=redis&logoColor=f56565&labelColor=1a365d" alt="Redis">
+  <img src="https://img.shields.io/badge/GraphQL-2d3748?style=flat-square&logo=graphql&logoColor=e53e3e&labelColor=1a365d" alt="GraphQL">
+</div>
+
+<div align="center">
+  <img src="https://img.shields.io/badge/AWS-1a202c?style=flat-square&logo=amazon-aws&logoColor=fbb860&labelColor=2d3748" alt="AWS">
+  <img src="https://img.shields.io/badge/Docker-1a202c?style=flat-square&logo=docker&logoColor=4299e1&labelColor=2d3748" alt="Docker">
+  <img src="https://img.shields.io/badge/Kubernetes-1a202c?style=flat-square&logo=kubernetes&logoColor=9f7aea&labelColor=2d3748" alt="Kubernetes">
+  <img src="https://img.shields.io/badge/GitHub_Actions-1a202c?style=flat-square&logo=github-actions&logoColor=68d391&labelColor=2d3748" alt="GitHub Actions">
 </div>
 
 - **Frontend:** React, Vue.js, Angular, TypeScript, JavaScript
