@@ -75,7 +75,7 @@
       <a href="https://cloud.google.com/" target="_blank"><img src="https://skillicons.dev/icons?i=gcp" alt="Google Cloud Platform" /></a>
       <a href="https://www.postgresql.org/" target="_blank"><img src="https://skillicons.dev/icons?i=postgres" alt="PostgreSQL" /></a>
       <a href="https://firebase.google.com/" target="_blank"><img src="https://skillicons.dev/icons?i=firebase" alt="Firebase" /></a>
-      <a href="https://cloud.google.com/bigquery" target="_blank"><img src="https://skillicons.dev/icons?i=bigquery" alt="Google BigQuery" /></a>
+      <a href="https://cloud.google.com/bigquery" target="_blank"><img src="https://skillicons.dev/icons?i=gcp" alt="Google BigQuery" /></a>
     </p>
   </div>
 </div>
