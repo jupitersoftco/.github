@@ -2,41 +2,27 @@
 
 # Docker icon preserving authentic whale logo design with minimal 5% psychedelic drift
 docker_svg='<g transform="translate(128, 128) scale(0.9) translate(-128, -128)">
-  <!-- Authentic Docker whale logo -->
-  <!-- Docker containers (stacked boxes) -->
+  <!-- Simple, recognizable Docker whale -->
   <g fill="#2496ED">
-    <rect x="80" y="100" width="12" height="10" rx="1"/>
-    <rect x="94" y="100" width="12" height="10" rx="1"/>
-    <rect x="108" y="100" width="12" height="10" rx="1"/>
-    <rect x="122" y="100" width="12" height="10" rx="1"/>
-    <rect x="136" y="100" width="12" height="10" rx="1"/>
-    <rect x="150" y="100" width="12" height="10" rx="1"/>
+    <!-- Container blocks -->
+    <rect x="90" y="105" width="16" height="12" rx="2"/>
+    <rect x="108" y="105" width="16" height="12" rx="2"/>
+    <rect x="126" y="105" width="16" height="12" rx="2"/>
+    <rect x="144" y="105" width="16" height="12" rx="2"/>
     
-    <rect x="80" y="88" width="12" height="10" rx="1"/>
-    <rect x="94" y="88" width="12" height="10" rx="1"/>
-    <rect x="108" y="88" width="12" height="10" rx="1"/>
-    <rect x="122" y="88" width="12" height="10" rx="1"/>
+    <rect x="108" y="92" width="16" height="12" rx="2"/>
+    <rect x="126" y="92" width="16" height="12" rx="2"/>
     
-    <rect x="108" y="76" width="12" height="10" rx="1"/>
-    <rect x="122" y="76" width="12" height="10" rx="1"/>
+    <rect x="126" y="79" width="16" height="12" rx="2"/>
     
-    <rect x="122" y="64" width="12" height="10" rx="1"/>
-  </g>
-  
-  <!-- Docker whale body -->
-  <g fill="#2496ED">
-    <!-- Main whale body -->
-    <path d="M60 112c0-4 4-8 8-8h96c16 0 16 12 0 12c-4 0-8 2-8 6s4 6 8 6c16 0 16 12 0 12H68c-4 0-8-4-8-8v-20z"/>
+    <!-- Simple whale body -->
+    <ellipse cx="128" cy="135" rx="45" ry="15" fill="#2496ED"/>
     
     <!-- Whale tail -->
-    <path d="M40 108c0-2 0-4 4-4s4 2 4 4v16c0 2 0 4-4 4s-4-2-4-4v-16z"/>
-    
-    <!-- Whale spout -->
-    <path d="M76 96c0-2 2-4 4-4s4 2 4 4v8c0 2-2 4-4 4s-4-2-4-4v-8z"/>
-    <path d="M88 92c0-2 2-4 4-4s4 2 4 4v8c0 2-2 4-4 4s-4-2-4-4v-8z"/>
+    <path d="M70 135 L85 125 L85 145 Z" fill="#2496ED"/>
     
     <!-- Whale eye -->
-    <circle cx="150" cy="118" r="3" fill="white"/>
+    <circle cx="150" cy="130" r="4" fill="white"/>
   </g>
   
   <!-- Extremely subtle glow effect (5% drift) -->
