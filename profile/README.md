@@ -11,7 +11,7 @@
   </p>
 </div>
 
----
+<br/>
 
 <!-- Jupiter Startups Section -->
 <div align="center">
@@ -25,7 +25,7 @@
   </p>
 </div>
 
----
+<br/>
 
 <!-- What We Do -->
 <div align="center">
@@ -50,7 +50,7 @@
 </tr>
 </table>
 
----
+<br/>
 
 <!-- Our Technology -->
 <div align="center">
@@ -111,7 +111,7 @@
 <a href="https://github.com/features/actions"><img src="../assets/icons-branded/github-actions.svg" alt="GitHub Actions" height="60" hspace="10"/></a>
 </p>
 
----
+<br/>
 
 <!-- Impact and Contact Section -->
 <div align="center">
@@ -141,7 +141,7 @@
   </p>
 </div>
 
----
+<br/>
 
 <div align="center">
   <h2 id="contact">🤝 Let's Build Something Amazing Together</h2>
