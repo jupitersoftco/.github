@@ -50,42 +50,45 @@
   <p style="font-size: 1.1rem; color: #586069;"><em>The tools we use to build the future. Click an icon to learn more!</em></p>
   
   <div style="max-width: 900px; margin: 2rem auto;">
-    
-    <h3 align="center" style="color: #8e81f4; margin: 2rem 0 1rem 0;">🎨 Frontend</h3>
-    <div align="center" style="margin-bottom: 3rem;">
-      <a href="https://react.dev" target="_blank"><img src="../assets/icons-branded/react.svg" alt="React" height="50" style="margin: 0.5rem;" /></a>
-      <a href="https://nextjs.org/" target="_blank"><img src="../assets/icons-branded/nextjs.svg" alt="Next.js" height="50" style="margin: 0.5rem;" /></a>
-      <a href="https://vuejs.org/" target="_blank"><img src="../assets/icons-branded/vue.svg" alt="Vue.js" height="50" style="margin: 0.5rem;" /></a>
-      <a href="https://www.typescriptlang.org/" target="_blank"><img src="../assets/icons-branded/typescript.svg" alt="TypeScript" height="50" style="margin: 0.5rem;" /></a>
-      <a href="https://tailwindcss.com/" target="_blank"><img src="../assets/icons-branded/tailwindcss.svg" alt="Tailwind CSS" height="50" style="margin: 0.5rem;" /></a>
-      <a href="https://www.figma.com" target="_blank"><img src="../assets/icons-branded/figma.svg" alt="Figma" height="50" style="margin: 0.5rem;" /></a>
-      <a href="https://storybook.js.org/" target="_blank"><img src="../assets/icons-branded/storybook.svg" alt="Storybook" height="50" style="margin: 0.5rem;" /></a>
-    </div>
 
-    <h3 align="center" style="color: #f0a8c0; margin: 2rem 0 1rem 0;">🏛️ Backend & Infrastructure</h3>
-    <div align="center" style="margin-bottom: 3rem;">
-      <a href="https://nodejs.org/" target="_blank"><img src="../assets/icons-branded/nodejs.svg" alt="Node.js" height="50" style="margin: 0.5rem;" /></a>
-      <a href="https://www.python.org/" target="_blank"><img src="../assets/icons-branded/python.svg" alt="Python" height="50" style="margin: 0.5rem;" /></a>
-      <a href="https://www.rust-lang.org/" target="_blank"><img src="../assets/icons-branded/rust.svg" alt="Rust" height="50" style="margin: 0.5rem;" /></a>
-      <a href="https://expressjs.com/" target="_blank"><img src="../assets/icons-branded/express.svg" alt="Express" height="50" style="margin: 0.5rem;" /></a>
-      <a href="https://graphql.org/" target="_blank"><img src="../assets/icons-branded/graphql.svg" alt="GraphQL" height="50" style="margin: 0.5rem;" /></a>
-      <a href="https://www.postgresql.org/" target="_blank"><img src="../assets/icons-branded/postgresql.svg" alt="PostgreSQL" height="50" style="margin: 0.5rem;" /></a>
-    </div>
+<h3 style="color: #8e81f4; text-align: center; border-bottom: none;">🎨 Frontend</h3>
 
-    <h3 align="center" style="color: #4ade80; margin: 2rem 0 1rem 0;">☁️ Cloud & DevOps</h3>
-    <div align="center" style="margin-bottom: 3rem;">
-      <a href="https://aws.amazon.com" target="_blank"><img src="../assets/icons-branded/aws.svg" alt="Amazon Web Services" height="50" style="margin: 0.5rem;" /></a>
-      <a href="https://aws.amazon.com/lambda/" target="_blank"><img src="../assets/icons-branded/aws-lambda.svg" alt="AWS Lambda" height="50" style="margin: 0.5rem;" /></a>
-      <a href="https://cloud.google.com" target="_blank"><img src="../assets/icons-branded/gcp.svg" alt="Google Cloud Platform" height="50" style="margin: 0.5rem;" /></a>
-      <a href="https://cloud.google.com/functions" target="_blank"><img src="../assets/icons-branded/gcp-functions.svg" alt="Google Cloud Functions" height="50" style="margin: 0.5rem;" /></a>
-      <a href="https://cloud.google.com/bigquery" target="_blank"><img src="../assets/icons-branded/gcp-bigquery.svg" alt="Google BigQuery" height="50" style="margin: 0.5rem;" /></a>
-      <a href="https://firebase.google.com/" target="_blank"><img src="../assets/icons-branded/firebase.svg" alt="Firebase" height="50" style="margin: 0.5rem;" /></a>
-      <a href="https://vercel.com/" target="_blank"><img src="../assets/icons-branded/vercel.svg" alt="Vercel" height="50" style="margin: 0.5rem;" /></a>
-      <a href="https://www.netlify.com/" target="_blank"><img src="../assets/icons-branded/netlify.svg" alt="Netlify" height="50" style="margin: 0.5rem;" /></a>
-      <a href="https://www.docker.com/" target="_blank"><img src="../assets/icons-branded/docker.svg" alt="Docker" height="50" style="margin: 0.5rem;" /></a>
-      <a href="https://kubernetes.io/" target="_blank"><img src="../assets/icons-branded/kubernetes.svg" alt="Kubernetes" height="50" style="margin: 0.5rem;" /></a>
-      <a href="https://github.com/features/actions" target="_blank"><img src="../assets/icons-branded/github-actions.svg" alt="GitHub Actions" height="50" style="margin: 0.5rem;" /></a>
-    </div>
+<p align="center">
+  <a href="https://react.dev" target="_blank"><img src="../assets/icons-branded/react.svg" alt="React" height="50" style="margin: 8px;" /></a>
+  <a href="https://nextjs.org/" target="_blank"><img src="../assets/icons-branded/nextjs.svg" alt="Next.js" height="50" style="margin: 8px;" /></a>
+  <a href="https://vuejs.org/" target="_blank"><img src="../assets/icons-branded/vue.svg" alt="Vue.js" height="50" style="margin: 8px;" /></a>
+  <a href="https://www.typescriptlang.org/" target="_blank"><img src="../assets/icons-branded/typescript.svg" alt="TypeScript" height="50" style="margin: 8px;" /></a>
+  <a href="https://tailwindcss.com/" target="_blank"><img src="../assets/icons-branded/tailwindcss.svg" alt="Tailwind CSS" height="50" style="margin: 8px;" /></a>
+  <a href="https://www.figma.com" target="_blank"><img src="../assets/icons-branded/figma.svg" alt="Figma" height="50" style="margin: 8px;" /></a>
+  <a href="https://storybook.js.org/" target="_blank"><img src="../assets/icons-branded/storybook.svg" alt="Storybook" height="50" style="margin: 8px;" /></a>
+</p>
+
+<h3 style="color: #f0a8c0; text-align: center; border-bottom: none;">🏛️ Backend & Infrastructure</h3>
+
+<p align="center">
+  <a href="https://nodejs.org/" target="_blank"><img src="../assets/icons-branded/nodejs.svg" alt="Node.js" height="50" style="margin: 8px;" /></a>
+  <a href="https://www.python.org/" target="_blank"><img src="../assets/icons-branded/python.svg" alt="Python" height="50" style="margin: 8px;" /></a>
+  <a href="https://www.rust-lang.org/" target="_blank"><img src="../assets/icons-branded/rust.svg" alt="Rust" height="50" style="margin: 8px;" /></a>
+  <a href="https://expressjs.com/" target="_blank"><img src="../assets/icons-branded/express.svg" alt="Express" height="50" style="margin: 8px;" /></a>
+  <a href="https://graphql.org/" target="_blank"><img src="../assets/icons-branded/graphql.svg" alt="GraphQL" height="50" style="margin: 8px;" /></a>
+  <a href="https://www.postgresql.org/" target="_blank"><img src="../assets/icons-branded/postgresql.svg" alt="PostgreSQL" height="50" style="margin: 8px;" /></a>
+</p>
+
+<h3 style="color: #4ade80; text-align: center; border-bottom: none;">☁️ Cloud & DevOps</h3>
+
+<p align="center">
+  <a href="https://aws.amazon.com" target="_blank"><img src="../assets/icons-branded/aws.svg" alt="Amazon Web Services" height="50" style="margin: 8px;" /></a>
+  <a href="https://aws.amazon.com/lambda/" target="_blank"><img src="../assets/icons-branded/aws-lambda.svg" alt="AWS Lambda" height="50" style="margin: 8px;" /></a>
+  <a href="https://cloud.google.com" target="_blank"><img src="../assets/icons-branded/gcp.svg" alt="Google Cloud Platform" height="50" style="margin: 8px;" /></a>
+  <a href="https://cloud.google.com/functions" target="_blank"><img src="../assets/icons-branded/gcp-functions.svg" alt="Google Cloud Functions" height="50" style="margin: 8px;" /></a>
+  <a href="https://cloud.google.com/bigquery" target="_blank"><img src="../assets/icons-branded/gcp-bigquery.svg" alt="Google BigQuery" height="50" style="margin: 8px;" /></a>
+  <a href="https://firebase.google.com/" target="_blank"><img src="../assets/icons-branded/firebase.svg" alt="Firebase" height="50" style="margin: 8px;" /></a>
+  <a href="https://vercel.com/" target="_blank"><img src="../assets/icons-branded/vercel.svg" alt="Vercel" height="50" style="margin: 8px;" /></a>
+  <a href="https://www.netlify.com/" target="_blank"><img src="../assets/icons-branded/netlify.svg" alt="Netlify" height="50" style="margin: 8px;" /></a>
+  <a href="https://www.docker.com/" target="_blank"><img src="../assets/icons-branded/docker.svg" alt="Docker" height="50" style="margin: 8px;" /></a>
+  <a href="https://kubernetes.io/" target="_blank"><img src="../assets/icons-branded/kubernetes.svg" alt="Kubernetes" height="50" style="margin: 8px;" /></a>
+  <a href="https://github.com/features/actions" target="_blank"><img src="../assets/icons-branded/github-actions.svg" alt="GitHub Actions" height="50" style="margin: 8px;" /></a>
+</p>
 
   </div>
 </div>
