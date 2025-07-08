@@ -1,0 +1,34 @@
+<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+  
+  <defs>
+    <radialGradient id="bg-gradient" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%" style="stop-color:#4a5568;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2d3748;stop-opacity:1" />
+    </radialGradient>
+    <filter id="drop-shadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="1" dy="1" stdDeviation="1.5" flood-color="#000000" flood-opacity="0.6"/>
+    </filter>
+     <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <circle cx="32" cy="32" r="30" fill="url(#bg-gradient)" />
+  <g opacity="0.7">
+    <circle cx="10" cy="20" r="1.5" fill="white" opacity="0.8"/><circle cx="55" cy="40" r="1" fill="white" opacity="0.6"/><circle cx="20" cy="50" r="0.8" fill="white" opacity="0.5"/><circle cx="45" cy="15" r="1.2" fill="white" opacity="0.7"/><circle cx="30" cy="10" r="0.5" fill="white" opacity="0.4"/><circle cx="5" cy="45" r="0.7" fill="white" opacity="0.5"/><circle cx="58" cy="12" r="0.6" fill="white" opacity="0.9"/>
+  </g>
+  <circle cx="32" cy="32" r="29" fill="none" stroke="#8e81f4" stroke-width="1.5" filter="url(#glow)" />
+
+  <g filter="url(#drop-shadow)">
+    <g transform="translate(16, 16) scale(0.125)">
+      <path d="m118.8 171.2-40.4-40.4 12.1-12.1 28.3 28.3 50.9-50.9 12.1 12.1-63 63Z" fill="#039BE5"/>
+      <path d="M124.8 77.2 96.6 49l-70.2 70.2 28.2 28.2 30.3-30.3 12.1-12.1 28.2 28.2 42.4-42.4-28.2-28.2-12.1 12.1-30.3-30.3" fill="#FFC107"/>
+      <path d="m112.7 89.3-28.2-28.2-12.1 12.1-18.2-18.2-24.2 24.2 18.2 18.2 12.1-12.1 28.2 28.2 12.1-12.1 12.1 12.1 24.2-24.2-12.1-12.1Z" fill="#039BE5"/>
+      <path d="m209.6 96.6-42.4-42.4-12.1 12.1 30.3 30.3-12.1 12.1 12.1 12.1 24.2-24.2Z" fill="#FFC107"/>
+      <path d="M84.4 36.9 72.3 49l24.2 24.2 12.1-12.1Z" fill="#039BE5"/>
+    </g>
+  </g>
+</svg>
