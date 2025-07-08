@@ -219,28 +219,21 @@
   
   <table>
     <tr>
-      <td align="center" width="25%">
+      <td align="center" width="33%">
         <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="50">
         <br><br>
         <b>50+</b>
         <br>
         Projects Delivered
       </td>
-      <td align="center" width="25%">
+      <td align="center" width="33%">
         <img src="https://media.giphy.com/media/doXBzUFJRxpaUbuaqz/giphy.gif" width="50">
         <br><br>
         <b>100K+</b>
         <br>
         Lines of Code
       </td>
-      <td align="center" width="25%">
-        <img src="https://media.giphy.com/media/LmNwrBhejkK9EFP504/giphy.gif" width="50">
-        <br><br>
-        <b>15+</b>
-        <br>
-        Team Members
-      </td>
-      <td align="center" width="25%">
+      <td align="center" width="33%">
         <img src="https://media.giphy.com/media/3o6Zt6KHxJTbXCnSvu/giphy.gif" width="50">
         <br><br>
         <b>99%</b>
