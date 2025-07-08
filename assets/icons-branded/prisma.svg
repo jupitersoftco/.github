@@ -23,8 +23,8 @@
   <circle cx="32" cy="32" r="29" fill="none" stroke="#8e81f4" stroke-width="1.5" filter="url(#glow)" />
 
   <g filter="url(#drop-shadow)">
-    <g transform="translate(16, 16) scale(0.125)" fill="#E0E0E0">
-      <path d="M128,32,48,80v96l80,48,80-48V80Z"/>
+    <g transform="translate(16, 16) scale(0.125)">
+      <path d="M128,32,48,80v96l80,48,80-48V80Z" fill="#FFFFFF"/>
       <path d="m72,104,56,32,56-32v64l-56,32-56-32Z" fill="#333"/>
     </g>
   </g>

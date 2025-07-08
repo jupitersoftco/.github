@@ -97,7 +97,7 @@ To add a new technology icon:
 2.  **Extract the Path:** Open the SVG file in a text editor and copy the core SVG geometry (usually `<path>`, `<circle>`, `<g>`, etc.).
 3.  **Adjust Sizing and Colors:**
     - Wrap the SVG content in a `<g transform="translate(16, 16) scale(0.125)">` tag to center and resize it within the 32x32 inner area of our template. You may need to adjust the `translate` and `scale` values for a perfect fit.
-    - For single-color icons, change any `fill` attributes to `fill="#E0E0E0"` to match our theme. Multi-color icons can be left as is.
+    - For single-color icons, change any `fill` attributes to `fill="#FFFFFF"` for better contrast. Multi-color icons can be left as is.
 4.  **Update the Script:** Add a new `generate_icon` call to `generate-branded-icons.sh` with the new filename and SVG content.
 5.  **Run the Script:** Execute `./generate-branded-icons.sh` to create the new icon.
 6.  **Update the README:** Add the new icon to the `profile/README.md` file in the appropriate technology section.

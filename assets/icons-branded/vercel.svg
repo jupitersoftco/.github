@@ -24,7 +24,7 @@
 
   <g filter="url(#drop-shadow)">
     <g transform="translate(20, 22) scale(0.09)">
-      <path fill-rule="evenodd" clip-rule="evenodd" d="M128 21.6133L256 234.387H0L128 21.6133Z" fill="#E0E0E0"/>
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M128 21.6133L256 234.387H0L128 21.6133Z" fill="#FFFFFF"/>
     </g>
   </g>
 </svg>

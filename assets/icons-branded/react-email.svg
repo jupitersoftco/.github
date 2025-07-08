@@ -23,8 +23,8 @@
   <circle cx="32" cy="32" r="29" fill="none" stroke="#8e81f4" stroke-width="1.5" filter="url(#glow)" />
 
   <g filter="url(#drop-shadow)">
-    <g transform="translate(16, 16) scale(0.125)" fill="#E0E0E0">
-      <rect x="40" y="64" width="176" height="128" rx="16"/>
+    <g transform="translate(16, 16) scale(0.125)">
+      <rect x="40" y="64" width="176" height="128" rx="16" fill="#FFFFFF"/>
       <path d="m48,72 80,56,80-56" stroke="#333" stroke-width="16" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
     </g>
   </g>

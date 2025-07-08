@@ -52,27 +52,30 @@
       <a href="https://react.dev" target="_blank" rel="noopener noreferrer"><img src="../assets/icons-branded/react.svg" alt="React" width="48" height="48" /></a>
       <a href="https://www.typescriptlang.org/" target="_blank" rel="noopener noreferrer"><img src="../assets/icons-branded/typescript.svg" alt="TypeScript" width="48" height="48" /></a>
       <a href="https://nextjs.org/" target="_blank" rel="noopener noreferrer"><img src="../assets/icons-branded/nextjs.svg" alt="Next.js" width="48" height="48" /></a>
+      <a href="https://vuejs.org/" target="_blank"><img src="../assets/icons-branded/vue.svg" alt="Vue.js" width="48" height="48" /></a>
       <a href="https://tailwindcss.com/" target="_blank" rel="noopener noreferrer"><img src="../assets/icons-branded/tailwindcss.svg" alt="Tailwind CSS" width="48" height="48" /></a>
-      <a href="https://www.framer.com/motion/" target="_blank" rel="noopener noreferrer"><img src="../assets/icons-branded/framer-motion.svg" alt="Framer Motion" width="48" height="48" /></a>
+      <a href="https://www.figma.com" target="_blank"><img src="../assets/icons-branded/figma.svg" alt="Figma" width="48" height="48" /></a>
       <a href="https://storybook.js.org/" target="_blank" rel="noopener noreferrer"><img src="../assets/icons-branded/storybook.svg" alt="Storybook" width="48" height="48" /></a>
-      <a href="https://mdxjs.com/" target="_blank" rel="noopener noreferrer"><img src="../assets/icons-branded/mdx.svg" alt="MDX" width="48" height="48" /></a>
     </p>
-    <h3 style="text-align: center; font-size: 1.2rem;">⚙️ Backend & Data</h3>
+    <h3 style="text-align: center; font-size: 1.2rem;">⚙️ Backend</h3>
     <p align="center">
-      <a href="https://www.contentlayer.dev/" target="_blank" rel="noopener noreferrer"><img src="../assets/icons-branded/contentlayer.svg" alt="Contentlayer" width="48" height="48" /></a>
-      <a href="https://clerk.com/" target="_blank" rel="noopener noreferrer"><img src="../assets/icons-branded/clerk.svg" alt="Clerk" width="48" height="48" /></a>
-      <a href="https://stripe.com/" target="_blank" rel="noopener noreferrer"><img src="../assets/icons-branded/stripe.svg" alt="Stripe" width="48" height="48" /></a>
-      <a href="https://www.lemonsqueezy.com/" target="_blank" rel="noopener noreferrer"><img src="../assets/icons-branded/lemon-squeezy.svg" alt="Lemon Squeezy" width="48" height="48" /></a>
-      <a href="https://resend.com/" target="_blank" rel="noopener noreferrer"><img src="../assets/icons-branded/resend.svg" alt="Resend" width="48" height="48" /></a>
-      <a href="https://react.email/" target="_blank" rel="noopener noreferrer"><img src="../assets/icons-branded/react-email.svg" alt="React Email" width="48" height="48" /></a>
-      <a href="https://planetscale.com/" target="_blank" rel="noopener noreferrer"><img src="../assets/icons-branded/planetscale.svg" alt="PlanetScale" width="48" height="48" /></a>
-      <a href="https://upstash.com/" target="_blank" rel="noopener noreferrer"><img src="../assets/icons-branded/upstash.svg" alt="Upstash" width="48" height="48" /></a>
-      <a href="https://www.prisma.io/" target="_blank" rel="noopener noreferrer"><img src="../assets/icons-branded/prisma.svg" alt="Prisma" width="48" height="48" /></a>
-      <a href="https://trpc.io/" target="_blank" rel="noopener noreferrer"><img src="../assets/icons-branded/trpc.svg" alt="tRPC" width="48" height="48" /></a>
-      <a href="https://zod.dev/" target="_blank" rel="noopener noreferrer"><img src="../assets/icons-branded/zod.svg" alt="Zod" width="48" height="48" /></a>
-      <a href="https://orm.drizzle.team/" target="_blank" rel="noopener noreferrer"><img src="../assets/icons-branded/drizzle.svg" alt="Drizzle" width="48" height="48" /></a>
-      <a href="https://supabase.com/" target="_blank" rel="noopener noreferrer"><img src="../assets/icons-branded/supabase.svg" alt="Supabase" width="48" height="48" /></a>
-      <a href="https://vercel.com/" target="_blank" rel="noopener noreferrer"><img src="../assets/icons-branded/vercel.svg" alt="Vercel" width="48" height="48" /></a>
+      <a href="https://nodejs.org/" target="_blank"><img src="../assets/icons-branded/nodejs.svg" alt="Node.js" width="48" height="48" /></a>
+      <a href="https://www.python.org/" target="_blank"><img src="../assets/icons-branded/python.svg" alt="Python" width="48" height="48" /></a>
+      <a href="https://expressjs.com/" target="_blank"><img src="../assets/icons-branded/express.svg" alt="Express" width="48" height="48" /></a>
+      <a href="https://www.rust-lang.org/" target="_blank"><img src="../assets/icons-branded/rust.svg" alt="Rust" width="48" height="48" /></a>
+      <a href="https://graphql.org/" target="_blank"><img src="../assets/icons-branded/graphql.svg" alt="GraphQL" width="48" height="48" /></a>
+      <a href="https://aws.amazon.com/lambda/" target="_blank"><img src="../assets/icons/aws_lambda.svg" alt="AWS Lambda" /></a>
+      <a href="https://cloud.google.com/functions" target="_blank"><img src="../assets/icons/gcp_functions.svg" alt="Google Cloud Functions" /></a>
+    </p>
+    <h3 style="text-align: center; font-size: 1.2rem;">🗄️ Infra & Database</h3>
+    <p align="center">
+      <a href="https://aws.amazon.com/" target="_blank"><img src="../assets/icons/aws.svg" alt="Amazon Web Services" /></a>
+      <a href="https://www.docker.com/" target="_blank"><img src="../assets/icons/docker.svg" alt="Docker" /></a>
+      <a href="https://kubernetes.io/" target="_blank"><img src="../assets/icons/kubernetes.svg" alt="Kubernetes" /></a>
+      <a href="https://cloud.google.com/" target="_blank"><img src="../assets/icons/gcp.svg" alt="Google Cloud Platform" /></a>
+      <a href="https://www.postgresql.org/" target="_blank"><img src="../assets/icons/postgres.svg" alt="PostgreSQL" /></a>
+      <a href="https://firebase.google.com/" target="_blank"><img src="../assets/icons/firebase.svg" alt="Firebase" /></a>
+      <a href="https://cloud.google.com/bigquery" target="_blank"><img src="../assets/icons/gcp_bigquery.svg" alt="Google BigQuery" /></a>
     </p>
   </div>
 </div>

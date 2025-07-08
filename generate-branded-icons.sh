@@ -65,7 +65,7 @@ generate_icon "typescript" '<g transform="translate(16, 16) scale(0.125)">
     </g>'
 
 # 3. Next.js
-generate_icon "nextjs" '<g transform="translate(16, 16) scale(0.125)" fill="#E0E0E0">
+generate_icon "nextjs" '<g transform="translate(16, 16) scale(0.125)" fill="#FFFFFF">
       <path d="M152.29,142.42H134.82L96.36,83.47,103.52,72h54.33Z" />
       <path d="M78.6,72,22,176.22l80.89,0,32.72-54.33L78.6,72Z" />
     </g>'
@@ -77,11 +77,11 @@ generate_icon "tailwindcss" '<g transform="translate(16, 16) scale(0.125)">
 
 # 5. Vercel
 generate_icon "vercel" '<g transform="translate(20, 22) scale(0.09)">
-      <path fill-rule="evenodd" clip-rule="evenodd" d="M128 21.6133L256 234.387H0L128 21.6133Z" fill="#E0E0E0"/>
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M128 21.6133L256 234.387H0L128 21.6133Z" fill="#FFFFFF"/>
     </g>'
 
 # 6. Framer Motion
-generate_icon "framer-motion" '<g transform="translate(16, 16) scale(0.125)" fill="#E0E0E0">
+generate_icon "framer-motion" '<g transform="translate(16, 16) scale(0.125)" fill="#FFFFFF">
       <path d="M84,32l80,80v80H84V32z"/>
       <path d="M84,32,4,112V32Z"/>
     </g>'
@@ -94,14 +94,14 @@ generate_icon "storybook" '<g transform="translate(16, 16) scale(0.125)">
     </g>'
 
 # 8. MDX
-generate_icon "mdx" '<g transform="translate(16, 16) scale(0.125)" fill="#E0E0E0">
-      <path d="M48,32H208a8,8,0,0,1,8,8V216a8,8,0,0,1-8,8H48a8,8,0,0,1-8-8V40A8,8,0,0,1,48,32Z"/>
+generate_icon "mdx" '<g transform="translate(16, 16) scale(0.125)">
+      <path d="M48,32H208a8,8,0,0,1,8,8V216a8,8,0,0,1-8,8H48a8,8,0,0,1-8-8V40A8,8,0,0,1,48,32Z" fill="#FFFFFF"/>
       <path d="M64,80l32,32,32-32-32-32Z" fill="#000"/>
       <path d="M136,176l24-40h32l-40,64-40-64h32Z" fill="#000"/>
     </g>'
 
 # 9. Contentlayer
-generate_icon "contentlayer" '<g transform="translate(16, 16) scale(0.125)" fill="#E0E0E0">
+generate_icon "contentlayer" '<g transform="translate(16, 16) scale(0.125)" fill="#FFFFFF">
       <path d="M128,32,40,88v80l88,56,88-56V88Z"/>
       <path d="M128,45,56,96v64l72,45,72-45V96Z" fill="#333"/>
     </g>'
@@ -126,18 +126,18 @@ generate_icon "lemon-squeezy" '<g transform="translate(16, 16) scale(0.125)">
     </g>'
 
 # 13. Resend
-generate_icon "resend" '<g transform="translate(16, 16) scale(0.125)" fill="#E0E0E0">
+generate_icon "resend" '<g transform="translate(16, 16) scale(0.125)" fill="#FFFFFF">
       <path d="M128,32,32,96l32,32,64-64,64,64,32-32Z"/>
     </g>'
 
 # 14. React Email
-generate_icon "react-email" '<g transform="translate(16, 16) scale(0.125)" fill="#E0E0E0">
-      <rect x="40" y="64" width="176" height="128" rx="16"/>
+generate_icon "react-email" '<g transform="translate(16, 16) scale(0.125)">
+      <rect x="40" y="64" width="176" height="128" rx="16" fill="#FFFFFF"/>
       <path d="m48,72 80,56,80-56" stroke="#333" stroke-width="16" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
     </g>'
 
 # 15. PlanetScale
-generate_icon "planetscale" '<g transform="translate(16, 16) scale(0.125)" fill="#E0E0E0">
+generate_icon "planetscale" '<g transform="translate(16, 16) scale(0.125)" fill="#FFFFFF">
       <path d="M128,32a96,96,0,1,0,96,96A96,96,0,0,0,128,32Zm0,176a80,80,0,1,1,80-80A80,80,0,0,1,128,208Z"/>
       <path d="M128,48a80,80,0,0,0-80,80,16,16,0,0,0,32,0,48,48,0,0,1,48-48,16,16,0,0,0,0-32Z"/>
     </g>'
@@ -149,8 +149,8 @@ generate_icon "upstash" '<g transform="translate(16, 16) scale(0.125)">
     </g>'
 
 # 17. Prisma
-generate_icon "prisma" '<g transform="translate(16, 16) scale(0.125)" fill="#E0E0E0">
-      <path d="M128,32,48,80v96l80,48,80-48V80Z"/>
+generate_icon "prisma" '<g transform="translate(16, 16) scale(0.125)">
+      <path d="M128,32,48,80v96l80,48,80-48V80Z" fill="#FFFFFF"/>
       <path d="m72,104,56,32,56-32v64l-56,32-56-32Z" fill="#333"/>
     </g>'
 
@@ -178,5 +178,19 @@ generate_icon "supabase" '<g transform="translate(16, 16) scale(0.125)">
       <path fill="#30A272" d="M128,188c-26-16-43-39-43-60,0-30,43-46,43-46s43,16,43,46c0,21-17,44-43,60Z"/>
     </g>'
 
+# 22. AWS Lambda
+generate_icon "aws-lambda" '<g transform="translate(16, 16) scale(0.125)">
+      <path d="M136.2,86.3,165,65.2l20.3,12.2v66.1l-20.3,12.2-28.8-21.1-28.8,21.1-20.3-12.2V77.4l20.3-12.2,28.8,21.1m0-13.4-36-25.9-27.5,16.7v83.7l27.5,16.7,36-25.9,36,25.9,27.5-16.7V77.4l-27.5-16.7-36,25.9Z" fill="#F58536"/>
+      <path d="m119.2,142.4-13-7.9V91.4l13-7.9,13,7.9v43.1l-13,7.9Z" fill="#F58536"/>
+    </g>'
 
-echo "✅ All 21 branded icons generated successfully in assets/icons-branded/" 
+# 23. Google Cloud Functions
+generate_icon "gcp-functions" '<g transform="translate(16, 16) scale(0.125)">
+      <path d="m118.8 171.2-40.4-40.4 12.1-12.1 28.3 28.3 50.9-50.9 12.1 12.1-63 63Z" fill="#039BE5"/>
+      <path d="M124.8 77.2 96.6 49l-70.2 70.2 28.2 28.2 30.3-30.3 12.1-12.1 28.2 28.2 42.4-42.4-28.2-28.2-12.1 12.1-30.3-30.3" fill="#FFC107"/>
+      <path d="m112.7 89.3-28.2-28.2-12.1 12.1-18.2-18.2-24.2 24.2 18.2 18.2 12.1-12.1 28.2 28.2 12.1-12.1 12.1 12.1 24.2-24.2-12.1-12.1Z" fill="#039BE5"/>
+      <path d="m209.6 96.6-42.4-42.4-12.1 12.1 30.3 30.3-12.1 12.1 12.1 12.1 24.2-24.2Z" fill="#FFC107"/>
+      <path d="M84.4 36.9 72.3 49l24.2 24.2 12.1-12.1Z" fill="#039BE5"/>
+    </g>'
+
+echo "✅ All branded icons generated successfully in assets/icons-branded/" 

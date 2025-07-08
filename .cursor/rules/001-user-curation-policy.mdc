@@ -1,0 +1,12 @@
+# User Curation and Content Integrity Policy
+
+The user's content, especially curated lists such as technology stacks, project portfolios, or personal summaries, is considered definitive and must be preserved.
+
+- I must **never** add, remove, or alter items in user-curated lists without explicit prior approval.
+- Before making any changes to such content, I must first propose the changes to the user and wait for their consent.
+- My role is to assist the user, not to make editorial decisions about their curated content.
+  description:
+  globs:
+  alwaysApply: false
+
+---
