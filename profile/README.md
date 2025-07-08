@@ -1,148 +1,127 @@
+<!-- Header with Logo and Brand Statement -->
 <div align="center">
-
-  <img src="../assets/images/animated-header.svg" width="100%" alt="Jupiter Software Animated Header"/>
-
-  <br>
-
-  <a href="https://www.jupitersoft.net/startups" target="_blank">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="../assets/images/startup-cartoon.jpg">
-      <source media="(prefers-color-scheme: light)" srcset="../assets/images/startup-cartoon.jpg">
-      <img alt="A fun cartoon of animal characters launching a startup, with text 'The Head Launcho Jupiter Soft'." src="../assets/images/startup-cartoon.jpg" width="100%" style="max-width: 800px; border-radius: 12px; margin-top: 20px; margin-bottom: 20px;">
-    </picture>
-  </a>
-
-  <h1>We're passionate about helping new ideas grow.</h1>
-  <p>We partner with early-stage startups as technical co-founders to build amazing products.</p>
-  <a href="https://www.jupitersoft.net/startups" target="_blank">
-    <img src="https://img.shields.io/badge/Learn%20About%20Our%20Startup%20Program-f0a8c0?style=for-the-badge&logo=rocket&logoColor=white" alt="Learn About Our Startup Program Button">
-  </a>
-
-<br><br>
-
-  <img src="../assets/images/typing-animation.svg" alt="Typing Animation: Building Tomorrow's Digital Infrastructure, Full-Stack Development Excellence, Cloud-Native Solutions, AI-Powered Applications" />
-
-  <br>
-
-  <p>
-    <a href="https://jupitersoft.net" target="_blank"><img src="https://img.shields.io/badge/🌐_Website-jupitersoft.net-8e81f4?style=for-the-badge&labelColor=2d3748&logo=google-chrome&logoColor=white" alt="Website"></a>
-    &nbsp;
-    <a href="mailto:hello@jupitersoft.net"><img src="https://img.shields.io/badge/📧_Email-hello@jupitersoft.net-8e81f4?style=for-the-badge&labelColor=2d3748&logo=gmail&logoColor=white" alt="Contact"></a>
-  </p>
+  <img src="../assets/jupiter-logo.jpg" alt="Jupiter Software Banner" width="100%" style="max-width: 1280px; height: auto; margin-bottom: 1rem;" />
+  <h1 style="font-size: 2.5rem; margin: 0.5rem 0;">Jupiter Software</h1>
+  <p style="font-size: 1.2rem; margin: 0.5rem 0;"><b>Engineered for Success</b></p>
+  <p style="font-size: 1rem; color: #586069;">Where Innovation Meets Excellence ✨</p>
   
-  <img src="../assets/images/waving-separator.svg" width="100%" alt="Wavy separator"/>
-
+  <div style="margin-top: 1rem;">
+    <a href="https://jupitersoft.net" target="_blank"><img src="https://img.shields.io/badge/Website-jupitersoft.net-5a9fdc?style=for-the-badge&logo=icloud&logoColor=white" alt="Website"></a>
+    &nbsp;
+    <a href="mailto:hello@jupitersoft.net"><img src="https://img.shields.io/badge/Email-hello@jupitersoft.net-5a9fdc?style=for-the-badge&logo=microsoft-outlook&logoColor=white" alt="Contact"></a>
+  </div>
 </div>
 
 ---
 
-## <img src="../assets/images/tech-stack.gif" width="30" alt="Animated gear icon"> Our Technology Stack
-
-_We use cutting-edge technologies to build solutions that scale._
-
-<table>
-  <tr>
-    <td align="center"><b>Frontend</b></td>
-    <td align="center"><b>Backend</b></td>
-    <td align="center"><b>Infrastructure & Databases</b></td>
-  </tr>
-  <tr>
-    <td align="center">
-      <a href="https://react.dev" target="_blank"><img src="https://skillicons.dev/icons?i=react" alt="React"></a>
-      <a href="https://www.typescriptlang.org" target="_blank"><img src="https://skillicons.dev/icons?i=ts" alt="TypeScript"></a>
-      <a href="https://nextjs.org" target="_blank"><img src="https://skillicons.dev/icons?i=nextjs" alt="Next.js"></a>
-      <a href="https://vuejs.org" target="_blank"><img src="https://skillicons.dev/icons?i=vue" alt="Vue.js"></a>
-      <a href="https://tailwindcss.com" target="_blank"><img src="https://skillicons.dev/icons?i=tailwind" alt="Tailwind CSS"></a>
-      <a href="https://www.figma.com" target="_blank"><img src="https://skillicons.dev/icons?i=figma" alt="Figma"></a>
-      <a href="https://storybook.js.org" target="_blank"><img src="https://skillicons.dev/icons?i=storybook" alt="Storybook"></a>
+<!-- Animated Visuals Section -->
+<table width="100%" border="0" cellpadding="20" cellspacing="0">
+  <tr valign="top">
+    <td width="50%" align="center">
+      <img src="../assets/images/tech-stack.gif" alt="Animated gear icon" width="100%" style="max-width: 400px; height: auto;" />
     </td>
-    <td align="center">
-      <a href="https://nodejs.org" target="_blank"><img src="https://skillicons.dev/icons?i=nodejs" alt="Node.js"></a>
-      <a href="https://www.python.org" target="_blank"><img src="https://skillicons.dev/icons?i=py" alt="Python"></a>
-      <a href="https://expressjs.com" target="_blank"><img src="https://skillicons.dev/icons?i=express" alt="Express"></a>
-      <a href="https://graphql.org" target="_blank"><img src="https://skillicons.dev/icons?i=graphql" alt="GraphQL"></a>
-      <a href="https://www.rust-lang.org" target="_blank"><img src="https://skillicons.dev/icons?i=rust" alt="Rust"></a>
-      <a href="https://aws.amazon.com/lambda/" target="_blank"><img src="https://skillicons.dev/icons?i=lambda" alt="AWS Lambda"></a>
-      <a href="https://cloud.google.com/functions" target="_blank"><img src="https://skillicons.dev/icons?i=gcp" alt="Google Cloud Functions"></a>
-    </td>
-    <td align="center">
-      <a href="https://aws.amazon.com" target="_blank"><img src="https://skillicons.dev/icons?i=aws" alt="AWS"></a>
-      <a href="https://cloud.google.com" target="_blank"><img src="https://skillicons.dev/icons?i=gcp" alt="Google Cloud"></a>
-      <a href="https://www.docker.com" target="_blank"><img src="https://skillicons.dev/icons?i=docker" alt="Docker"></a>
-      <a href="https://kubernetes.io" target="_blank"><img src="https://skillicons.dev/icons?i=kubernetes" alt="Kubernetes"></a>
-      <a href="https://firebase.google.com" target="_blank"><img src="https://skillicons.dev/icons?i=firebase" alt="Firebase"></a>
-      <a href="https://cloud.google.com/bigquery" target="_blank"><img src="https://skillicons.dev/icons?i=bigquery" alt="Google BigQuery"></a>
+    <td width="50%" align="center">
+      <img src="../assets/images/what-we-do.gif" alt="Animated lightbulb icon" width="100%" style="max-width: 400px; height: auto;" />
     </td>
   </tr>
 </table>
 
 ---
 
-## <img src="../assets/images/what-we-do.gif" width="40" alt="Animated lightbulb icon"> What We Do
+<!-- Jupiter Startups Section -->
+<div align="center" style="padding: 2rem 0;">
+  <a href="https://jupitersoft.net/startups" target="_blank">
+    <img src="../assets/images/startup-cartoon.jpg" alt="Jupiter Startups Program" width="100%" style="max-width: 800px; height: auto; border-radius: 10px;" />
+  </a>
+  <h2 style="font-size: 2rem; margin: 1rem 0;">Jupiter Startups</h2>
+  <p style="font-size: 1.1rem; color: #586069;">We're passionate about helping new ideas grow. We partner with early-stage startups as technical co-founders to build amazing products.</p>
+  <a href="https://jupitersoft.net/startups" target="_blank"><img src="https://img.shields.io/badge/Learn_About_Our_Startup_Program-f0a8c0?style=for-the-badge" alt="Learn About Our Startup Program"></a>
+</div>
 
-<table width="100%">
-  <tr>
-    <td width="50%" align="center">
-      <h3>🚀 Full-Stack Development</h3>
-      <p>Building robust web applications with<br>cutting-edge technologies and best practices.</p>
+---
+
+<!-- Core Sections: What We Do & Tech Stack -->
+<table width="100%" border="0" cellpadding="20" cellspacing="0">
+  <tr valign="top">
+    <!-- What We Do -->
+    <td width="50%">
+      <div align="center">
+        <h2 style="font-size: 1.5rem;">🎯 What We Do</h2>
+        <p><em>From idea to impact, we build solutions that scale.</em></p>
+        <table border="0" cellpadding="10" cellspacing="0">
+          <tr><td align="center"><h3>🏗️ Full-Stack Development</h3><p>Building robust web applications with cutting-edge technologies.</p></td></tr>
+          <tr><td align="center"><h3>☁️ Cloud & DevOps</h3><p>Designing cloud-native architectures for maximum scalability.</p></td></tr>
+          <tr><td align="center"><h3>🤖 AI Integration</h3><p>Leveraging AI to create intelligent, adaptive solutions.</p></td></tr>
+        </table>
+      </div>
     </td>
-    <td width="50%" align="center">
-      <h3>☁️ Cloud & DevOps</h3>
-      <p>Designing cloud-native architectures<br>for maximum scalability and reliability.</p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" align="center">
-      <h3>🤖 AI Integration</h3>
-      <p>Leveraging artificial intelligence to<br>create intelligent, adaptive solutions.</p>
-    </td>
-    <td width="50%" align="center">
-      <h3>🛡️ Security First</h3>
-      <p>Implementing robust security measures<br>to protect your digital assets.</p>
+    <!-- Tech Stack -->
+    <td width="50%">
+      <div align="center">
+        <h2 style="font-size: 1.5rem;">💻 Our Technology</h2>
+        <p><em>The tools we use to build the future. Click an icon to learn more!</em></p>
+        <details open>
+          <summary><strong>🎨 Frontend</strong></summary>
+          <p align="center">
+            <a href="https://react.dev" target="_blank"><img src="https://skillicons.dev/icons?i=react" alt="React" /></a>
+            <a href="https://www.typescriptlang.org/" target="_blank"><img src="https://skillicons.dev/icons?i=ts" alt="TypeScript" /></a>
+            <a href="https://nextjs.org/" target="_blank"><img src="https://skillicons.dev/icons?i=nextjs" alt="Next.js" /></a>
+            <a href="https://tailwindcss.com/" target="_blank"><img src="https://skillicons.dev/icons?i=tailwind" alt="Tailwind CSS" /></a>
+            <a href="https://vuejs.org/" target="_blank"><img src="https://skillicons.dev/icons?i=vue" alt="Vue.js" /></a>
+            <a href="https://storybook.js.org/" target="_blank"><img src="https://skillicons.dev/icons?i=storybook" alt="Storybook" /></a>
+          </p>
+        </details>
+        <details open>
+          <summary><strong>⚙️ Backend</strong></summary>
+          <p align="center">
+            <a href="https://nodejs.org/" target="_blank"><img src="https://skillicons.dev/icons?i=nodejs" alt="Node.js" /></a>
+            <a href="https://www.python.org/" target="_blank"><img src="https://skillicons.dev/icons?i=python" alt="Python" /></a>
+            <a href="https://expressjs.com/" target="_blank"><img src="https://skillicons.dev/icons?i=express" alt="Express" /></a>
+            <a href="https://www.rust-lang.org/" target="_blank"><img src="https://skillicons.dev/icons?i=rust" alt="Rust" /></a>
+            <a href="https://graphql.org/" target="_blank"><img src="https://skillicons.dev/icons?i=graphql" alt="GraphQL" /></a>
+            <a href="https://redis.io/" target="_blank"><img src="https://skillicons.dev/icons?i=redis" alt="Redis" /></a>
+          </p>
+        </details>
+        <details open>
+          <summary><strong>🗄️ Infra & Database</strong></summary>
+          <p align="center">
+            <a href="https://aws.amazon.com/" target="_blank"><img src="https://skillicons.dev/icons?i=aws" alt="Amazon Web Services" /></a>
+            <a href="https://www.docker.com/" target="_blank"><img src="https://skillicons.dev/icons?i=docker" alt="Docker" /></a>
+            <a href="https://kubernetes.io/" target="_blank"><img src="https://skillicons.dev/icons?i=kubernetes" alt="Kubernetes" /></a>
+            <a href="https://cloud.google.com/" target="_blank"><img src="https://skillicons.dev/icons?i=gcp" alt="Google Cloud Platform" /></a>
+            <a href="https://www.postgresql.org/" target="_blank"><img src="https://skillicons.dev/icons?i=postgres" alt="PostgreSQL" /></a>
+            <a href="https://firebase.google.com/" target="_blank"><img src="https://skillicons.dev/icons?i=firebase" alt="Firebase" /></a>
+          </p>
+        </details>
+      </div>
     </td>
   </tr>
 </table>
 
 ---
 
+<!-- Impact and Contact Section -->
 <div align="center">
-  <h2>🏆 Our Impact & Work</h2>
-  <p>We are proud of the work we do and the results we deliver.</p>
-  
-  <table>
+  <h2 style="font-size: 1.5rem;">🏆 Our Impact & Work</h2>
+  <table border="0" cellpadding="10" cellspacing="0">
     <tr>
-      <td align="center">
-        <b>50+</b><br>Projects Delivered
-      </td>
-      <td align="center">
-        <b>100K+</b><br>Lines of Code
-      </td>
-      <td align="center">
-        <b>99%</b><br>Client Satisfaction
-      </td>
+      <td align="center"><h3>50+</h3><p>Projects Delivered</p></td>
+      <td align="center"><h3>100K+</h3><p>Lines of Code</p></td>
+      <td align="center"><h3>99%</h3><p>Client Satisfaction</p></td>
     </tr>
   </table>
-  
   <br>
-
-  <a href="https://github.com/jupitersoftco?tab=repositories" target="_blank">
-    <img src="https://img.shields.io/badge/View%20All%20Repositories-8e81f4?style=for-the-badge&logo=github&logoColor=white" alt="View All Repositories">
-  </a>
-  
+  <a href="https://github.com/orgs/jupitersoftco/repositories" target="_blank"><img src="https://img.shields.io/badge/View_All_Repositories-5a9fdc?style=for-the-badge" alt="View Repositories"></a>
 </div>
+
+<br>
 
 ---
 
 <div align="center">
   <h2>🤝 Let's Build Something Amazing Together</h2>
   <p>Ready to transform your ideas into reality? We're here to help.</p>
-  <p>
-    Email: <a href="mailto:hello@jupitersoft.net">hello@jupitersoft.net</a> | Website: <a href="https://jupitersoft.net" target="_blank">jupitersoft.net</a>
-  </p>
-  
+  <p><b>Email:</b> <a href="mailto:hello@jupitersoft.net">hello@jupitersoft.net</a> &nbsp;|&nbsp; <b>Website:</b> <a href="https://jupitersoft.net" target="_blank">jupitersoft.net</a></p>
   <br>
-  
-  <p>
-    &copy; 2024 Jupiter Software LLC. All rights reserved.
-  </p>
+  <sub>© 2024 Jupiter Software LLC. All rights reserved.</sub>
 </div>
