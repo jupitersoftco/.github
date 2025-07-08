@@ -1,0 +1,21 @@
+# Dependencies
+/node_modules
+
+# Temporary files
+*.tmp
+*.swp
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Build output
+/dist
+/build
+
+# Config files
+.env
+*.log
+
+# Optimized files (we want to commit the originals)
+*-optimized.svg 

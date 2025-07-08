@@ -1,6 +1,6 @@
 <!-- Header with Logo and Brand Statement -->
 <div align="center">
-  <img src="../assets/images/jupiter-software-logo.png" alt="Jupiter Software Logo" width="100%" style="max-width: 500px; height: auto; margin-bottom: 1rem;" />
+  <img src="../assets/jupiter-logo.jpg" alt="Jupiter Software Banner" width="100%" style="max-width: 1280px; height: auto; margin-bottom: 1rem;" />
   <h1 style="font-size: 2.5rem; margin: 0.5rem 0;">Jupiter Software</h1>
   <p style="font-size: 1.2rem; margin: 0.5rem 0;"><b>Engineered for Success</b></p>
   <p style="font-size: 1rem; color: #586069;">Where Innovation Meets Excellence ✨</p>
@@ -28,6 +28,18 @@
 
 ---
 
+<!-- Jupiter Startups Section -->
+<div align="center" style="padding: 2rem 0;">
+  <a href="https://jupitersoft.net/startups">
+    <img src="../assets/images/startup-cartoon.jpg" alt="Jupiter Startups Program" width="100%" style="max-width: 800px; height: auto; border-radius: 10px;" />
+  </a>
+  <h2 style="font-size: 2rem; margin: 1rem 0;">Jupiter Startups</h2>
+  <p style="font-size: 1.1rem; color: #586069;">We're passionate about helping new ideas grow. We partner with early-stage startups as technical co-founders to build amazing products.</p>
+  <a href="https://jupitersoft.net/startups"><img src="https://img.shields.io/badge/Learn_About_Our_Startup_Program-f0a8c0?style=for-the-badge" alt="Learn About Our Startup Program"></a>
+</div>
+
+---
+
 <!-- Core Sections: What We Do & Tech Stack -->
 <table width="100%" border="0" cellpadding="20" cellspacing="0">
   <tr valign="top">
@@ -47,23 +59,38 @@
     <td width="50%">
       <div align="center">
         <h2 style="font-size: 1.5rem;">💻 Our Technology</h2>
-        <p><em>The tools we use to build the future.</em></p>
+        <p><em>The tools we use to build the future. Click an icon to learn more!</em></p>
         <details open>
           <summary><strong>🎨 Frontend</strong></summary>
           <p align="center">
-            <img src="https://skillicons.dev/icons?i=react,ts,nextjs,tailwind,vue,storybook" alt="Frontend Tech" />
+            <a href="https://react.dev" target="_blank"><img src="https://skillicons.dev/icons?i=react" alt="React" /></a>
+            <a href="https://www.typescriptlang.org/" target="_blank"><img src="https://skillicons.dev/icons?i=ts" alt="TypeScript" /></a>
+            <a href="https://nextjs.org/" target="_blank"><img src="https://skillicons.dev/icons?i=nextjs" alt="Next.js" /></a>
+            <a href="https://tailwindcss.com/" target="_blank"><img src="https://skillicons.dev/icons?i=tailwind" alt="Tailwind CSS" /></a>
+            <a href="https://vuejs.org/" target="_blank"><img src="https://skillicons.dev/icons?i=vue" alt="Vue.js" /></a>
+            <a href="https://storybook.js.org/" target="_blank"><img src="https://skillicons.dev/icons?i=storybook" alt="Storybook" /></a>
           </p>
         </details>
         <details open>
           <summary><strong>⚙️ Backend</strong></summary>
           <p align="center">
-            <img src="https://skillicons.dev/icons?i=nodejs,python,express,rust,graphql,redis" alt="Backend Tech" />
+            <a href="https://nodejs.org/" target="_blank"><img src="https://skillicons.dev/icons?i=nodejs" alt="Node.js" /></a>
+            <a href="https://www.python.org/" target="_blank"><img src="https://skillicons.dev/icons?i=python" alt="Python" /></a>
+            <a href="https://expressjs.com/" target="_blank"><img src="https://skillicons.dev/icons?i=express" alt="Express" /></a>
+            <a href="https://www.rust-lang.org/" target="_blank"><img src="https://skillicons.dev/icons?i=rust" alt="Rust" /></a>
+            <a href="https://graphql.org/" target="_blank"><img src="https://skillicons.dev/icons?i=graphql" alt="GraphQL" /></a>
+            <a href="https://redis.io/" target="_blank"><img src="https://skillicons.dev/icons?i=redis" alt="Redis" /></a>
           </p>
         </details>
         <details open>
           <summary><strong>🗄️ Infra & Database</strong></summary>
           <p align="center">
-            <img src="https://skillicons.dev/icons?i=aws,docker,kubernetes,gcp,postgres,firebase" alt="Infrastructure and Database Tech" />
+            <a href="https://aws.amazon.com/" target="_blank"><img src="https://skillicons.dev/icons?i=aws" alt="Amazon Web Services" /></a>
+            <a href="https://www.docker.com/" target="_blank"><img src="https://skillicons.dev/icons?i=docker" alt="Docker" /></a>
+            <a href="https://kubernetes.io/" target="_blank"><img src="https://skillicons.dev/icons?i=kubernetes" alt="Kubernetes" /></a>
+            <a href="https://cloud.google.com/" target="_blank"><img src="https://skillicons.dev/icons?i=gcp" alt="Google Cloud Platform" /></a>
+            <a href="https://www.postgresql.org/" target="_blank"><img src="https://skillicons.dev/icons?i=postgres" alt="PostgreSQL" /></a>
+            <a href="https://firebase.google.com/" target="_blank"><img src="https://skillicons.dev/icons?i=firebase" alt="Firebase" /></a>
           </p>
         </details>
       </div>
