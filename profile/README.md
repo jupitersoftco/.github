@@ -34,44 +34,129 @@
 
 <div align="center">
   
-  <h2>
-    <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> 
-    Our Technology Stack
-  </h2>
+  <h2>💻 Technology Stack</h2>
   
-  <p><i>Powered by cutting-edge technologies to deliver exceptional solutions</i></p>
+  <p><i>Our carefully selected tools and technologies</i></p>
   
   <br>
   
-  <!-- Frontend Technologies -->
-  <h3>Frontend Excellence</h3>
-  <p>
-    <img src="https://skillicons.dev/icons?i=react,vue,angular,nextjs,typescript,tailwind,sass,figma" />
-  </p>
-  
-  <br>
-  
-  <!-- Backend Technologies -->
-  <h3>Backend Power</h3>
-  <p>
-    <img src="https://skillicons.dev/icons?i=nodejs,python,django,fastapi,express,nestjs,graphql,redis" />
-  </p>
-  
-  <br>
-  
-  <!-- Database & Cloud -->
-  <h3>Database & Infrastructure</h3>
-  <p>
-    <img src="https://skillicons.dev/icons?i=postgresql,mongodb,mysql,aws,gcp,docker,kubernetes,nginx" />
-  </p>
-  
-  <br>
-  
-  <!-- Tools & Workflow -->
-  <h3>Development Tools</h3>
-  <p>
-    <img src="https://skillicons.dev/icons?i=git,github,gitlab,vscode,postman,jest,jenkins,linux" />
-  </p>
+  <table>
+    <tr>
+      <td align="center">
+        <h3>Frontend</h3>
+      </td>
+      <td align="center">
+        <h3>Backend</h3>
+      </td>
+      <td align="center">
+        <h3>Database & Cloud</h3>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top">
+        <table>
+          <tr>
+            <td align="center" width="96">
+              <img src="https://skillicons.dev/icons?i=react" width="48" height="48" alt="React" />
+              <br>React
+            </td>
+            <td align="center" width="96">
+              <img src="https://skillicons.dev/icons?i=typescript" width="48" height="48" alt="TypeScript" />
+              <br>TypeScript
+            </td>
+          </tr>
+          <tr>
+            <td align="center" width="96">
+              <img src="https://skillicons.dev/icons?i=nextjs" width="48" height="48" alt="Next.js" />
+              <br>Next.js
+            </td>
+            <td align="center" width="96">
+              <img src="https://skillicons.dev/icons?i=tailwind" width="48" height="48" alt="Tailwind" />
+              <br>Tailwind CSS
+            </td>
+          </tr>
+          <tr>
+            <td align="center" width="96">
+              <img src="https://skillicons.dev/icons?i=vue" width="48" height="48" alt="Vue" />
+              <br>Vue.js
+            </td>
+            <td align="center" width="96">
+              <img src="https://skillicons.dev/icons?i=sass" width="48" height="48" alt="Sass" />
+              <br>Sass/SCSS
+            </td>
+          </tr>
+        </table>
+      </td>
+      <td valign="top">
+        <table>
+          <tr>
+            <td align="center" width="96">
+              <img src="https://skillicons.dev/icons?i=nodejs" width="48" height="48" alt="Node.js" />
+              <br>Node.js
+            </td>
+            <td align="center" width="96">
+              <img src="https://skillicons.dev/icons?i=python" width="48" height="48" alt="Python" />
+              <br>Python
+            </td>
+          </tr>
+          <tr>
+            <td align="center" width="96">
+              <img src="https://skillicons.dev/icons?i=express" width="48" height="48" alt="Express" />
+              <br>Express.js
+            </td>
+            <td align="center" width="96">
+              <img src="https://skillicons.dev/icons?i=fastapi" width="48" height="48" alt="FastAPI" />
+              <br>FastAPI
+            </td>
+          </tr>
+          <tr>
+            <td align="center" width="96">
+              <img src="https://skillicons.dev/icons?i=graphql" width="48" height="48" alt="GraphQL" />
+              <br>GraphQL
+            </td>
+            <td align="center" width="96">
+              <img src="https://skillicons.dev/icons?i=redis" width="48" height="48" alt="Redis" />
+              <br>Redis
+            </td>
+          </tr>
+        </table>
+      </td>
+      <td valign="top">
+        <table>
+          <tr>
+            <td align="center" width="96">
+              <img src="https://skillicons.dev/icons?i=postgresql" width="48" height="48" alt="PostgreSQL" />
+              <br>PostgreSQL
+            </td>
+            <td align="center" width="96">
+              <img src="https://skillicons.dev/icons?i=mongodb" width="48" height="48" alt="MongoDB" />
+              <br>MongoDB
+            </td>
+          </tr>
+          <tr>
+            <td align="center" width="96">
+              <img src="https://skillicons.dev/icons?i=aws" width="48" height="48" alt="AWS" />
+              <br>AWS
+            </td>
+            <td align="center" width="96">
+              <img src="https://skillicons.dev/icons?i=docker" width="48" height="48" alt="Docker" />
+              <br>Docker
+            </td>
+          </tr>
+          <tr>
+            <td align="center" width="96">
+              <img src="https://skillicons.dev/icons?i=kubernetes" width="48" height="48" alt="Kubernetes" />
+              <br>Kubernetes
+            </td>
+            <td align="center" width="96">
+              <img src="https://skillicons.dev/icons?i=nginx" width="48" height="48" alt="Nginx" />
+              <br>Nginx
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
   
 </div>
 
