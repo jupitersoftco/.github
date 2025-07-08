@@ -1,11 +1,31 @@
-<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
-  <circle cx="32" cy="32" r="30" fill="#2d3748" />
-  <circle cx="32" cy="32" r="29" fill="none" stroke="#8e81f4" stroke-width="2" />
-  <circle cx="15" cy="15" r="1.5" fill="white" opacity="0.7"/>
-  <circle cx="50" cy="45" r="1" fill="white" opacity="0.5"/>
-  <circle cx="48" cy="18" r="1.2" fill="white" opacity="0.6"/>
-  <g transform="translate(8, 8) scale(0.18)">
-    <rect width="256" height="256" fill="#242938" rx="60"/>
-    <text x="50%" y="55%" text-anchor="middle" fill="#fff" font-size="90" font-family="Arial, Helvetica, sans-serif" dy=".3em">R</text>
-  </g>
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <radialGradient id="grad1" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+            <stop offset="0%" style="stop-color:#1e293b;stop-opacity:1" />
+            <stop offset="100%" style="stop-color:#0f172a;stop-opacity:1" />
+        </radialGradient>
+        <filter id="glow">
+            <feGaussianBlur stdDeviation="3.5" result="coloredBlur"/>
+            <feMerge>
+                <feMergeNode in="coloredBlur"/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+    </defs>
+    <circle cx="128" cy="128" r="120" fill="url(#grad1)" filter="url(#glow)"/>
+    <circle cx="128" cy="128" r="118" fill="transparent" stroke="#334155" stroke-width="2"/>
+    <!-- Stars -->
+    <circle cx="60" cy="70" r="3" fill="white" opacity="0.8"/>
+    <circle cx="190" cy="200" r="3" fill="white" opacity="0.8"/>
+    <circle cx="100" cy="210" r="2" fill="white" opacity="0.7"/>
+    <circle cx="210" cy="90" r="2" fill="white" opacity="0.7"/>
+    <circle cx="80" cy="150" r="1.5" fill="white" opacity="0.6"/>
+    <circle cx="170" cy="120" r="1.5" fill="white" opacity="0.6"/>
+    <circle cx="50" cy="180" r="1" fill="white" opacity="0.5"/>
+    <circle cx="200" cy="50" r="1" fill="white" opacity="0.5"/>
+    <g style="filter: drop-shadow(0 0 8px rgba(255, 255, 255, 0.3));">
+        <g transform="translate(128, 128) scale(0.3125) translate(-256, -256)">
+  <path fill="#000" d="M256 0C114.6 0 0 114.6 0 256s114.6 256 256 256 256-114.6 256-256S397.4 0 256 0zm149.3 405.3c-23.5 0-38.3-14.2-46.7-28.5L256 195.4l-31.6-47.4h-92.8V378H104V147.6h111.9l69.8 104.7 34.1-51.1h86.9v176.6h-27.4v-52.5zM131.6 304.7h61.2v27.4h-61.2v-27.4z"/>
+</g>
+    </g>
 </svg>

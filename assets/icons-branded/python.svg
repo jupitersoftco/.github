@@ -1,12 +1,31 @@
-<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
-  <circle cx="32" cy="32" r="30" fill="#2d3748" />
-  <circle cx="32" cy="32" r="29" fill="none" stroke="#8e81f4" stroke-width="2" />
-  <circle cx="15" cy="15" r="1.5" fill="white" opacity="0.7"/>
-  <circle cx="50" cy="45" r="1" fill="white" opacity="0.5"/>
-  <circle cx="48" cy="18" r="1.2" fill="white" opacity="0.6"/>
-  <g transform="translate(8, 8) scale(0.18)">
-    <rect width="256" height="256" fill="#242938" rx="60"/>
-    <path fill="#306998" d="M128 28C70.383 28 24 74.383 24 132C24 189.617 70.383 236 128 236C185.617 236 232 189.617 232 132C232 74.383 185.617 28 128 28ZM128 220C80.383 220 40 179.617 40 132C40 84.383 80.383 44 128 44C175.617 44 216 84.383 216 132C216 179.617 175.617 220 128 220Z"/>
-    <path fill="#FFD43B" d="M128 60C97.072 60 72 85.072 72 116C72 146.928 97.072 172 128 172C158.928 172 184 146.928 184 116C184 85.072 158.928 60 128 60ZM128 156C105.072 156 88 138.928 88 116C88 93.072 105.072 76 128 76C150.928 76 168 93.072 168 116C168 138.928 150.928 156 128 156Z"/>
-  </g>
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <radialGradient id="grad1" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+            <stop offset="0%" style="stop-color:#1e293b;stop-opacity:1" />
+            <stop offset="100%" style="stop-color:#0f172a;stop-opacity:1" />
+        </radialGradient>
+        <filter id="glow">
+            <feGaussianBlur stdDeviation="3.5" result="coloredBlur"/>
+            <feMerge>
+                <feMergeNode in="coloredBlur"/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+    </defs>
+    <circle cx="128" cy="128" r="120" fill="url(#grad1)" filter="url(#glow)"/>
+    <circle cx="128" cy="128" r="118" fill="transparent" stroke="#334155" stroke-width="2"/>
+    <!-- Stars -->
+    <circle cx="60" cy="70" r="3" fill="white" opacity="0.8"/>
+    <circle cx="190" cy="200" r="3" fill="white" opacity="0.8"/>
+    <circle cx="100" cy="210" r="2" fill="white" opacity="0.7"/>
+    <circle cx="210" cy="90" r="2" fill="white" opacity="0.7"/>
+    <circle cx="80" cy="150" r="1.5" fill="white" opacity="0.6"/>
+    <circle cx="170" cy="120" r="1.5" fill="white" opacity="0.6"/>
+    <circle cx="50" cy="180" r="1" fill="white" opacity="0.5"/>
+    <circle cx="200" cy="50" r="1" fill="white" opacity="0.5"/>
+    <g style="filter: drop-shadow(0 0 8px rgba(255, 255, 255, 0.3));">
+        <g transform="translate(128, 128) scale(1.25) translate(-64, -64)">
+  <path d="M63.3 128H29.1C13.1 128 0 114.9 0 98.9v-26c0-11.4 6.7-21.7 16.9-26.2V31.1C16.9 13.9 30 0 47.1 0h16.2c11.4 0 21.7 6.7 26.2 16.9h16.2c17.1 0 30.2 13.1 30.2 29.1v34.2c0 16-13.1 29.1-29.1 29.1H98.9c0 11.4-6.7 21.7-16.9 26.2A28.7 28.7 0 0 1 63.3 128z" fill="#3776ab"/><path d="M64.7 0h34.2c16 0 29.1 13.1 29.1 29.1v34.2c0 11.4-6.7 21.7-16.9 26.2V73.3c0-17.1-13.9-30.2-31.1-30.2H63.8c-11.4 0-21.7-6.7-26.2-16.9A28.7 28.7 0 0 1 64.7 0z" fill="#ffc43d"/><path fill="#fff" d="M49 20.3a6.5 6.5 0 1 0 0 13.1 6.5 6.5 0 0 0 0-13.1zm30 74.3a6.5 6.5 0 1 0 0 13.1 6.5 6.5 0 0 0 0-13.1z"/>
+</g>
+    </g>
 </svg>
