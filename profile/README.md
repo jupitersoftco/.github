@@ -53,13 +53,17 @@ _We use cutting-edge technologies to build solutions that scale._
       <a href="https://nextjs.org" target="_blank"><img src="https://skillicons.dev/icons?i=nextjs" alt="Next.js"></a>
       <a href="https://vuejs.org" target="_blank"><img src="https://skillicons.dev/icons?i=vue" alt="Vue.js"></a>
       <a href="https://tailwindcss.com" target="_blank"><img src="https://skillicons.dev/icons?i=tailwind" alt="Tailwind CSS"></a>
+      <a href="https://www.figma.com" target="_blank"><img src="https://skillicons.dev/icons?i=figma" alt="Figma"></a>
+      <a href="https://storybook.js.org" target="_blank"><img src="https://skillicons.dev/icons?i=storybook" alt="Storybook"></a>
     </td>
     <td align="center">
       <a href="https://nodejs.org" target="_blank"><img src="https://skillicons.dev/icons?i=nodejs" alt="Node.js"></a>
       <a href="https://www.python.org" target="_blank"><img src="https://skillicons.dev/icons?i=py" alt="Python"></a>
       <a href="https://expressjs.com" target="_blank"><img src="https://skillicons.dev/icons?i=express" alt="Express"></a>
       <a href="https://graphql.org" target="_blank"><img src="https://skillicons.dev/icons?i=graphql" alt="GraphQL"></a>
-      <a href="https://www.figma.com" target="_blank"><img src="https://skillicons.dev/icons?i=figma" alt="Figma"></a>
+      <a href="https://www.rust-lang.org" target="_blank"><img src="https://skillicons.dev/icons?i=rust" alt="Rust"></a>
+      <a href="https://aws.amazon.com/lambda/" target="_blank"><img src="https://skillicons.dev/icons?i=lambda" alt="AWS Lambda"></a>
+      <a href="https://cloud.google.com/functions" target="_blank"><img src="https://skillicons.dev/icons?i=gcp" alt="Google Cloud Functions"></a>
     </td>
     <td align="center">
       <a href="https://aws.amazon.com" target="_blank"><img src="https://skillicons.dev/icons?i=aws" alt="AWS"></a>
@@ -67,6 +71,7 @@ _We use cutting-edge technologies to build solutions that scale._
       <a href="https://www.docker.com" target="_blank"><img src="https://skillicons.dev/icons?i=docker" alt="Docker"></a>
       <a href="https://kubernetes.io" target="_blank"><img src="https://skillicons.dev/icons?i=kubernetes" alt="Kubernetes"></a>
       <a href="https://firebase.google.com" target="_blank"><img src="https://skillicons.dev/icons?i=firebase" alt="Firebase"></a>
+      <a href="https://cloud.google.com/bigquery" target="_blank"><img src="https://skillicons.dev/icons?i=bigquery" alt="Google BigQuery"></a>
     </td>
   </tr>
 </table>
