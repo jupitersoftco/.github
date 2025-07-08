@@ -15,10 +15,6 @@ Welcome to Jupiter Software - your trusted technology partner for building excep
 
 Jupiter Software is a premier technology consultancy specializing in full-stack development, system architecture, and scalable solutions. We serve as technical co-founders for startups and provide expert engineering services to businesses of all sizes.
 
-<div align="center">
-  <img src="assets/celebration.svg" alt="Success Animation" width="200" height="200">
-</div>
-
 ### Our Expertise
 
 - **Full-Stack Development** - Modern web applications using React, Node.js, Python, and cloud technologies
@@ -27,6 +23,10 @@ Jupiter Software is a premier technology consultancy specializing in full-stack 
 - **Cloud Solutions** - AWS, Azure, and GCP deployments with DevOps best practices
 - **Mobile Development** - Cross-platform and native mobile applications
 - **AI & Machine Learning** - Intelligent solutions and automation systems
+
+<div align="center">
+  <img src="assets/celebration.svg" alt="Development Animation" width="200" height="200">
+</div>
 
 ## 🎯 Our Mission
 
