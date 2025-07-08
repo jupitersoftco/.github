@@ -1113,3 +1113,18 @@ After implementing these fixes:
 - **Authentic brand recognition** restored for Cloud & DevOps section
 
 This resolution ensures that all current and future icons maintain the professional, cohesive appearance that reflects the Jupiter Software brand identity while preserving authentic technology recognition.
+
+## Cloud-Related Icons
+
+### AWS, AWS Lambda, and Google Cloud
+
+- **AWS**: The icon is centered within a circular background, featuring a branded background with stars and the AWS logo in white. The design is simplified and maintains brand authenticity.
+- **AWS Lambda**: Features a radial gradient background with a glow effect. The AWS Lambda symbol (λ) is simplified and uses the authentic color (#FF9900). The design is centered and includes a subtle drop shadow for emphasis.
+- **Google Cloud**: Has a radial gradient background with a glow effect. The Google Cloud Platform logo is centered and uses the authentic color palette. The design includes subtle white ellipses for a cloud-like effect.
+
+### Workflow for Future Updates
+
+1. **Review Existing Icons**: Regularly review cloud-related icons to ensure they adhere to brand guidelines.
+2. **Document Changes**: Update documentation with any changes made to the icons, ensuring consistency.
+3. **Add New Icons**: Follow the established design principles when adding new cloud-related icons, ensuring they maintain brand authenticity and consistency.
+4. **Validation**: Use the systematic validation process to ensure all icons remain true to their brand designs.
