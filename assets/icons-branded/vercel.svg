@@ -24,8 +24,9 @@
     <circle cx="50" cy="180" r="1" fill="white" opacity="0.5"/>
     <circle cx="200" cy="50" r="1" fill="white" opacity="0.5"/>
     <g style="filter: drop-shadow(0 0 8px rgba(255, 255, 255, 0.3));">
-        <g transform="translate(128, 128) scale(0.625) translate(-128, -111)">
-  <path fill-rule="evenodd" clip-rule="evenodd" d="m128 0 128 221.705H0z" fill="#000"/>
+        <g transform="translate(128, 128) scale(0.6) translate(-32, -28)">
+    <!-- Vercel Triangle -->
+    <path d="M32 8 L56 48 L8 48 Z" fill="white"/>
 </g>
     </g>
 </svg>

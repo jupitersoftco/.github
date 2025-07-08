@@ -25,10 +25,7 @@
     <circle cx="200" cy="50" r="1" fill="white" opacity="0.5"/>
     <g style="filter: drop-shadow(0 0 8px rgba(255, 255, 255, 0.3));">
         <g transform="translate(128, 128) scale(0.9) translate(-128, -128)">
-  <!-- Authentic GraphQL logo -->
-  <rect width="256" height="256" fill="#242938" rx="60"/>
-  
-  <!-- GraphQL hexagonal logo structure -->
+  <!-- Authentic GraphQL hexagonal logo structure -->
   <path fill="#E535AB" d="M47.8621 176.192L55.2041 180.431L136.997 38.7664L129.655 34.5274L47.8621 176.192Z"/>
   <path fill="#E535AB" d="M209.766 164.875H46.1809V173.353H209.766V164.875Z"/>
   <path fill="#E535AB" d="M49.4177 169.637L131.241 216.879L135.48 209.537L53.6567 162.295L49.4177 169.637Z"/>

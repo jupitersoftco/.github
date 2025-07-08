@@ -24,9 +24,17 @@
     <circle cx="50" cy="180" r="1" fill="white" opacity="0.5"/>
     <circle cx="200" cy="50" r="1" fill="white" opacity="0.5"/>
     <g style="filter: drop-shadow(0 0 8px rgba(255, 255, 255, 0.3));">
-        <g transform="translate(128, 128) scale(6.6) translate(-12, -12)">
-  <path d="M12.6 7.9L15.2 6l1.9 1.1v6.1l-1.9 1.1-2.6-2-2.7 2-1.9-1.1V7l1.9-1.1 2.7 2zM12.6 6.7l-3.3-2.4-2.5 1.5v7.7l2.5 1.5L12.6 13l3.3 2.4 2.5-1.5V7.3l-2.5-1.5z" fill="#f58536"/>
-  <path d="M11 13.1l-1.2-.7V9.5l1.2-.7 1.2.7v2.9z" fill="#f58536"/>
+        <g transform="translate(128, 128) scale(0.8) translate(-24, -28)">
+    <!-- AWS Lambda Symbol -->
+    <g fill="#FF9900">
+        <!-- Lambda (λ) Symbol -->
+        <path d="M12 8 L24 48 L30 48 L18 8 Z" fill="#FF9900"/>
+        <path d="M30 8 L42 48 L48 48 L36 8 Z" fill="#FF9900"/>
+        <path d="M18 8 L12 8 L18 22 L24 8 Z" fill="#FF9900"/>
+        
+        <!-- AWS Orange accent -->
+        <rect x="8" y="50" width="40" height="4" rx="2" fill="#FF9900"/>
+    </g>
 </g>
     </g>
 </svg>

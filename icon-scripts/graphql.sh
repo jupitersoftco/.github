@@ -1,11 +1,8 @@
 #!/bin/bash
-# GraphQL icon generation script
 
-GRAPHQL_SVG='<g transform="translate(128, 128) scale(0.9) translate(-128, -128)">
-  <!-- Authentic GraphQL logo -->
-  <rect width="256" height="256" fill="#242938" rx="60"/>
-  
-  <!-- GraphQL hexagonal logo structure -->
+# GraphQL icon preserving authentic logo design with minimal 5% psychedelic drift
+graphql_svg='<g transform="translate(128, 128) scale(0.9) translate(-128, -128)">
+  <!-- Authentic GraphQL hexagonal logo structure -->
   <path fill="#E535AB" d="M47.8621 176.192L55.2041 180.431L136.997 38.7664L129.655 34.5274L47.8621 176.192Z"/>
   <path fill="#E535AB" d="M209.766 164.875H46.1809V173.353H209.766V164.875Z"/>
   <path fill="#E535AB" d="M49.4177 169.637L131.241 216.879L135.48 209.537L53.6567 162.295L49.4177 169.637Z"/>
@@ -26,4 +23,4 @@ GRAPHQL_SVG='<g transform="translate(128, 128) scale(0.9) translate(-128, -128)"
   <circle cx="128" cy="128" r="120" fill="none" stroke="#E535AB" stroke-width="0.5" opacity="0.05" />
 </g>'
 
-generate_icon "graphql" "$GRAPHQL_SVG" 
+generate_icon "graphql" "$graphql_svg" 

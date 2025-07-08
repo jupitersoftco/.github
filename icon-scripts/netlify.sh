@@ -1,12 +1,26 @@
 #!/bin/bash
 
 # Netlify icon generation script
-# This script generates the Netlify branded icon
+# This script generates the Netlify branded icon with authentic geometric logo
 
-# 14. Netlify (viewBox: 128x128) -> scale 1.25
-NETLIFY_SVG='<g transform="translate(128, 128) scale(1.25) translate(-64, -64)">
-  <path d="M64 128A64 64 0 1 0 64 0a64 64 0 1 0 0 128z" fill="#000"/>
-  <path d="M30.2 80H17.8c-2.3 0-3.3-2.3-1.9-4.1l43-61.2c1.4-2 4.4-2 5.7 0l43 61.2c1.4 1.8.4 4.1-1.8 4.1H97.8c-1.8 0-3.4-1.2-4-2.9L64 26.1 34.2 77.1c-.6 1.7-2.2 2.9-4 2.9z" fill="#32e6e2"/>
+NETLIFY_SVG='<g transform="translate(128, 128) scale(0.8) translate(-20, -20)">
+    <!-- Netlify Geometric Logo -->
+    <g fill="#00C7B7">
+        <!-- Main diamond shape -->
+        <path d="M20 12 L28 20 L20 28 L12 20 Z" fill="#00C7B7"/>
+        
+        <!-- Side triangles -->
+        <path d="M28 20 L36 16 L36 24 Z" fill="#00C7B7"/>
+        <path d="M12 20 L4 16 L4 24 Z" fill="#00C7B7"/>
+        <path d="M20 12 L16 4 L24 4 Z" fill="#00C7B7"/>
+        <path d="M20 28 L16 36 L24 36 Z" fill="#00C7B7"/>
+        
+        <!-- Corner accents -->
+        <path d="M28 12 L32 8 L32 16 Z" fill="#00C7B7" opacity="0.8"/>
+        <path d="M28 28 L32 32 L32 24 Z" fill="#00C7B7" opacity="0.8"/>
+        <path d="M12 12 L8 8 L8 16 Z" fill="#00C7B7" opacity="0.8"/>
+        <path d="M12 28 L8 32 L8 24 Z" fill="#00C7B7" opacity="0.8"/>
+    </g>
 </g>'
 
 generate_icon "netlify" "$NETLIFY_SVG" 
