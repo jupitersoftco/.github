@@ -1,0 +1,57 @@
+# Profile README Rules
+
+## 🚨 CRITICAL: Profile README Location
+
+**ALL changes to the GitHub profile README MUST go into `profile/README.md`**
+
+### Why This Matters
+
+- The `profile/README.md` file is what displays on the GitHub profile page
+- The root `README.md` file is NOT used for the profile display
+- Making changes to the root `README.md` will have NO EFFECT on the profile
+
+### File Structure Rules
+
+#### ✅ DO: Make changes here
+
+```
+profile/README.md
+```
+
+- This is the ONLY file that affects the GitHub profile display
+- All profile content, updates, and modifications go here
+- This file is automatically displayed on the GitHub profile
+
+#### ❌ DON'T: Make changes here
+
+```
+README.md (root)
+```
+
+- This file should contain only basic repository information
+- Should have clear warnings about not making profile changes here
+- Should redirect users to the correct location
+
+### Root README.md Guidelines
+
+The root README.md should contain:
+
+- Brief explanation of what this repository is for
+- Clear warning that profile changes go in `profile/README.md`
+- Basic navigation instructions
+- Nothing more - keep it minimal and focused
+
+### Enforcement
+
+- Always check file location before making profile-related changes
+- If someone tries to edit root README.md for profile content, redirect them
+- Maintain the separation between repository documentation and profile content
+
+## Summary
+
+**Remember: `profile/README.md` = GitHub profile display, `README.md` = repository info only**
+description:
+globs:
+alwaysApply: false
+
+---

@@ -1,11 +1,21 @@
 <div align="center">
   
-  <!-- Jupiter Software Logo -->
-  <img src="../assets/jupiter-logo.jpg" width="300" alt="Jupiter Software" />
+  <!-- Jupiter Software Logo - Full Width -->
+  <img src="../assets/images/jupiter-software-logo.png" width="100%" style="max-width: 600px; height: auto;" alt="Jupiter Software" />
   
   <h1>Jupiter Software</h1>
   
   <p><b>Engineered for Success</b></p>
+  
+  <p>
+    <em>Where Innovation Meets Excellence</em> ✨<br>
+    <strong>Building the future, one commit at a time</strong> 🚀
+  </p>
+  
+  <br>
+  
+  <!-- Cute coding animation -->
+  <img src="../assets/cute-coding.svg" alt="Happy Coding" width="200" height="150">
   
   <br>
   
@@ -25,9 +35,25 @@
 
 <div align="center">
   
+  <h2>🚀 Ready to Launch Something Amazing?</h2>
+  
+  <img src="../assets/cute-rocket.svg" alt="Ready to Launch" width="150" height="200">
+  
+  <p><em>We're your technical co-founders for the digital age!</em></p>
+  
+</div>
+
+<br>
+
+---
+
+<br>
+
+<div align="center">
+  
   <h2>💻 Technology Stack</h2>
   
-  <p><i>Our carefully selected tools and technologies</i></p>
+  <p><em>🔥 Our technical arsenal</em></p>
   
   <br>
   
@@ -113,6 +139,8 @@
   
   <h2>🎯 What We Do</h2>
   
+  <p><em>⚡ From idea to impact</em></p>
+  
   <br>
   
   <table>
@@ -150,7 +178,7 @@
   
   <h2>🌟 Our Work</h2>
   
-  <p><i>Check out our repositories and contributions across the organization</i></p>
+  <p><em>Check out our repositories and contributions across the organization</em></p>
   
   <br>
   
@@ -201,6 +229,8 @@
   
   <h2>🤝 Let's Build Something Amazing Together</h2>
   
+  <p><em>🚀 Ready to transform your ideas into reality?</em></p>
+  
   <br>
   
   <h3>Get in Touch</h3>
@@ -213,7 +243,22 @@
   
   <br>
   
+  <!-- Add the complex orbital animation at the bottom for those who want to see it -->
+  <details>
+    <summary><em>🌌 Explore our Jupiter system</em></summary>
+    <br>
+    <img src="../assets/rocket-launch.svg" alt="Jupiter Software - Reaching for the stars" width="300" height="300">
+    <p><em>Our complex orbital animation - inspired by our name!</em></p>
+  </details>
+  
+  <br>
+  
   <hr>
+  
+  <br>
+  
+  <p><strong>🌌 Jupiter Software - Where Innovation Meets Excellence</strong></p>
+  <p><em>Empowering businesses through exceptional technology solutions</em></p>
   
   <br>
   
