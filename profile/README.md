@@ -62,17 +62,45 @@
 <h3 align="center">🎨 Frontend</h3>
 </div>
 
-<p align="center">
-<a href="https://react.dev"><img src="../assets/icons-branded/react.svg" alt="React" height="60" hspace="10"/></a>
-<a href="https://nextjs.org/"><img src="../assets/icons-branded/nextjs.svg" alt="Next.js" height="60" hspace="10"/></a>
-<a href="https://vuejs.org/"><img src="../assets/icons-branded/vue.svg" alt="Vue.js" height="60" hspace="10"/></a>
-<a href="https://www.typescriptlang.org/"><img src="../assets/icons-branded/typescript.svg" alt="TypeScript" height="60" hspace="10"/></a>
-</p>
-<p align="center">
-<a href="https://tailwindcss.com/"><img src="../assets/icons-branded/tailwindcss.svg" alt="Tailwind CSS" height="60" hspace="10"/></a>
-<a href="https://www.figma.com"><img src="../assets/icons-branded/figma.svg" alt="Figma" height="60" hspace="10"/></a>
-<a href="https://storybook.js.org/"><img src="../assets/icons-branded/storybook.svg" alt="Storybook" height="60" hspace="10"/></a>
-</p>
+<div align="center">
+<table>
+<tr>
+<td align="center" width="140">
+<a href="https://react.dev"><img src="../assets/icons-branded/react.svg" alt="React" height="60"/></a>
+<br><small>React</small>
+</td>
+<td align="center" width="140">
+<a href="https://nextjs.org/"><img src="../assets/icons-branded/nextjs.svg" alt="Next.js" height="60"/></a>
+<br><small>Next.js</small>
+</td>
+<td align="center" width="140">
+<a href="https://vuejs.org/"><img src="../assets/icons-branded/vue.svg" alt="Vue.js" height="60"/></a>
+<br><small>Vue.js</small>
+</td>
+<td align="center" width="140">
+<a href="https://www.typescriptlang.org/"><img src="../assets/icons-branded/typescript.svg" alt="TypeScript" height="60"/></a>
+<br><small>TypeScript</small>
+</td>
+</tr>
+<tr>
+<td align="center" width="140">
+<a href="https://tailwindcss.com/"><img src="../assets/icons-branded/tailwindcss.svg" alt="Tailwind CSS" height="60"/></a>
+<br><small>Tailwind CSS</small>
+</td>
+<td align="center" width="140">
+<a href="https://www.figma.com"><img src="../assets/icons-branded/figma.svg" alt="Figma" height="60"/></a>
+<br><small>Figma</small>
+</td>
+<td align="center" width="140">
+<a href="https://storybook.js.org/"><img src="../assets/icons-branded/storybook.svg" alt="Storybook" height="60"/></a>
+<br><small>Storybook</small>
+</td>
+<td align="center" width="140">
+<!-- Empty cell for alignment -->
+</td>
+</tr>
+</table>
+</div>
 
 <div id="backend-infrastructure">
 <h3 align="center">🏛️ Backend & Infrastructure</h3>
