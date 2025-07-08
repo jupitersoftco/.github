@@ -48,39 +48,63 @@
   <p style="font-size: 1.1rem; color: #586069;"><em>The tools we use to build the future. Click an icon to learn more!</em></p>
   <div style="max-width: 800px; margin: 1rem auto;">
     <h3 style="text-align: center; font-size: 1.2rem;">🎨 Frontend</h3>
-    <table width="100%" border="0" cellpadding="10" cellspacing="0">
+    <table width="100%" border="0" cellpadding="10" cellspacing="0" style="table-layout: fixed;">
       <tr align="center">
         <td><a href="https://react.dev" target="_blank" rel="noopener noreferrer"><img src="../assets/icons-branded/react.svg" alt="React" height="40" /></a></td>
-        <td><a href="https://www.typescriptlang.org/" target="_blank" rel="noopener noreferrer"><img src="../assets/icons-branded/typescript.svg" alt="TypeScript" height="40" /></a></td>
         <td><a href="https://nextjs.org/" target="_blank" rel="noopener noreferrer"><img src="../assets/icons-branded/nextjs.svg" alt="Next.js" height="40" /></a></td>
         <td><a href="https://vuejs.org/" target="_blank"><img src="../assets/icons-branded/vue.svg" alt="Vue.js" height="40" /></a></td>
+        <td><a href="https://www.typescriptlang.org/" target="_blank" rel="noopener noreferrer"><img src="../assets/icons-branded/typescript.svg" alt="TypeScript" height="40" /></a></td>
         <td><a href="https://tailwindcss.com/" target="_blank" rel="noopener noreferrer"><img src="../assets/icons-branded/tailwindcss.svg" alt="Tailwind CSS" height="40" /></a></td>
         <td><a href="https://www.figma.com" target="_blank"><img src="../assets/icons-branded/figma.svg" alt="Figma" height="40" /></a></td>
         <td><a href="https://storybook.js.org/" target="_blank" rel="noopener noreferrer"><img src="../assets/icons-branded/storybook.svg" alt="Storybook" height="40" /></a></td>
       </tr>
+      <tr align="center" style="font-size: 0.8rem; color: #586069;">
+        <td>UI Library</td>
+        <td>React Framework</td>
+        <td>JS Framework</td>
+        <td>Typed JavaScript</td>
+        <td>CSS Framework</td>
+        <td>UI Design</td>
+        <td>UI Components</td>
+      </tr>
     </table>
-    <h3 style="text-align: center; font-size: 1.2rem;">⚙️ Backend</h3>
-    <table width="100%" border="0" cellpadding="10" cellspacing="0">
+    <h3 style="text-align: center; font-size: 1.2rem;">🏛️ Infrastructure</h3>
+    <table width="100%" border="0" cellpadding="10" cellspacing="0" style="table-layout: fixed;">
       <tr align="center">
         <td><a href="https://nodejs.org/" target="_blank"><img src="../assets/icons-branded/nodejs.svg" alt="Node.js" height="40" /></a></td>
         <td><a href="https://www.python.org/" target="_blank"><img src="../assets/icons-branded/python.svg" alt="Python" height="40" /></a></td>
-        <td><a href="https://expressjs.com/" target="_blank"><img src="../assets/icons-branded/express.svg" alt="Express" height="40" /></a></td>
         <td><a href="https://www.rust-lang.org/" target="_blank"><img src="../assets/icons-branded/rust.svg" alt="Rust" height="40" /></a></td>
+        <td><a href="https://expressjs.com/" target="_blank"><img src="../assets/icons-branded/express.svg" alt="Express" height="40" /></a></td>
         <td><a href="https://graphql.org/" target="_blank"><img src="../assets/icons-branded/graphql.svg" alt="GraphQL" height="40" /></a></td>
-        <td><a href="https://aws.amazon.com/lambda/" target="_blank"><img src="../assets/icons-branded/aws-lambda.svg" alt="AWS Lambda" height="40" /></a></td>
-        <td><a href="https://cloud.google.com/functions" target="_blank"><img src="../assets/icons-branded/gcp-functions.svg" alt="Google Cloud Functions" height="40" /></a></td>
-      </tr>
-    </table>
-    <h3 style="text-align: center; font-size: 1.2rem;">🗄️ Infra & Database</h3>
-    <table width="100%" border="0" cellpadding="10" cellspacing="0">
-      <tr align="center">
-        <td><a href="https://aws.amazon.com/" target="_blank"><img src="../assets/icons-branded/aws.svg" alt="Amazon Web Services" height="40" /></a></td>
         <td><a href="https://www.docker.com/" target="_blank"><img src="../assets/icons-branded/docker.svg" alt="Docker" height="40" /></a></td>
         <td><a href="https://kubernetes.io/" target="_blank"><img src="../assets/icons-branded/kubernetes.svg" alt="Kubernetes" height="40" /></a></td>
-        <td><a href="https://cloud.google.com/" target="_blank"><img src="../assets/icons-branded/gcp.svg" alt="Google Cloud Platform" height="40" /></a></td>
+      </tr>
+      <tr align="center" style="font-size: 0.8rem; color: #586069;">
+        <td>JS Runtime</td>
+        <td>Programming Language</td>
+        <td>Programming Language</td>
+        <td>Web Framework</td>
+        <td>API Query Language</td>
+        <td>Containerization</td>
+        <td>Orchestration</td>
+      </tr>
+      <tr align="center">
+        <td><a href="https://aws.amazon.com" target="_blank"><img src="../assets/icons-branded/aws.svg" alt="Amazon Web Services" height="40" /></a></td>
+        <td><a href="https://aws.amazon.com/lambda/" target="_blank"><img src="../assets/icons-branded/aws-lambda.svg" alt="AWS Lambda" height="40" /></a></td>
+        <td><a href="https://cloud.google.com" target="_blank"><img src="../assets/icons-branded/gcp.svg" alt="Google Cloud Platform" height="40" /></a></td>
+        <td><a href="https://cloud.google.com/functions" target="_blank"><img src="../assets/icons-branded/gcp-functions.svg" alt="Google Cloud Functions" height="40" /></a></td>
         <td><a href="https://www.postgresql.org/" target="_blank"><img src="../assets/icons-branded/postgresql.svg" alt="PostgreSQL" height="40" /></a></td>
         <td><a href="https://firebase.google.com/" target="_blank"><img src="../assets/icons-branded/firebase.svg" alt="Firebase" height="40" /></a></td>
         <td><a href="https://cloud.google.com/bigquery" target="_blank"><img src="../assets/icons-branded/gcp-bigquery.svg" alt="Google BigQuery" height="40" /></a></td>
+      </tr>
+      <tr align="center" style="font-size: 0.8rem; color: #586069;">
+        <td>Cloud Provider</td>
+        <td>Serverless</td>
+        <td>Cloud Provider</td>
+        <td>Serverless</td>
+        <td>SQL Database</td>
+        <td>Backend-as-a-Service</td>
+        <td>Data Warehouse</td>
       </tr>
     </table>
   </div>
