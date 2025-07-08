@@ -51,7 +51,9 @@
   
   <div style="max-width: 800px; margin: 2rem auto;">
 
-## 🎨 Frontend {#frontend}
+<div id="frontend">
+<h2>🎨 Frontend</h2>
+</div>
 
 <p align="center">
 <a href="https://react.dev"><img src="../assets/icons-branded/react.svg" alt="React" height="60" hspace="10"/></a>
@@ -65,7 +67,9 @@
 <a href="https://storybook.js.org/"><img src="../assets/icons-branded/storybook.svg" alt="Storybook" height="60" hspace="10"/></a>
 </p>
 
-## 🏛️ Backend & Infrastructure {#backend-infrastructure}
+<div id="backend-infrastructure">
+<h2>🏛️ Backend & Infrastructure</h2>
+</div>
 
 <p align="center">
 <a href="https://nodejs.org/"><img src="../assets/icons-branded/nodejs.svg" alt="Node.js" height="60" hspace="10"/></a>
@@ -78,7 +82,9 @@
 <a href="https://www.postgresql.org/"><img src="../assets/icons-branded/postgresql.svg" alt="PostgreSQL" height="60" hspace="10"/></a>
 </p>
 
-## ☁️ Cloud & DevOps {#cloud-devops}
+<div id="cloud-devops">
+<h2>☁️ Cloud & DevOps</h2>
+</div>
 
 <p align="center">
 <a href="https://aws.amazon.com"><img src="../assets/icons-branded/aws.svg" alt="AWS" height="60" hspace="10"/></a>
