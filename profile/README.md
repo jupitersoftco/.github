@@ -67,24 +67,6 @@
         <td>Figma</td>
         <td>Storybook</td>
       </tr>
-      <tr align="center">
-        <td><a href="https://www.framer.com/motion/" target="_blank"><img src="../assets/icons-branded/framer-motion.svg" alt="Framer Motion" height="40" /></a></td>
-        <td><a href="https://mdxjs.com/" target="_blank"><img src="../assets/icons-branded/mdx.svg" alt="MDX" height="40" /></a></td>
-        <td><a href="https://www.contentlayer.dev/" target="_blank"><img src="../assets/icons-branded/contentlayer.svg" alt="Contentlayer" height="40" /></a></td>
-        <td><a href="https://react.email/" target="_blank"><img src="../assets/icons-branded/react-email.svg" alt="React Email" height="40" /></a></td>
-        <td><a href="https://eslint.org/" target="_blank"><img src="../assets/icons-branded/eslint.svg" alt="ESLint" height="40" /></a></td>
-        <td><a href="https://prettier.io/" target="_blank"><img src="../assets/icons-branded/prettier.svg" alt="Prettier" height="40" /></a></td>
-        <td></td>
-      </tr>
-      <tr align="center" style="font-size: 0.8rem; color: #586069;">
-        <td>Framer Motion</td>
-        <td>MDX</td>
-        <td>Contentlayer</td>
-        <td>React Email</td>
-        <td>ESLint</td>
-        <td>Prettier</td>
-        <td></td>
-      </tr>
     </table>
     <h3 style="text-align: center; font-size: 1.2rem;">🏛️ Backend & Infrastructure</h3>
     <table width="100%" border="0" cellpadding="10" cellspacing="0" style="table-layout: fixed;">
@@ -93,39 +75,18 @@
         <td><a href="https://www.python.org/" target="_blank"><img src="../assets/icons-branded/python.svg" alt="Python" height="40" /></a></td>
         <td><a href="https://www.rust-lang.org/" target="_blank"><img src="../assets/icons-branded/rust.svg" alt="Rust" height="40" /></a></td>
         <td><a href="https://expressjs.com/" target="_blank"><img src="../assets/icons-branded/express.svg" alt="Express" height="40" /></a></td>
-        <td><a href="https://trpc.io/" target="_blank"><img src="../assets/icons-branded/trpc.svg" alt="tRPC" height="40" /></a></td>
         <td><a href="https://graphql.org/" target="_blank"><img src="../assets/icons-branded/graphql.svg" alt="GraphQL" height="40" /></a></td>
-        <td><a href="https://zod.dev/" target="_blank"><img src="../assets/icons-branded/zod.svg" alt="Zod" height="40" /></a></td>
+        <td><a href="https://www.postgresql.org/" target="_blank"><img src="../assets/icons-branded/postgresql.svg" alt="PostgreSQL" height="40" /></a></td>
+        <td></td>
       </tr>
       <tr align="center" style="font-size: 0.8rem; color: #586069;">
         <td>Node.js</td>
         <td>Python</td>
         <td>Rust</td>
         <td>Express</td>
-        <td>tRPC</td>
         <td>GraphQL</td>
-        <td>Zod</td>
-      </tr>
-    </table>
-    <h3 style="text-align: center; font-size: 1.2rem;">🗄️ Databases & Storage</h3>
-    <table width="100%" border="0" cellpadding="10" cellspacing="0" style="table-layout: fixed;">
-      <tr align="center">
-        <td><a href="https://www.postgresql.org/" target="_blank"><img src="../assets/icons-branded/postgresql.svg" alt="PostgreSQL" height="40" /></a></td>
-        <td><a href="https://supabase.com/" target="_blank"><img src="../assets/icons-branded/supabase.svg" alt="Supabase" height="40" /></a></td>
-        <td><a href="https://firebase.google.com/" target="_blank"><img src="../assets/icons-branded/firebase.svg" alt="Firebase" height="40" /></a></td>
-        <td><a href="https://planetscale.com/" target="_blank"><img src="../assets/icons-branded/planetscale.svg" alt="PlanetScale" height="40" /></a></td>
-        <td><a href="https://upstash.com/" target="_blank"><img src="../assets/icons-branded/upstash.svg" alt="Upstash" height="40" /></a></td>
-        <td><a href="https://www.prisma.io/" target="_blank"><img src="../assets/icons-branded/prisma.svg" alt="Prisma" height="40" /></a></td>
-        <td><a href="https://orm.drizzle.team/" target="_blank"><img src="../assets/icons-branded/drizzle.svg" alt="Drizzle ORM" height="40" /></a></td>
-      </tr>
-      <tr align="center" style="font-size: 0.8rem; color: #586069;">
         <td>PostgreSQL</td>
-        <td>Supabase</td>
-        <td>Firebase</td>
-        <td>PlanetScale</td>
-        <td>Upstash</td>
-        <td>Prisma</td>
-        <td>Drizzle ORM</td>
+        <td></td>
       </tr>
     </table>
     <h3 style="text-align: center; font-size: 1.2rem;">☁️ Cloud & DevOps</h3>
@@ -136,8 +97,8 @@
         <td><a href="https://cloud.google.com" target="_blank"><img src="../assets/icons-branded/gcp.svg" alt="Google Cloud Platform" height="40" /></a></td>
         <td><a href="https://cloud.google.com/functions" target="_blank"><img src="../assets/icons-branded/gcp-functions.svg" alt="Google Cloud Functions" height="40" /></a></td>
         <td><a href="https://cloud.google.com/bigquery" target="_blank"><img src="../assets/icons-branded/gcp-bigquery.svg" alt="Google BigQuery" height="40" /></a></td>
+        <td><a href="https://firebase.google.com/" target="_blank"><img src="../assets/icons-branded/firebase.svg" alt="Firebase" height="40" /></a></td>
         <td><a href="https://vercel.com/" target="_blank"><img src="../assets/icons-branded/vercel.svg" alt="Vercel" height="40" /></a></td>
-        <td><a href="https://www.netlify.com/" target="_blank"><img src="../assets/icons-branded/netlify.svg" alt="Netlify" height="40" /></a></td>
       </tr>
       <tr align="center" style="font-size: 0.8rem; color: #586069;">
         <td>AWS</td>
@@ -145,65 +106,23 @@
         <td>GCP</td>
         <td>GCP Functions</td>
         <td>Google BigQuery</td>
+        <td>Firebase</td>
         <td>Vercel</td>
-        <td>Netlify</td>
       </tr>
       <tr align="center">
+        <td><a href="https://www.netlify.com/" target="_blank"><img src="../assets/icons-branded/netlify.svg" alt="Netlify" height="40" /></a></td>
         <td><a href="https://www.docker.com/" target="_blank"><img src="../assets/icons-branded/docker.svg" alt="Docker" height="40" /></a></td>
         <td><a href="https://kubernetes.io/" target="_blank"><img src="../assets/icons-branded/kubernetes.svg" alt="Kubernetes" height="40" /></a></td>
         <td><a href="https://github.com/features/actions" target="_blank"><img src="../assets/icons-branded/github-actions.svg" alt="GitHub Actions" height="40" /></a></td>
         <td></td>
         <td></td>
         <td></td>
-        <td></td>
       </tr>
       <tr align="center" style="font-size: 0.8rem; color: #586069;">
+        <td>Netlify</td>
         <td>Docker</td>
         <td>Kubernetes</td>
         <td>GitHub Actions</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-      </tr>
-    </table>
-    <h3 style="text-align: center; font-size: 1.2rem;">🧪 Testing & Quality</h3>
-    <table width="100%" border="0" cellpadding="10" cellspacing="0" style="table-layout: fixed;">
-      <tr align="center">
-        <td><a href="https://jestjs.io/" target="_blank"><img src="../assets/icons-branded/jest.svg" alt="Jest" height="40" /></a></td>
-        <td><a href="https://www.cypress.io/" target="_blank"><img src="../assets/icons-branded/cypress.svg" alt="Cypress" height="40" /></a></td>
-        <td><a href="https://playwright.dev/" target="_blank"><img src="../assets/icons-branded/playwright.svg" alt="Playwright" height="40" /></a></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-      </tr>
-      <tr align="center" style="font-size: 0.8rem; color: #586069;">
-        <td>Jest</td>
-        <td>Cypress</td>
-        <td>Playwright</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-      </tr>
-    </table>
-    <h3 style="text-align: center; font-size: 1.2rem;">💰 Payments & Services</h3>
-    <table width="100%" border="0" cellpadding="10" cellspacing="0" style="table-layout: fixed;">
-      <tr align="center">
-        <td><a href="https://stripe.com/" target="_blank"><img src="../assets/icons-branded/stripe.svg" alt="Stripe" height="40" /></a></td>
-        <td><a href="https://www.lemonsqueezy.com/" target="_blank"><img src="../assets/icons-branded/lemon-squeezy.svg" alt="Lemon Squeezy" height="40" /></a></td>
-        <td><a href="https://clerk.com/" target="_blank"><img src="../assets/icons-branded/clerk.svg" alt="Clerk" height="40" /></a></td>
-        <td><a href="https://resend.com/" target="_blank"><img src="../assets/icons-branded/resend.svg" alt="Resend" height="40" /></a></td>
-        <td></td>
-        <td></td>
-        <td></td>
-      </tr>
-      <tr align="center" style="font-size: 0.8rem; color: #586069;">
-        <td>Stripe</td>
-        <td>Lemon Squeezy</td>
-        <td>Clerk</td>
-        <td>Resend</td>
         <td></td>
         <td></td>
         <td></td>

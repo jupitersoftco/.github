@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Figma icon preserving authentic logo design with minimal 5% psychedelic drift
-figma_svg='<g transform="translate(128, 128) scale(0.9) translate(-128, -128)">
+figma_svg='<g transform="translate(128, 128) scale(0.75) translate(-128, -128)">
   <g clip-path="url(#clip0_figma)">
     <!-- Green bottom shape -->
     <path fill="#0ACF83" d="M94.3467 228C112.747 228 127.68 213.067 127.68 194.667V161.333H94.3467C75.9467 161.333 61.0133 176.267 61.0133 194.667C61.0133 213.067 75.9467 228 94.3467 228Z"/>

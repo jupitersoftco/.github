@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Vue icon preserving authentic logo design with minimal 5% psychedelic drift
-vue_svg='<g transform="translate(128, 128) scale(0.9) translate(-128, -128)">
+vue_svg='<g transform="translate(128, 128) scale(0.75) translate(-128, -128)">
   <!-- Authentic Vue logo -->
   <!-- Outer triangle -->
   <path fill="#41B883" d="M182 50H218L128 205.25L38 50H73.55H106.85L128 86L148.7 50H182Z"/>

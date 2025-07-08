@@ -269,16 +269,20 @@ generate_icon "technology" "$technology_svg"
 
 #### Consistent Scaling
 
-- **Standard Scale**: Most icons use 0.9 scale factor
-- **Template Structure**: `translate(128, 128) scale(0.9) translate(-128, -128)`
+- **Standard Scale**: Most icons use 0.7-0.9 scale factor to fit within space circle
+- **Template Structure**: `translate(128, 128) scale(X) translate(-128, -128)`
 - **Center Positioning**: All icons centered within 256x256 canvas
 - **Aspect Ratio**: Maintain original proportions from source
+- **Space Circle Constraint**: Icons must fit within radius 120 to show stars around edges
 
 #### Special Cases
 
-- **Storybook**: Uses 1.8 scale due to original viewBox dimensions
+- **TypeScript**: Uses 0.7 scale (reduced from 0.9) to prevent explosion outside space circle
+- **Storybook**: Uses 1.2 scale (reduced from 1.8) to prevent explosion outside space circle
+- **Vue.js**: Uses 0.75 scale (reduced from 0.9) for proper centering within space circle
+- **Figma**: Uses 0.75 scale (reduced from 0.9) for proper centering within space circle
 - **Complex Logos**: May require custom scaling adjustments
-- **Text-Based Icons**: Ensure readability at target size
+- **Text-Based Icons**: Ensure readability at target size while maintaining space circle constraint
 
 ### Advanced Techniques
 

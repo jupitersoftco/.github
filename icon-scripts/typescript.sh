@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # TypeScript icon preserving authentic logo design with minimal 5% psychedelic drift
-typescript_svg='<g transform="translate(128, 128) scale(0.9) translate(-128, -128)">
+typescript_svg='<g transform="translate(128, 128) scale(0.7) translate(-128, -128)">
   <!-- Authentic TypeScript logo -->
   <rect width="256" height="256" fill="#007ACC" rx="60"/>
   
