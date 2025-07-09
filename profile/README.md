@@ -62,34 +62,48 @@
 <h3 align="center">🎨 Frontend</h3>
 </div>
 
-<div align="center" style="display: flex; flex-wrap: wrap; justify-content: center; max-width: 600px; margin: auto;">
-    <div style="text-align: center; margin: 10px; width: 100px;">
-        <a href="https://react.dev"><img src="../assets/icons-branded/react.svg" alt="React" height="60"/></a>
-        <br/><small>React</small>
+<div align="center" style="overflow: auto;">
+    <div style="float: left; margin: 10px;">
+        <table>
+            <tr><td align="center"><a href="https://react.dev"><img src="../assets/icons-branded/react.svg" alt="React" height="60"/></a></td></tr>
+            <tr><td align="center"><small>React</small></td></tr>
+        </table>
     </div>
-    <div style="text-align: center; margin: 10px; width: 100px;">
-        <a href="https://nextjs.org/"><img src="../assets/icons-branded/nextjs.svg" alt="Next.js" height="60"/></a>
-        <br/><small>Next.js</small>
+    <div style="float: left; margin: 10px;">
+        <table>
+            <tr><td align="center"><a href="https://nextjs.org/"><img src="../assets/icons-branded/nextjs.svg" alt="Next.js" height="60"/></a></td></tr>
+            <tr><td align="center"><small>Next.js</small></td></tr>
+        </table>
     </div>
-    <div style="text-align: center; margin: 10px; width: 100px;">
-        <a href="https://vuejs.org/"><img src="../assets/icons-branded/vue.svg" alt="Vue.js" height="60"/></a>
-        <br/><small>Vue.js</small>
+    <div style="float: left; margin: 10px;">
+        <table>
+            <tr><td align="center"><a href="https://vuejs.org/"><img src="../assets/icons-branded/vue.svg" alt="Vue.js" height="60"/></a></td></tr>
+            <tr><td align="center"><small>Vue.js</small></td></tr>
+        </table>
     </div>
-    <div style="text-align: center; margin: 10px; width: 100px;">
-        <a href="https://www.typescriptlang.org/"><img src="../assets/icons-branded/typescript.svg" alt="TypeScript" height="60"/></a>
-        <br/><small>TypeScript</small>
+    <div style="float: left; margin: 10px;">
+        <table>
+            <tr><td align="center"><a href="https://www.typescriptlang.org/"><img src="../assets/icons-branded/typescript.svg" alt="TypeScript" height="60"/></a></td></tr>
+            <tr><td align="center"><small>TypeScript</small></td></tr>
+        </table>
     </div>
-    <div style="text-align: center; margin: 10px; width: 100px;">
-        <a href="https://tailwindcss.com/"><img src="../assets/icons-branded/tailwindcss.svg" alt="Tailwind CSS" height="60"/></a>
-        <br/><small>Tailwind CSS</small>
+    <div style="float: left; margin: 10px;">
+        <table>
+            <tr><td align="center"><a href="https://tailwindcss.com/"><img src="../assets/icons-branded/tailwindcss.svg" alt="Tailwind CSS" height="60"/></a></td></tr>
+            <tr><td align="center"><small>Tailwind CSS</small></td></tr>
+        </table>
     </div>
-    <div style="text-align: center; margin: 10px; width: 100px;">
-        <a href="https://www.figma.com"><img src="../assets/icons-branded/figma.svg" alt="Figma" height="60"/></a>
-        <br/><small>Figma</small>
+    <div style="float: left; margin: 10px;">
+        <table>
+            <tr><td align="center"><a href="https://www.figma.com"><img src="../assets/icons-branded/figma.svg" alt="Figma" height="60"/></a></td></tr>
+            <tr><td align="center"><small>Figma</small></td></tr>
+        </table>
     </div>
-    <div style="text-align: center; margin: 10px; width: 100px;">
-        <a href="https://storybook.js.org/"><img src="../assets/icons-branded/storybook.svg" alt="Storybook" height="60"/></a>
-        <br/><small>Storybook</small>
+    <div style="float: left; margin: 10px;">
+        <table>
+            <tr><td align="center"><a href="https://storybook.js.org/"><img src="../assets/icons-branded/storybook.svg" alt="Storybook" height="60"/></a></td></tr>
+            <tr><td align="center"><small>Storybook</small></td></tr>
+        </table>
     </div>
 </div>
 
@@ -97,30 +111,42 @@
 <h3 align="center">🏛️ Backend & Infrastructure</h3>
 </div>
 
-<div align="center" style="display: flex; flex-wrap: wrap; justify-content: center; max-width: 600px; margin: auto;">
-    <div style="text-align: center; margin: 10px; width: 100px;">
-        <a href="https://nodejs.org/"><img src="../assets/icons-branded/nodejs.svg" alt="Node.js" height="60"/></a>
-        <br/><small>Node.js</small>
+<div align="center" style="overflow: auto;">
+    <div style="float: left; margin: 10px;">
+        <table>
+            <tr><td align="center"><a href="https://nodejs.org/"><img src="../assets/icons-branded/nodejs.svg" alt="Node.js" height="60"/></a></td></tr>
+            <tr><td align="center"><small>Node.js</small></td></tr>
+        </table>
     </div>
-    <div style="text-align: center; margin: 10px; width: 100px;">
-        <a href="https://www.python.org/"><img src="../assets/icons-branded/python.svg" alt="Python" height="60"/></a>
-        <br/><small>Python</small>
+    <div style="float: left; margin: 10px;">
+        <table>
+            <tr><td align="center"><a href="https://www.python.org/"><img src="../assets/icons-branded/python.svg" alt="Python" height="60"/></a></td></tr>
+            <tr><td align="center"><small>Python</small></td></tr>
+        </table>
     </div>
-    <div style="text-align: center; margin: 10px; width: 100px;">
-        <a href="https://www.rust-lang.org/"><img src="../assets/icons-branded/rust.svg" alt="Rust" height="60"/></a>
-        <br/><small>Rust</small>
+    <div style="float: left; margin: 10px;">
+        <table>
+            <tr><td align="center"><a href="https://www.rust-lang.org/"><img src="../assets/icons-branded/rust.svg" alt="Rust" height="60"/></a></td></tr>
+            <tr><td align="center"><small>Rust</small></td></tr>
+        </table>
     </div>
-    <div style="text-align: center; margin: 10px; width: 100px;">
-        <a href="https://expressjs.com/"><img src="../assets/icons-branded/express.svg" alt="Express" height="60"/></a>
-        <br/><small>Express</small>
+    <div style="float: left; margin: 10px;">
+        <table>
+            <tr><td align="center"><a href="https://expressjs.com/"><img src="../assets/icons-branded/express.svg" alt="Express" height="60"/></a></td></tr>
+            <tr><td align="center"><small>Express</small></td></tr>
+        </table>
     </div>
-    <div style="text-align: center; margin: 10px; width: 100px;">
-        <a href="https://graphql.org/"><img src="../assets/icons-branded/graphql.svg" alt="GraphQL" height="60"/></a>
-        <br/><small>GraphQL</small>
+    <div style="float: left; margin: 10px;">
+        <table>
+            <tr><td align="center"><a href="https://graphql.org/"><img src="../assets/icons-branded/graphql.svg" alt="GraphQL" height="60"/></a></td></tr>
+            <tr><td align="center"><small>GraphQL</small></td></tr>
+        </table>
     </div>
-    <div style="text-align: center; margin: 10px; width: 100px;">
-        <a href="https://www.postgresql.org/"><img src="../assets/icons-branded/postgresql.svg" alt="PostgreSQL" height="60"/></a>
-        <br/><small>PostgreSQL</small>
+    <div style="float: left; margin: 10px;">
+        <table>
+            <tr><td align="center"><a href="https://www.postgresql.org/"><img src="../assets/icons-branded/postgresql.svg" alt="PostgreSQL" height="60"/></a></td></tr>
+            <tr><td align="center"><small>PostgreSQL</small></td></tr>
+        </table>
     </div>
 </div>
 
@@ -128,50 +154,72 @@
 <h3 align="center">☁️ Cloud & DevOps</h3>
 </div>
 
-<div align="center" style="display: flex; flex-wrap: wrap; justify-content: center; max-width: 600px; margin: auto;">
-    <div style="text-align: center; margin: 10px; width: 100px;">
-        <a href="https://aws.amazon.com"><img src="../assets/icons-branded/aws.svg" alt="AWS" height="60"/></a>
-        <br/><small>AWS</small>
+<div align="center" style="overflow: auto;">
+    <div style="float: left; margin: 10px;">
+        <table>
+            <tr><td align="center"><a href="https://aws.amazon.com"><img src="../assets/icons-branded/aws.svg" alt="AWS" height="60"/></a></td></tr>
+            <tr><td align="center"><small>AWS</small></td></tr>
+        </table>
     </div>
-    <div style="text-align: center; margin: 10px; width: 100px;">
-        <a href="https://aws.amazon.com/lambda/"><img src="../assets/icons-branded/aws-lambda.svg" alt="AWS Lambda" height="60"/></a>
-        <br/><small>AWS Lambda</small>
+    <div style="float: left; margin: 10px;">
+        <table>
+            <tr><td align="center"><a href="https://aws.amazon.com/lambda/"><img src="../assets/icons-branded/aws-lambda.svg" alt="AWS Lambda" height="60"/></a></td></tr>
+            <tr><td align="center"><small>AWS Lambda</small></td></tr>
+        </table>
     </div>
-    <div style="text-align: center; margin: 10px; width: 100px;">
-        <a href="https://cloud.google.com"><img src="../assets/icons-branded/gcp.svg" alt="Google Cloud" height="60"/></a>
-        <br/><small>Google Cloud</small>
+    <div style="float: left; margin: 10px;">
+        <table>
+            <tr><td align="center"><a href="https://cloud.google.com"><img src="../assets/icons-branded/gcp.svg" alt="Google Cloud" height="60"/></a></td></tr>
+            <tr><td align="center"><small>Google Cloud</small></td></tr>
+        </table>
     </div>
-    <div style="text-align: center; margin: 10px; width: 100px;">
-        <a href="https://cloud.google.com/functions"><img src="../assets/icons-branded/gcp-functions.svg" alt="GCP Functions" height="60"/></a>
-        <br/><small>GCP Functions</small>
+    <div style="float: left; margin: 10px;">
+        <table>
+            <tr><td align="center"><a href="https://cloud.google.com/functions"><img src="../assets/icons-branded/gcp-functions.svg" alt="GCP Functions" height="60"/></a></td></tr>
+            <tr><td align="center"><small>GCP Functions</small></td></tr>
+        </table>
     </div>
-    <div style="text-align: center; margin: 10px; width: 100px;">
-        <a href="https://cloud.google.com/bigquery"><img src="../assets/icons-branded/gcp-bigquery.svg" alt="BigQuery" height="60"/></a>
-        <br/><small>BigQuery</small>
+    <div style="float: left; margin: 10px;">
+        <table>
+            <tr><td align="center"><a href="https://cloud.google.com/bigquery"><img src="../assets/icons-branded/gcp-bigquery.svg" alt="BigQuery" height="60"/></a></td></tr>
+            <tr><td align="center"><small>BigQuery</small></td></tr>
+        </table>
     </div>
-    <div style="text-align: center; margin: 10px; width: 100px;">
-        <a href="https://firebase.google.com/"><img src="../assets/icons-branded/firebase.svg" alt="Firebase" height="60"/></a>
-        <br/><small>Firebase</small>
+    <div style="float: left; margin: 10px;">
+        <table>
+            <tr><td align="center"><a href="https://firebase.google.com/"><img src="../assets/icons-branded/firebase.svg" alt="Firebase" height="60"/></a></td></tr>
+            <tr><td align="center"><small>Firebase</small></td></tr>
+        </table>
     </div>
-    <div style="text-align: center; margin: 10px; width: 100px;">
-        <a href="https://vercel.com/"><img src="../assets/icons-branded/vercel.svg" alt="Vercel" height="60"/></a>
-        <br/><small>Vercel</small>
+    <div style="float: left; margin: 10px;">
+        <table>
+            <tr><td align="center"><a href="https://vercel.com/"><img src="../assets/icons-branded/vercel.svg" alt="Vercel" height="60"/></a></td></tr>
+            <tr><td align="center"><small>Vercel</small></td></tr>
+        </table>
     </div>
-    <div style="text-align: center; margin: 10px; width: 100px;">
-        <a href="https://www.netlify.com/"><img src="../assets/icons-branded/netlify.svg" alt="Netlify" height="60"/></a>
-        <br/><small>Netlify</small>
+    <div style="float: left; margin: 10px;">
+        <table>
+            <tr><td align="center"><a href="https://www.netlify.com/"><img src="../assets/icons-branded/netlify.svg" alt="Netlify" height="60"/></a></td></tr>
+            <tr><td align="center"><small>Netlify</small></td></tr>
+        </table>
     </div>
-    <div style="text-align: center; margin: 10px; width: 100px;">
-        <a href="https://www.docker.com/"><img src="../assets/icons-branded/docker.svg" alt="Docker" height="60"/></a>
-        <br/><small>Docker</small>
+    <div style="float: left; margin: 10px;">
+        <table>
+            <tr><td align="center"><a href="https://www.docker.com/"><img src="../assets/icons-branded/docker.svg" alt="Docker" height="60"/></a></td></tr>
+            <tr><td align="center"><small>Docker</small></td></tr>
+        </table>
     </div>
-    <div style="text-align: center; margin: 10px; width: 100px;">
-        <a href="https://kubernetes.io/"><img src="../assets/icons-branded/kubernetes.svg" alt="Kubernetes" height="60"/></a>
-        <br/><small>Kubernetes</small>
+    <div style="float: left; margin: 10px;">
+        <table>
+            <tr><td align="center"><a href="https://kubernetes.io/"><img src="../assets/icons-branded/kubernetes.svg" alt="Kubernetes" height="60"/></a></td></tr>
+            <tr><td align="center"><small>Kubernetes</small></td></tr>
+        </table>
     </div>
-    <div style="text-align: center; margin: 10px; width: 100px;">
-        <a href="https://github.com/features/actions"><img src="../assets/icons-branded/github-actions.svg" alt="GitHub Actions" height="60"/></a>
-        <br/><small>GitHub Actions</small>
+    <div style="float: left; margin: 10px;">
+        <table>
+            <tr><td align="center"><a href="https://github.com/features/actions"><img src="../assets/icons-branded/github-actions.svg" alt="GitHub Actions" height="60"/></a></td></tr>
+            <tr><td align="center"><small>GitHub Actions</small></td></tr>
+        </table>
     </div>
 </div>
 
