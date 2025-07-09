@@ -83,19 +83,20 @@
 </td>
 </tr>
 <tr>
-<td align="center" colspan="2">
+<td align="center" width="120">
 <a href="https://tailwindcss.com/"><img src="../assets/icons-branded/tailwindcss.svg" alt="Tailwind CSS" height="60"/></a><br/>
 <small>Tailwind CSS</small>
 </td>
-<td align="center" colspan="2">
+<td align="center" width="120">
 <a href="https://www.figma.com"><img src="../assets/icons-branded/figma.svg" alt="Figma" height="60"/></a><br/>
 <small>Figma</small>
 </td>
-</tr>
-<tr>
-<td align="center" colspan="4">
+<td align="center" width="120">
 <a href="https://storybook.js.org/"><img src="../assets/icons-branded/storybook.svg" alt="Storybook" height="60"/></a><br/>
 <small>Storybook</small>
+</td>
+<td align="center" width="120">
+<!-- Empty cell -->
 </td>
 </tr>
 </table>
@@ -126,13 +127,19 @@
 </td>
 </tr>
 <tr>
-<td align="center" colspan="2">
+<td align="center" width="120">
 <a href="https://graphql.org/"><img src="../assets/icons-branded/graphql.svg" alt="GraphQL" height="60"/></a><br/>
 <small>GraphQL</small>
 </td>
-<td align="center" colspan="2">
+<td align="center" width="120">
 <a href="https://www.postgresql.org/"><img src="../assets/icons-branded/postgresql.svg" alt="PostgreSQL" height="60"/></a><br/>
 <small>PostgreSQL</small>
+</td>
+<td align="center" width="120">
+<!-- Empty cell -->
+</td>
+<td align="center" width="120">
+<!-- Empty cell -->
 </td>
 </tr>
 </table>
@@ -181,17 +188,20 @@
 </td>
 </tr>
 <tr>
-<td align="center" colspan="1">
+<td align="center" width="120">
 <a href="https://www.docker.com/"><img src="../assets/icons-branded/docker.svg" alt="Docker" height="60"/></a><br/>
 <small>Docker</small>
 </td>
-<td align="center" colspan="1">
+<td align="center" width="120">
 <a href="https://kubernetes.io/"><img src="../assets/icons-branded/kubernetes.svg" alt="Kubernetes" height="60"/></a><br/>
 <small>Kubernetes</small>
 </td>
-<td align="center" colspan="2">
+<td align="center" width="120">
 <a href="https://github.com/features/actions"><img src="../assets/icons-branded/github-actions.svg" alt="GitHub Actions" height="60"/></a><br/>
 <small>GitHub Actions</small>
+</td>
+<td align="center" width="120">
+<!-- Empty cell -->
 </td>
 </tr>
 </table>
