@@ -62,7 +62,7 @@
 <h3 align="center">🎨 Frontend</h3>
 </div>
 
-<div align="center" style="display: flex; flex-wrap: wrap; justify-content: center;">
+<div align="center" style="display: flex; flex-wrap: wrap; justify-content: center; max-width: 800px; margin: auto;">
     <div style="text-align: center; margin: 10px; display: inline-block;">
         <a href="https://react.dev"><img src="../assets/icons-branded/react.svg" alt="React" height="60"/></a>
         <br/><small>React</small>
@@ -97,7 +97,7 @@
 <h3 align="center">🏛️ Backend & Infrastructure</h3>
 </div>
 
-<div align="center" style="display: flex; flex-wrap: wrap; justify-content: center;">
+<div align="center" style="display: flex; flex-wrap: wrap; justify-content: center; max-width: 800px; margin: auto;">
     <div style="text-align: center; margin: 10px; display: inline-block;">
         <a href="https://nodejs.org/"><img src="../assets/icons-branded/nodejs.svg" alt="Node.js" height="60"/></a>
         <br/><small>Node.js</small>
@@ -128,7 +128,7 @@
 <h3 align="center">☁️ Cloud & DevOps</h3>
 </div>
 
-<div align="center" style="display: flex; flex-wrap: wrap; justify-content: center;">
+<div align="center" style="display: flex; flex-wrap: wrap; justify-content: center; max-width: 800px; margin: auto;">
     <div style="text-align: center; margin: 10px; display: inline-block;">
         <a href="https://aws.amazon.com"><img src="../assets/icons-branded/aws.svg" alt="AWS" height="60"/></a>
         <br/><small>AWS</small>
