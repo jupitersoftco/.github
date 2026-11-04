@@ -52,6 +52,15 @@
 
 <br/>
 
+<!-- Games -->
+<div align="center">
+  <h2 id="games">Games</h2>
+  <p>Red Hope is a single-player Mars colony survival game by JupiterSoft Games, with a free browser demo on itch. It is not affiliated with other games, books or music called Red Hope.</p>
+  <p><a href="https://jupitersoft.net/games/red-hope/">Red Hope</a> · <a href="https://jupitersoft.net/games/curbside/">Curbside</a></p>
+</div>
+
+<br/>
+
 <!-- Our Technology -->
 <div align="center">
   <h2 id="our-technology">💻 Our Technology</h2>
